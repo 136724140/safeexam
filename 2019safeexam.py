@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 import tkinter as tk
 from tkinter import *
 import time
@@ -35,7 +36,7 @@ def anquan():
             if Btn0["state"] != "normal":
                 Btn0.config(state=NORMAL)  # button to page down is enabled
             v.set(str(currentpage))
-            track = pygame.mixer.music.load('ountdown_first.wav')
+            track = pygame.mixer.music.load('countdown_first.wav')
             pygame.mixer.music.play()
             tk.Label(window, text='1、采场内三声爆破信号分别代表什么含义。', ).place(x=50, y=50)
             tk.Label(window, text='答题时间:', ).place(x=50, y=500)
@@ -52,7 +53,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -95,7 +96,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -138,7 +139,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -181,7 +182,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -224,7 +225,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -267,7 +268,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -310,7 +311,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -353,7 +354,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -396,7 +397,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -439,7 +440,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -482,7 +483,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -525,7 +526,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -568,7 +569,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -611,7 +612,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -654,7 +655,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -697,7 +698,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -740,7 +741,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -783,7 +784,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -826,7 +827,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -869,7 +870,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -912,7 +913,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -955,7 +956,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -998,7 +999,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1041,7 +1042,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1084,7 +1085,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1127,7 +1128,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1170,7 +1171,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1213,7 +1214,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1256,7 +1257,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1299,7 +1300,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1342,7 +1343,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1385,7 +1386,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1428,7 +1429,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1471,7 +1472,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1514,7 +1515,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1557,7 +1558,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1600,7 +1601,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1643,7 +1644,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1686,7 +1687,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1729,7 +1730,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -1772,7 +1773,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2043,7 +2044,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2085,7 +2086,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2127,7 +2128,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2169,7 +2170,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2211,7 +2212,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2253,7 +2254,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2295,7 +2296,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2337,7 +2338,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2379,7 +2380,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2421,7 +2422,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2463,7 +2464,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2505,7 +2506,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2547,7 +2548,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2589,7 +2590,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2631,7 +2632,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2673,7 +2674,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2715,7 +2716,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2757,7 +2758,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2799,7 +2800,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2841,7 +2842,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2883,7 +2884,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2925,7 +2926,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -2967,7 +2968,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3009,7 +3010,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3051,7 +3052,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3093,7 +3094,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3135,7 +3136,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3177,7 +3178,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3219,7 +3220,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3261,7 +3262,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3303,7 +3304,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3345,7 +3346,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3387,7 +3388,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3429,7 +3430,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3471,7 +3472,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3513,7 +3514,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3555,7 +3556,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3597,7 +3598,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3639,7 +3640,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3681,7 +3682,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3723,7 +3724,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3765,7 +3766,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3807,7 +3808,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3849,7 +3850,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3891,7 +3892,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3933,7 +3934,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -3975,7 +3976,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4017,7 +4018,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4061,7 +4062,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4103,7 +4104,7 @@ def anquan():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4381,6 +4382,7654 @@ def anquan():
         Btn0.place(x=650, y=500)
 
         root.mainloop()
+    def fengxian():
+        pygame.mixer.init()
+        root = tk.Tk()
+        root.geometry('800x750')
+        root.title('挖掘机驾驶员安全知识竞赛风险题')
+        global currentpage
+        global pagecount
+        currentpage = 0
+        pagecount = 0
+        v = StringVar()
+        # Label(root, textvariable=v).place(x=20, y=10)
+        v.set(str(currentpage))
+
+        def topic0():
+            topic0.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：同时计划、布置、检查、总结、评比安全工作。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    1、什么是安全生产“五同时”?', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic1():
+            topic1.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：是指完成任务好、安全质量好、现场管理好、成本控制好、精神文明好、管理信息真实准确，查证有据。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    2、什么是“五好一准确”？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic2():
+            topic2.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：是指可能造成人员伤害、疾病、财产损失、作业环境破坏或其他损失的根源或状态。危险源可以是物，也可以是人。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    3、什么是危险源? ', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic3():
+            topic3.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：职业危害是指从业人员在劳动过程中因接触有毒有害物品和遇到各种不安全因素而有损于健康的危害。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    4、什么叫职业危害？ ', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic4():
+            topic4.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：事故隐患分为一般事故隐患和重大事故隐患。一般事故隐患，是指危害和整改难度较小，发现后能够立即整改排除的隐患。', ).place(x=50,
+                                                                                                              y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    5、什么是一般事故隐患？ ', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic5():
+            topic5.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='    答：重大事故隐患是指危害和整改难度较大，应当全部或者局部停产停业，并经过一定时间整改治理方能排除的隐患，或者因外部因素影响致使生产经营单位自身难以排除的隐患。', ).place(
+                    x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    6、什么是重大事故隐患？ ', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic6():
+            topic6.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='    答：应急救援就是在应急响应过程中，为消除、减少事故危害，防止事故扩大或恶化，最大限度地降低事故造成的损失或危害而采取的救援措施或行动。', ).place(x=50,
+                                                                                                                 y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    7、什么是应急救援？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic7():
+            topic7.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：发展速度快、面积大、温度高、破坏力强，易造成人员伤亡，易发生爆炸。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    8、气体火灾有什么特点？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic8():
+            topic8.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：物理爆炸、化学爆炸。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    9、按照爆炸形成的机理，爆炸可分为两类，分别是那两类？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic9():
+            topic9.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答:进行有毒品作业时应严禁饮食、吸烟等。在皮肤破裂时，应停止或避免对有毒品的作业。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    10、进行有毒品作业时严禁什么?在皮肤破裂时，应怎么办? ', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic10():
+            topic10.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答:对高温昏迷者,治疗以迅速降温为主,对循环衰竭或患热痉挛者,以调节水、电解质平衡和防治休克为主。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    11、对重症中暑者,应如何急救? ', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic11():
+            topic11.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：第27届联合国大会决定把每年的6月5日定为世界环境日。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    12、国际上把每年的几月几号定为世界环境日？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic12():
+            topic12.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：对大气的污染，对水体的污染，对土壤的污染，噪音的污染，废物污染，能源、资源的消耗，对社区的影响等。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    13、识别环境因素有哪八种类型？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic13():
+            topic13.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：强化环境管理体系的过程，目的是根据组织的环境方针，实现对整体环境表现（行为）的改进。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    14、什么是环境管理体系的持续改进？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic14():
+            topic14.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：组织运行活动的外部存在，包括空气、水、土地、自然资源、植物、动物、人，以及它们之间的相互关系。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    15、环境的定义是什么？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic15():
+            topic15.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='    答：是组织整个管理体系的一个组成部分，包括为制定、实施、实现、评审和保持环境方针所需的组织结构、计划活动、职责、惯例、程序、过程和资源。', ).place(x=50,
+                                                                                                                  y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    16、环境管理体系的定义是什么？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic16():
+            topic16.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：组织依据其环境方针规定自己所要实现的总体环境目的。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    17、什么是环境目标？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic17():
+            topic17.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：防控污染，提高环境绩效；信守承诺，实现清洁生产；持续改进，创建国际一流；造福后代，履行社会责任。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    18、集团公司的环境保护方针是什么？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic18():
+            topic18.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：全面规划，合理布局，综合利用，化害为利，依靠群众，大家动手，保护环境，造福人类。 ', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    19、我国的环境保护方针是什么？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic19():
+            topic19.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：既满足当代人的需要，又不对后代人的需要造成危害的发展。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    20、什么是可持续发展？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic20():
+            topic20.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='    答：生物系统的能量和循环始终是在不断进行，虽然自然因素和人为活动经常给生态系统带来各种污染，但在一段时期内，生产者、消费者和分解者之间又能保持一种相对稳定的平衡状态，这就是生态平衡。', ).place(
+                    x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    21、什么是生态平衡？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic21():
+            topic21.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：应制定并实施有效的临时措施，以避免隐患被触发引起事故。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    22、在检查发现的问题未彻底消除前应当怎么做？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic22():
+            topic22.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：职业病危害严重的建设项目的防护设施设计，应当经安全生产监督管理部门审查，符合国家职业卫生标准和卫生要求的，方可施工。” ', ).place(
+                    x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    23、建设项目职业病危害严重项目的防护设施设计有什么要求？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic23():
+            topic23.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='    答：医疗卫生机构承担职业病诊断，应当经省、自治区、直辖市人民政府卫生行政部门批准。省、自治区、直辖市人民政府卫生行政部门应当向社会公布本行政区域内承担职业病诊断的医疗卫生机构的名单。', ).place(
+                    x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    24、承担职业病诊断的医疗卫生机构需要哪一级卫生行政部门批准？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic24():
+            topic24.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：承担职业病诊断的医疗卫生机构不得拒绝劳动者进行职业病诊断的要求。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    25、承担职业病诊断的医疗卫生机构能否拒绝劳动者进行职业病诊断的要求？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic25():
+            topic25.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：劳动者可以在用人单位所在地、本人户籍所在地或者经常居住地依法承担职业病诊断的医疗卫生机构进行职业病诊断。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    26、劳动者可在什么地方的医疗诊断机构诊断职业病？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic26():
+            topic26.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='    答：用人单位应当保障职业病病人依法享受国家规定的职业病待遇。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    27、职业病病人是否依法享受国家规定的职业病待遇？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic27():
+            topic27.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='　　答：一是用人单位与劳动者签订劳动合同时写明生产过程中接触职业病危害因素，可能产生职业病危害和后果，并提供防护设施和个人防护用品，提供工伤社会保险待遇。二是作业现场职业病危害告知，用人单位在醒目位置设置公告栏，公告防治规章制度、操作规程，并在醒目位置设警示标志牌。三是职业病危害与健康告知，定期对工作场所职业病危险因素监测、评价并告知劳动者，用人单位组织上岗前，在岗期间和离岗时职业健康检查，并将结果告知劳动者。', ).place(
+                    x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    28、为了预防职业病发生，用人单位在招聘使用劳动者时，用人单位有义务告知劳动者劳动过程中可能产生职业病危害和后果，一般采用哪三种告知方式? ', ).place(
+                x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic28():
+            topic28.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window,
+                         text='    答：《职业病防治法》、《劳动法》、《矿山安全法》、《使用有毒物品作业场所劳动保护条例》、《尘肺病防治条例》)及职业卫生的国家、行业标准等。', ).place(x=50,
+                                                                                                                   y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='    29、目前国家在职业卫生方面具有法律效力的法规有？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic29():
+            topic29.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：企业、事业单位和个体经济组织的劳动者在职业活动中，因接触粉尘、放射性物质和其他有毒、有害物质等因素而引起)的疾病。', ).place(x=50,
+                                                                                                             y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='30、职业病的概念？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic30():
+            topic30.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：固定期限劳动合同、无固定期限劳动合同和以完成一定工作任务为期限的劳动合同）', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='31、劳动合同分为哪三种？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic31():
+            topic31.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：女职工和未成年工。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='32、国家对谁实行特殊劳动保护？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic32():
+            topic32.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：在工作时间和工作场所内，因工作原因受到事故伤害。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='33、什么情况下受到事故伤害的属于工伤？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic33():
+            topic33.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：选举权、被选举权和表决权。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='34、工会会员最基本和最重要的权利是？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic34():
+            topic34.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：安全警示标志。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='35、生产经营单位应当在有危险因素的生产经营场所和有关设施、设备上设置明显的什么？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic35():
+            topic35.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：具有良好的抗水性能和传爆性能，可用8号雷管直接起爆。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='36.乳化炸药的特点是什么？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic36():
+            topic36.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：操作简单，容易掌握；安全性好，不受外来电流影响；易于多段延期爆破。38．什么叫殉爆？', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='37.导爆管起爆网路有何优点？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic37():
+            topic37.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：一个药包（卷）爆炸后，引起与它不相接触的邻近药包（卷）爆炸的现象。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='什么叫殉爆？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic38():
+            topic38.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='当装药直径小于炮孔直径时，炮孔直径与装药直径的比值称为装药不耦合系数。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='请说出装药不耦合系数的含义？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic39():
+            topic39.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='答：相邻炮孔或药包群之间的起爆时间间隔以毫秒计的延期爆破。', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='何为毫秒爆破？', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic40():
+            topic40.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：是指生产经营单位分管安全生产的负责人、安全生产管理机构负责人及其管理人员，
+            以及未设安全生产管理机构的生产经营单位专、兼职安全生产管理人员等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''    1、《安全生产法》中明确了哪些人是生产经营单位安全生产管理人员？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic41():
+            topic41.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：生产经营单位的从业人员不服从管理，违反安全生产规章制度或者操作规程的，
+            由生产经营单位给予批评教育，依照有关规章制度给予处分；造成重大事故，构成
+            犯罪的，依照刑法有关规定追究刑事责任。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            2、从业人员违反安全生产规章制度或者操作规程要承担哪些责任？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic42():
+            topic42.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：安全目标管理是在生产过程中，根据具体情况，在分析、预测、决策与规划
+            的基础上，制定各项安全生产目标和安全指标，为实现这一目标而进行的全员、
+            全过程、全面、全方位的安全管理活动。安全目标管理是安全管理的重要内容之一。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            3、什么是安全目标管理? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic43():
+            topic43.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：施行安全目标管理的目的是动员全体职工树立安全思想，调动全体职工
+            参与安全管理活动的积极性，保证整个生产活动过程中的安全生产，保障职
+            员的健康，使安全生产达到预期的目的。安全目标管理的实质是在一定条件下
+            ，把伤亡事故及损失控制到一个最低限度之内。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            4、安全目标管理的目的是什么? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic44():
+            topic44.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：本质安全是指设备、设施或技术工艺含有内在的能够从根本上防止发生事
+            故的功能。本质安全是安全生产管理预防为主的根本体现，也是安全生产管理
+            的最高境界。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            5、什么是本质安全？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic45():
+            topic45.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：危险因素是指能对人造成伤亡或对物造成突发性损害的因素。有害因素是
+            指能够影响人的身体健康、导致疾病或对物造成慢性损害的因素。通常情况下，
+            两者并不加以区分而统称为危险有害因素。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            6、什么是危险有害因素? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic46():
+            topic46.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：基本任务：营救受害人员，撤离或保护其他人员；迅速控制事态，防止事态扩展；
+            消除危害后果，做好现场恢复；查清事故原因，评估危害程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            7、事故应急救援的基本任务是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic47():
+            topic47.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：生产经营单位必须遵守《安全生产法》和其他有关安全生产的法律、法规，
+            加强安全生产管理，建立、健全安全生产责任制度，完善安全生产条件，确保安全生产。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            8、生产经营单位确保安全生产的要求是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic48():
+            topic48.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:发生火灾时,如果身上着了火,千万不能奔跑。因为奔跑时,会形成一股小风,
+            大量新鲜空气冲到着火人的身上,就像是给炉子扇风一样,火会越烧越旺。着火
+            人乱跑,还会把火种带到其他地方,引起新的着火点。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            9、身上着火，为什么不能奔跑？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic49():
+            topic49.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：首先关闭气瓶阀门，并开窗通风，使可燃气体散开。严禁打开任何家用电器
+            以及一切火源，立即找液化石油气站工作人员及时维修。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            10、当你发现液化石油气瓶、灶具漏气时应当怎么办？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic50():
+            topic50.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：因为烟头虽小，但其表面温度一般都在200至300摄氏度，中心温度可以高达700至800摄氏度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            11、烟头为什么容易引起火灾？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic51():
+            topic57.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答（1）检查钢丝绳和卷筒的固接处是否牢固可靠;
+            （2）检查靠滑轮槽那面钢丝绳的磨损与断丝情况;
+            （3）检查钢丝绳的润滑是否良好;
+            （4）检查吊钩降到最低位置时，卷筒上是否至少留有2圈钢丝绳。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            12、怎样检查吊车钢丝绳是否安全可靠? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic52():
+            topic58.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:电线老化后，绝缘性能下降，容易发生短路。尤其遇到潮湿的天气，
+            外表虽然完整，绝缘能力已大大降低，水分浸入到金属导体，使其短路
+            而引起电气线路火灾。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            13、电线老化为什么容易引起火灾? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic53():
+            topic53.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:油脂,尤其是不饱和脂肪的油脂,很容易发生氧化发热反应,引起燃烧。
+            如果氧气瓶口沾有油脂,当氧气高速喷出时,高压气流与瓶口摩擦产生的
+            热量能加速油脂的氧化过程,极易引起燃烧,甚至引起气瓶爆炸。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            14、氧气瓶口为什么不能沾染油脂？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic54():
+            topic54.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：在机械设备的传动带、明齿轮，接近于地面的连轴节、皮带轮、
+            转动轴、飞轮、砂轮和电锯等危险部分，都要装设防护装置。对压力机、
+            碾压机、压延机、电刨机、剪板机等压力机械的旋压部分都要有安全装置。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            15、机械设备的哪些部位应装设防护装置和安全装置？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic55():
+            topic55.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：依法管理、依法采取保障措施。在《安全生产法》总则中即规定，
+            生产经营单位必须遵守本法和其他有关安全生产的法律、法规，加强
+            安全生产管理；政府各有关部门依法履行安全生产监督管理职责，依
+            法制定保障安全生产的国家标准或行业标准；从业人员依法获得安全
+            生产保障，履行应尽的义务等等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            16、安全生产法的基本原则是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic56():
+            topic56.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：对于生产经营单位发生生产安全事故，经调查确定为责任事故的，
+            应追究三方面的责任：一是依法追究事故单位的责任；二是依法追究
+            负有责任的人员的责任；三是应当查明对安全生产的有关事项负有审
+            查批准和监督职责的行政部门的责任，对有失职、渎职行为的，依法追究。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            17、一起生产安全责任事故应追究哪些方面的责任？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic57():
+            topic57.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：安全生产事故隐患是指生产经营单位违反安全生产法律、法规、规章、
+            标准、规程和安全生产管理制度的规定，或者因其他因素在生产经营活动
+            中存在可能导致事故发生的人的不安全行为、物的不安全状态、生产场地
+            环境不良及管理上的缺陷。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            18、什么叫安全生产事故隐患？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic58():
+            topic58.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：所谓标准化作业，就是在对作业系统调查分析的基础上，对作业过程
+            中的每一操作程序和作业动作进行分解，以科学技术、规章制度和实践经
+            验为依据，以安全、质量、效益为目标，对作业过程进行改善，从而形成
+            一种安全顺利、准确无误、高效省力的优化作业方法。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            19、什么叫标准化作业? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic59():
+            topic59.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:个体防护用品既不能降低作业场所中有害化学品的浓度,也不能消除作
+            业场所的有害化学品,而只是一道阻止有害物进入人体的屏障。防护用品本
+            身的失效就意味着保护屏障的消失,因此个体防护不能被视为控制危害的主
+            要手段,而只能作为一种辅助性措施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            20、为什么个人防护用品不能作为控制危险化学品危害的主要手段? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic60():
+            topic60.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）从业人员在作业过程中，应当严格遵守本单位的安全生产规章制
+            度和操作规程，服从管理，正确佩戴和使用劳动防护用品。
+        （2）从业人员应当接受安全教育和培训，掌握本职工作所需的安全生产知识，
+        提高安全生产技能，增强事故预防和应急处理能力。
+        （3）从业人员发现事故隐患或者其他不安全因素，应当立即向现场安全生产管
+        理人员或者本单位负责人报告；接到报告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            21、《安全生产法》规定的从业人员必须履行的义务？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic61():
+            topic61.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答： ISO14000是一个系列的环境管理标准， 它包括了环境管理体系、
+            环境审核、环境标志、生命周期分析等国际环境管理领域内的许多焦
+            点问题，旨在指导各类组织（企业、公司）取得和表现正确的环境行为。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            22、什么是ISO14000？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic62():
+            topic62.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：清洁生产是指不断采取改进设计、使用清洁的能源和原料、
+            采用先进的工艺技术与设备、改善管理、综合利用等措施，从源
+            头削减污染，提高资源利用效率，减少或者避免生产、服务和产
+            品使用过程中污染物的产生和排放，以减轻或者消除对人类健康
+            和环境的危害。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            23、什么是清洁生产？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic63():
+            topic63.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：职业病是指企业、事业单位和个体经济组织等用人单位的劳动者
+            在职业活动中，因接触粉尘、放射性物质和其他有毒、有害因素而引起的疾病。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            23、什么是职业病？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic64():
+            topic64.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：职业病防治工作坚持预防为主、防治结合的方针，建立用人单
+            位负责、行政机关监管、行业自律、职工参与和社会监督的机制，
+            实行分类管理、综合治理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            24、我国的职业病防治工作方针是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic65():
+            topic65.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：国务院安全生产监督管理部门、卫生行政部门、劳动保障行政部
+            门依照本法和国务院确定的职责，负责全国职业病防治的监督管理工
+            作。国务院有关部门在各自的职责范围内负责职业病防治的有关监督
+            管理工作。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            25、国家哪些部门负责职业病防治监管工作？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic66():
+            topic66.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：劳动者应当学习和掌握相关的职业卫生知识，增强职业病防范意识，
+            遵守职业病防治法律、法规、规章和操作规程，正确使用、维护职业病
+            防护设备和个人使用的职业病防护用品，发现职业病危害事故隐患应当
+            及时报告。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            26、劳动者在职业病防治工作中的责任和义务是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic67():
+            topic67.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：工会组织应当督促并协助用人单位开展职业卫生宣传教育和培训，
+            有权对用人单位的职业病防治工作提出意见和建议，依法代表劳动者与
+            用人单位签订劳动安全卫生专项集体合同，与用人单位就劳动者反映的
+            有关职业病防治的问题进行协调并督促解决。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            27、工会组织在职业病防治工作中主要的工作有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic68():
+            topic68.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        　　答：职业病诊断应当按照《职业病防治法》、本办法有关规定和国家职业病
+        诊断标准，依据劳动者的职业史、职业病危害接触史和工作场所职业病危害因素
+        情况、临床表现以及辅助检查结果等，进行综合分析，由三名以上单数诊断医师
+        进行集体诊断，作出诊断结论。诊断机构独立行使诊断权，并对诊断结论负责。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            28、职业病诊断与鉴定有哪些？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic69():
+            topic69.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）事故发生过程中的应急响应和救援措施 （2）事故发生前的各种应急准备
+        （3）事故发生后的紧急恢复以及预案的管理与更新''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        29、应急预案是整个应急管理体系的反应，它的内容包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic70():
+            topic70.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：相邻炮孔或药包群之间的起爆时间间隔以毫秒计的爆破称之为毫秒延期爆破。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        30、何为毫秒延期爆破？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic71():
+            topic71.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药的做功能力是表示爆炸产物做绝热膨胀直到温度降至炸药爆炸前的温度时，
+        对周围介质所做的功。它的大小取决于炸药的爆热、爆温和爆炸生产的气体体积。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        31、什么是炸药的做功能力？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic72():
+            topic72.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆力是表示炸药爆炸做功的一个指标，其测量方法有两种：（1）铅铸扩孔法；（2）爆破漏斗法。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        32、爆力的测量方法是什么？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic73():
+            topic73.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆炸是某一物质系统在有限空间和极短时间内，大量能量迅速释放或急骤转化的物理、化学过程。在这种变化过程中通常伴随有强烈放热、发光和声响等效应。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        33、什么是爆炸？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic74():
+            topic74.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药在外界能量作用下，发生爆炸反应的难易程度称为炸药感度。；炸药感度与所需的起爆能成反比，就是说炸药爆炸所需的起爆能愈小，该炸药的感度愈高。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        34、何为炸药感度？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic75():
+            topic75.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）炸药爆炸时形成的空气冲击波的绝热压缩；（2）炸药爆炸时生成炽热的或燃着的固体颗粒的点火作用；（3）炸药爆炸时生成的气态爆炸产物及二次火焰的直接加热。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        35、爆炸作业引起瓦斯、煤尘爆炸的原因是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic76():
+            topic76.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：它们的主要区别在于：非电毫秒雷管不用毫秒电雷管中的电点火装置，
+        而通过一个与塑料导爆管相连接的塑料连接套，由塑料导爆管的爆轰波来点燃延期药。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        36、非电毫秒雷管和毫秒延期电雷管的主要区别？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic77():
+            topic77.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：自由面又称临空面，通常是指岩土介质与空气接触的交界面。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        37、什么叫自由面？它与爆破效果有什么关系？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic78():
+            topic78.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）符合对民用爆炸物品销售企业规划的要求；（2）销售场所和专用仓库符合国家有关标准和规范；
+        （3）有具备相应资格的安全管理人员，仓库管理人员；（4）有健全的安全管理制度、岗位安全责任制度；
+        （5）法律、行政法规规定的其他条件。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        38、根据《民用爆炸物品安全管理条例》，申请从事民用爆炸物品销售的企业，应当具备什么条件？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic79():
+            topic79.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）输出电流必须小于30mA；（2）外壳对地绝缘良好，不会将外来电引入爆破网路；
+        （3）防潮性能好，不会因内部受潮漏电而引爆电雷管。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        39、对测量电雷管和电爆网路电阻的电表应有哪些要求？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic80():
+            topic80.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答： 1号铵油炸药主要用于：露天矿或无瓦斯、无矿尘爆炸危险的矿井，以及中硬以上矿岩的爆破工程。 
+        2号铵油炸药主要用于露天矿中硬以下矿岩和硐室爆破工程。 
+        3号铵油炸药主要用于露天硐室爆破工程和地下中深孔爆破工程。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        40、简述1、2、3号铵油炸药主要用途是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic81():
+            topic81.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：用爆破电桥检测电爆网路时，电阻值不稳定，原因主要在于线路的接头有虚接或
+        者是接头胶布没包好接了地，也有可能是有的接头受潮了。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        41、检测电力起爆网路时，发现电阻值时大时小、不稳定，原因是什么？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic82():
+            topic82.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：一般情况下可以采用动力电、照明电和经鉴定合格的起爆器作为电爆网路的起爆电源。
+        有煤尘（含矿尘）和气体爆炸危险的矿井采用电力起爆时，只准使用防爆型起爆器作为起爆电源。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        42、什么电源可以作为电爆网路起爆电源？对有煤尘（含矿尘）和气体爆炸危险的矿井的起爆电
+        源有什么特殊规定？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic83():
+            topic83.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：在大型电爆网路中常将导线按其位置和作用划分为端线、连接线、区域线和主线。
+        电爆网路中使用的导线一般采用绝缘良好的铜线和铝线。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        43、在大型电爆网路中，通常将导线按其位置和作用划分为几种？对导线有何要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic84():
+            topic84.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：除在起爆药包加工、装药、填 塞时要保护好电爆网路外，电力起爆法的主要工序为：
+        电爆网路的连接、导通、网路检查、电阻平衡、合闸起爆。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        44、电力起爆法施工工序有哪些环节？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic85():
+            topic85.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：露天深孔爆破的孔径主要取决于钻机类型、台阶高度和岩石性质，以及工程要求与配套装载的能力。
+        孔径的选择还要考虑对保留岩体的破坏范围与破坏程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        45、露天深孔爆破的孔径是由哪些因素决定的？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic86():
+            topic86.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：安全目标管理的作用主要体现在以下5个方面：
+            (1)能充分发挥企业职工个人的力量，促进企业的安全工作。
+            (2)能增强企业管理组织的应变能力。
+            (3)能提高企业各级管理人员的领导能力。
+            (4)促进职工素质的提高。
+            (5)有利于企业的长远发展。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''     1、安全目标管理的作用有哪些? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic87():
+            topic87.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：对于重大事故隐患，生产经营单位应当及时向安全监管监察部门和有关部门报告。
+            重大事故隐患报告内容应当包括：
+        （1）隐患的现状及其产生原因；
+        （2）隐患的危害程度和整改难易程度分析；
+        （3）隐患的治理方案。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            2、重大事故隐患报告内容有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic88():
+            topic88.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）治理的目标和任务；
+        （2）采取的方法和措施；
+        （3）经费和物资的落实；
+        （4）负责治理的机构和人员；
+        （5）治理的时限和要求；
+        （6）安全措施和应急预案。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            3、重大事故隐患治理方案应当包括哪些内容？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic89():
+            topic89.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：“四不放过”的原则是指:
+        ①事故原因没有查清楚不放过，
+        ②事故责任者没有受到处理不放过，
+        ③群众没有受到教育不放过，
+        ④防范措施没有落实不放过。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            4、事故调查处理的“四不放过”原则是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic90():
+            topic90.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：事故调查组的职责是：
+        （1）查明事故发生的经过、原因、人员伤亡情况及直接经济损失；
+        （2）认定事故的性质和事故责任；
+        （3）提出对事故责任者的处理建议；
+        （4）总结事故教训，提出防范和整改措施；
+        （5）提交事故调查报告。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+            5、事故调查组的职责是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic91():
+            topic91.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:(1)要讲清楚起火单位、村镇名称和所处区县、街巷、门牌号码；
+        (2)要讲清什么物品着火、火势大小如何、有无爆炸物品、危险化学品、是否有人员被围困；
+        (3)要讲清楚报警人的姓名、单位及使用的电话号码；
+        (4)清楚、简洁地回答消防队的询问。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+            6、拨打“119”报火警时,应讲清哪些事项? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic92():
+            topic92.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+            答：(1)切忌慌乱，判断火势来源，采取与火源相反方向逃生。 
+        (2)切勿使用升降设备(电梯)逃生。 
+        (3)切勿返入屋内取回贵重物品。 
+        (4)夜间发生火灾时，应先叫醒熟睡的人，不要只顾自己逃生，
+        并且尽量大声喊叫，以提醒其他人逃生。 ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            7、发生火灾时你应注意的事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic93():
+            topic93.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）没有批准动火证，严禁动火；
+        （2）不与生产系统隔绝严禁动火；
+        （3）不进行清洗，置换不合格，严禁动火；
+        （4）没有采取消防安全措施，严禁动火；
+        （5）不把周围易燃物清除，严禁动火。
+        而一般的可燃物（如纸张、棉花等）的燃点都在130至350摄氏度，
+        所以烟头很容易引发火灾，乱扔烟头是十分危险的事情。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            8、防止违章动火的五条禁令是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic94():
+            topic94.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：第一，开展安全生产标准化工作是国务院的决定；
+            第二，开展安全生产标准化工作是企业建立安全生产长效机制，
+            实现安全生产状况稳定好转的根本保障；第三，开展安全生产标准化工
+            作是落实企业安全生产主体责任的重要举措；第四，开展安全生产标准
+            化工作是促进安全生产形势稳定好转，实现长治久安的根本途径；
+            第五，开展安全生产标准化工作是防范事故发生和免受责任追究的最有效办法。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            9、开展安全生产标准化的意义是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic95():
+            topic95.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）核心性要素：（安全承诺）；
+        （2）准则性要素：（行为规范与程序）；
+        （3）引导性要素：（安全行为激励）；
+        （4）媒介性要素：（安全信息传播与沟通）；
+        （5）改进性要素：（自主学习与改进）；
+        （6）责任性要素：（安全事务参与）；
+        （7）判断性要素：（安全审核与评估）''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            10、 企业安全文化建设的7要素是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic96():
+            topic96.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）实施高危企业从业人员准入制度。
+        （2）严格落实“三项岗位”人员持证上岗制度。
+        （3）严格落实企业职工先培训后上岗制度。
+        （4）完善和落实师傅带徒弟制度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            11、《国务院安委会关于进一步加强安全培训工作的决定》（安委〔2012〕10号）
+            要求，“全面落实持证上岗和先培训后上岗制度”包括哪些内容？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic97():
+            topic97.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：我国对生产安全事故分为四个级别，分别是：
+        （1）特别重大事故，是指造成30人以上死亡，或者100人以上重伤（包括急性工业中毒，
+        下同），或者1亿元以上直接经济损失的事故；
+        （2）重大事故，是指造成10人以上30人以下死亡，或者50人以上100人以下重伤，
+        或者5000万元以上1亿元以下直接经济损失的事故；
+        （3）较大事故，是指造成3人以上10人以下死亡，或者10人以上50人以下重伤，
+        或者1000万元以上5000万元以下直接经济损失的事故；
+        （4）一般事故，是指造成3人以下死亡，或者10人以下重伤，或者1000万元以下直接经济损失的事故。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            12、我国对生产安全事故级别是如何划分的？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic98():
+            topic98.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：特别重大事故由国务院或者国务院授权有关部门组织事故调查组进行调查。
+        重大事故，由省、自治区、直辖市人民政府或授权和委托有关部门组织事故调查组进行调查。
+        较大事故，由盟行政公署、市级人民政府或授权和委托有关部门组织事故调查组进行调查。
+        一般事故，由县级人民政府或授权和委托有关部门组织事故调查组进行调查。 
+        未造成人员伤亡的一般事故，县级人民政府也可以委托事故发生单位组织事故调查组进行调查。
+        根据《生产安全事故报告和处理条例》第二十条的规定。上级人民政府认为必要时，
+        可以调查由下级人民政府负责调查的事故。这里的上级人民政府既可以是上一级人
+        民政府，也可以是再上级人民政府，甚至是国务院。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            13、我国对生产安全事故的管辖是如何规定的？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic99():
+            topic99.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）严禁在安全生产条件不具备、隐患未排除、安全措施不到位的情况下组织生产。
+        （2）严禁使用不具备国家规定资质和安全生产保障能力的承包商和分包商。
+        （3）严禁超能力、超强度、超定员组织生产。
+        （4）严禁违章指挥、违章作业、违反劳动纪律。
+        （5）严禁违反程序擅自压缩工期、改变技术方案和工艺流程。
+        （6）严禁使用未经检验合格、无安全保障的特种设备。
+        （7）严禁不具备相应资格的人员从事特种作业。
+        （8）严禁未经安全培训教育并考试合格的人员上岗作业。
+        （9）严禁迟报、漏报、谎报、瞒报生产安全事故。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            14、国务院安全生产九条禁令的内容是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic100():
+            topic100.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：生产经营单位在事故隐患治理过程中，应当采取相应的安全防范措施，
+            防止事故发生。事故隐患排除前或者排除过程中无法保证安全的，应当从
+            危险区域内撤出作业人员，并疏散可能危及的其他人员，设置警戒标志，
+            暂时停产停业或者停止使用；对暂时难以停产或者停止使用的相关生产储
+            存装置、设施、设备，应当加强维护和保养，防止事故发生。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            15、隐患治理中的要求是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic101():
+            topic101.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:控制作业场所中有害化学品的原则是：
+        (1)取代：无毒代有毒，低毒代高毒；
+        (2)隔离：密闭危险源或增大操作者与有害物质之间的距离；
+        (3)通风：用全面通风或局部通风手段排除或降低有害物在空气中的浓度；
+        (4)使用个体防护用品。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+            16、控制作业场所中有害化学品的原则是什么? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic102():
+            topic102.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：主要包括：
+        （1）操作错误、忽视安全、忽视警告。
+        （2）造成安全装置失效。
+        （3）使用不安全设备。
+        （4）用手代替工具操作。包括：用手代替手动工具，用手清除切屑，不用夹具固定，用手拿工件进行机加工；
+        （5）物体（指成品、半成品、材料、工具、切屑和生产用品等）存放不当； 
+        （6）冒险进入危险场所； 
+        （7）攀坐不安全位置（如平台护栏、汽车挡板、吊车吊钩）；
+        （8）在起吊物下作业、停留；
+        （9）机器运转时加油、修理、检查、调整、焊接、清扫等工作；
+        （10）有分散注意力行为； 
+        （11）在必须使用个人防护用品用具的作业或场合中，忽视其使用。
+        （12）不安全装束。
+        （13）对易燃、易爆等危险物品处理错误。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            17、人的不安全行为主要包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic103():
+            topic103.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答: 管理的缺失主要包括：
+        （1）技术和设计上有缺陷。包括工业构件、建筑物、机械设备、仪器仪表、
+        工艺过程、操作方法、维修检验等的设计、施工和材料使用存在的问题；
+        （2）教育培训不够，未经培训，缺乏或不懂安全操作技术知识；
+        （3）劳动组织不合理； 
+        （4）对现场工作缺乏检查或指挥错误；
+        （5）没有安全操作规程或不健全；
+        （6）没有或不认真实施事故防范措施；
+        （7）事故单位的主管部门和各级政府及与事故有关系的职能部门没有或
+        没有认真履行安全生产监管职能；
+        （8）各项安全生产规章、制度不健全或没有，安全生产责任制不健全或
+        没有安全生产责任制，或有制度不落实；
+        （9）其他。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            18、管理的缺失主要包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic104():
+            topic104.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：生产安全事故是指生产经营单位在生产经营活动的过程中发生的人
+            身伤害和急性中毒及其他生产安全事故。这里的生产经营活动包括生产
+            经营的时间、生产经营的区域、生产经营作业中危险因素的影响三方面的含意。
+        生产经营的时间：指生产经营单位规定的工作时间及经批准的加班加点时间(
+        包括作业的全过程)。
+        生产经营的区域：指生产经营单位的厂区、营业区及归其管理的非生产区和
+        非营业区；
+        生产经营作业中危险因素的影响：指生产经营单位的设备、设施、工具、附件
+        、物料、环境、操作、管理(生产工艺管理、劳动组织管理、设备管理和安全管
+        理、行政主管部门对其监督管理方面)等的危险因素的影响。 ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            19、什么叫生产安全事故？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic105():
+            topic105.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：一起事故的原因，可分为直接原因和间接原因两大类。 
+        直接原因：直接引起事故的原因，属下列情况的为直接原因：机械、物质或
+        环境的不安全状态；人的不安全行为。
+        间接原因：直接原因得以产生和存在的原因就是间接原因。间接原因包括管
+        理原因（即指引起不安全行为或不安全状态的管理上的缺陷），管理原因在
+        事故资料中一般也应有明确的记载。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            20、生产安全事故的原因可分为哪两类？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic106():
+            topic106.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）坠落在地的伤员，应初步检查伤情，不乱搬摇动，应立即呼叫救护车。
+        （2）采取救护措施，初步止血、包扎、固定。
+        （3）昏迷伤员要保持呼吸道畅通。
+        （4）怀疑脊柱骨折，按脊柱骨折的搬运原则。切忌一人抱胸，一人抱腿搬运；
+        伤员上下担架应由3－4人分别抱住头、胸、臀、腿，保持动作一致平稳，避免脊柱
+        弯曲扭动加重伤情。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            21、高处坠落如何处理？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic107():
+            topic107.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）严禁在生产装置内吸烟及携带火种和易燃、易爆、有毒、易腐蚀物品进入生产厂区内。
+        （2）严禁未按规定办理用火手续，在生产厂区内进行施工用火或生活用火。
+        （3）严禁穿易产生静电的服装进入油气区内工作。
+        （4）严禁穿带铁钉的鞋进入油气区及易燃、易爆区工作。
+        （5）严禁用汽油、易挥发性溶剂油擦洗设备、衣物、工具及地面等。
+        （6）严禁未经批准的各种机动车辆进入生产装置区、罐区及易燃易爆区。
+        （7）严禁就地排入易燃、易爆物料及化学危险品。
+        （8）严禁在油气区内用黑色金属或易产生火花的工具敲打、撞击和作业。
+        （9）严禁堵塞消防通道及随意挪用或损坏消防设施。
+        （10）严禁损坏厂内各类防爆设施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            22、防火防爆十条禁令是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic108():
+            topic108.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：职业危害一般包括：
+        （1）在生产过程中的危害，可分为化学因素的危害，如有毒物质和生产性
+        粉尘的侵害；物理因素的危害，如高温高压、电离辐射、噪音等；生物因
+        素的危害，如生产劳动过程中的疫病、细菌、病毒感染等。
+        （2）与劳动状况有关的危害，如作业时间过长，劳动负荷过重等。
+        （3）与生产环境有关的危害，如厂房狭小，通风和照明不合理，缺乏防寒
+        取暖和防暑降温设施等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            23、职业危害包括哪些内容？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic109():
+            topic109.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：正确使用劳动防护用品的要求是：
+        （1）劳动防护用品使用前首先做一次外观检查。检查的目的是认定用品对有
+        害因素防护失效的程度，外观有无缺陷或损坏，各部件组装是否严密，启动是否灵活等。
+        （2）劳动防护用品的使用必须在其性能范围内，不得超极限使用；不得使用
+        未经国家指定、经检测部门认可和检测达不到标准的产品，不能随便替代，更不能以次充好。
+        （3）严格按照使用说明书正确使用劳动防护用品。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            24、正确使用劳动防护用品的要求是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic110():
+            topic110.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：“十不焊割”的规定是：
+        (1)焊工未经安全技术培训考试合格，领取操作证者，不能焊割。
+        (2)在重点要害部门和重要场所，未采取措施，未经单位有关领导、车间、
+        安全、保卫部门批准和办理动火证手续者，不能焊割。
+        (3)在容器内工作，没有12V低压照明和通风不良及无人在外监护不能焊割。
+        (4)未经领导同意，车间、部门擅自拿来的物件，在不了解其使用情况和构造
+        情况下，不能焊割。
+        (5)盛装过易燃、易爆气体(固体)的容器管道，未经用碱水等彻底清洗和处
+        理消除火灾爆炸危险的，不能焊割。
+        (6)用可燃材料充作保温层、隔热、隔音设备的部位，未采取切实可靠的安全措施，不能焊割。
+        (7)有压力的管道或密闭容器，如空气压缩机、高压气瓶、高压管道、带气锅炉等，不能焊割。
+        (8)焊接场所附近有易燃物品，未作清除或未采取安全措施，不能焊割。
+        (9)在禁火区内(防爆车间、危险品仓库附近)，未采取严格隔离等安全措施，不能焊割。
+        (10)在一定距离内，有与焊割明火操作相抵触的工种(如汽油擦洗、喷漆、
+        灌装汽油等能排出大量易燃气体)，不能焊割。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25、焊工应遵守的“十不焊割”的规定是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic111():
+            topic111.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：在机床上对金属、塑料和其他材料制成的毛坯进行切削加工时，产生许多危
+        险和有害的因素，恶化了劳动卫生条件。
+        (1)危险因素：主要是各种机床的运动部分、运动着的工件、被加工材料的切屑、
+        刀具的碎片、被加工件和刀具表面的高温、可能通过人体发生短路的高压电等。
+        (2)有害因素：主要是切削过程中工作区域空气含尘量和有害气体含量过高、
+        噪声和振动超标、存在着直射眩光和反射眩光等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        26、金属切削加工过程中存在哪些危险因素和有害因素？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic112():
+            topic112.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：工会组织依法对职业病防治工作进行监督，维护劳动者的合法权益。
+        用人单位制定或者修改有关职业病防治的规章制度，应当听取工会组织的意见。
+        工会组织对用人单位违反职业病防治法律、法规，侵犯劳动者合法权益的行为，
+        有权要求纠正；产生严重职业病危害时，有权要求采取防护措施，或者向政府
+        有关部门建议采取强制性措施；发生职业病危害事故时，有权参与事故调查处理；
+        发现危及劳动者生命健康的情形时，有权向用人单位建议组织劳动者撤离危险现场，
+        用人单位应当立即作出处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            27、工会组织在职业病防治工作中的权利是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic113():
+            topic113.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：简要准确地讲清需要急救的地点、联系方式、具体路线、伤害事故性质、
+        病人政治和程度、现场情况等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            28、拨打急救电话时应讲清哪些事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic114():
+            topic114.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位应当制定本单位的应急预案演练计划，根据本单位的事
+        故预防重点，每年至少组织一次综合应急预案演练或者专项应急预案演练，
+        每年至少组织两次现场处置方案演练。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            29、国家安监总局对应急演练的具体要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic115():
+            topic115.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        （1）设置或指定职业卫生管理机构或者组织，配备专职或兼职的职业卫生管理人员，
+        负责本单位的职业病防治工作。
+        （2）制定职业病防治计划。
+        （3）建立、健全职业卫生管理制度和操作规程。
+        （4）建立、健全职业卫生档案和劳动者健康监护档案。
+        （5）建立、健全工作场所职业病危害因素监测及评价制度。
+        （6）建立、健全职业病危害事故应急救援预案。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+            30、用人单位职业病防治管理措施有？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic116():
+            topic116.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆破员、安全员、保管员应具备以下基本条件：
+        （1）18周岁以上、60周岁以下；
+        （2）初中以上文化程度；
+        （3）无妨碍爆破作业的疾病和生理缺陷；
+        （4）具有完全民事行为能力；
+        （5）无犯罪记录；
+        （6）具有履行符合《爆破作业单位资质条件和管理要求》（GA990-2012）规定岗位职责的能力。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+
+        31、 爆破员、安全员和保管员应符合什么条件？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic117():
+            topic117.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆破员的岗位职责是：
+        （1）保管所领取的民用爆炸物品；
+        （2）按照爆破作业设计施工方案进行装药、联网、起爆等爆破作业；
+        （3）爆破后检查工作面，发现盲炮或其他安全隐患及时报告；
+        （4）在项目技术负责人的指导下，配合爆破工程技术人员处理盲炮或其他安全隐患；
+        （5）爆破作业结束后，将剩余的民用爆炸物品清退回库。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        32、 爆破员的岗位职责是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic118():
+            topic118.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）爆破安全规程中与所从事作业有关的条款和安全操作细则；
+        （2）起爆药包的加工和起爆方法；
+        （3）装药、填塞、网路敷设、警戒、信号、起爆等爆破工艺和操作技术；
+        （4）爆破器材的领取、搬运、外观检查、现场保管与退库的规定；
+        （5）常用爆破器材的性能、使用条件和安全要求；
+        （6）爆破事故的预防和抢救；
+        （7）爆破后的安全检查和盲炮处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        33、爆破员必须熟练掌握哪些规定和相关知识？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic119():
+            topic119.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+             答：（1）爆破器材库的通讯、照明、温度、湿度、通风、防火、防电和防雷要求；
+             （2）爆破器材的外观检查、储存、保管、统计和发放；
+             （3）爆破器材的报废与销毁方法；
+             （4）意外爆炸事故的抢救技术。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        34、保管员必须熟练掌握哪些规定和相关知识？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic120():
+            topic120.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）非法爆破；
+        （2）丢失、被盗民爆物品不报告；
+        （3）不按照设计说明书的要求装药；
+        （4）使用无证人员进行爆破作业或者保管爆破器材；
+        （5）不按规定将没有用完的民爆物品退回仓库保管，私自在现场存放；
+        （6）不按规定进行爆破安全警戒；
+        （7）不按设计方案进行安全防护。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        35、在爆破安全管理中，爆破作业人员容易违反爆破作业安全管理规定的行为有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic121():
+            topic121.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）物理爆炸。其特点是爆炸前后，物质的性质及化学成分没有改变，
+        如轮胎、锅炉、高压气瓶等爆炸均属物理爆炸。
+        （2）化学爆炸。其特点是爆炸前后物质的性质及化学成分发生改变，如炸药、
+        瓦斯、煤尘、鞭炮等的爆炸。
+        （3）核爆炸。其特征是物质的原子核发生裂变或聚变的连锁反应，瞬间释放
+        出巨大能量，如原子弹、氢弹的爆炸。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        36、根据爆炸产生的原因及特征，爆炸现象可分为哪几类？每类爆炸有什么特征？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic122():
+            topic122.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药在常温尤其是受热作用时，会发生缓慢的分解并放出热量。一般情况下，
+        热分解不会形成爆炸，但温度升高分解速度会加快；当温度持续升高时，热分解可
+        能转化为爆炸。所以，库房在储存炸药时，不宜堆得过密、过高和过多，要留有通
+        道，保证良好的通风环境，保持常温。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        37、简述炸药的热分解性能对炸药储存过程的影响。''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic123():
+            topic123.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：组成：非电导爆管雷管由导爆管、封口塞、延期体和基础雷管组成。
+        起爆原理：当导爆管用电火花等起爆后，在导爆管中产生爆轰波，从而引爆基础雷管。
+        优点：导爆管雷管具有抗静电、抗杂散电流的能力，使用安全可靠，简单易行。
+        适用场所：适用于无沼气、无矿尘爆炸危险的爆破环境。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        38、非电导爆管延期雷管的组成、起爆原理、优点、适用场所是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic124():
+            topic124.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：非电毫秒雷管是用塑料导爆管引爆，延期时间以毫秒数量级计量的雷管。
+        毫秒延期电雷管是用电力起爆，延期时间也是以毫秒数量级来计量的。它们
+        的主要区别在于：非电毫秒雷管没有毫秒电雷管中的电点火装置，而通过在
+        塑料导爆管中传播的爆轰波来点燃延期药。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        39、非电毫秒雷管和毫秒电雷管的主要区别？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic125():
+            topic125.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：导爆索网路的优点是安全性好、操作简单、使用方便、传爆稳定、
+        快捷，一般不受外来电的影响。可用于深孔爆破、预裂和光面爆破、硐室爆破。
+        缺点：导爆索网路不能用仪表检查。露天爆破时噪声大，在人口稠密
+        地区不宜采用。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        40、 导爆索网路的优缺点及其适用范围是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic126():
+            topic126.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：硝铵类炸药是以硝酸铵为其主要成分，加上适量的可燃剂、敏化剂及
+        其附加剂的混合炸药。它是目前国内外工程爆破中用量最大、品种最多的混合炸药。
+        工程上常用的硝铵类炸药有铵油炸药和含水炸药（浆状炸药、水胶炸药和乳化炸药）。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        41、什么是硝铵类炸药？工程上常用的硝铵类炸药有哪几种？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic127():
+            topic127.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）起爆器的充电电压、外壳绝缘性能；
+        （2）采用交流电起爆时，应测定交流电电压，并检查开关、电源及输电线路是否符合要求；
+        （3）各种连接线、区域线、主线的材质、规格、电阻值和绝缘性能；
+        （4）爆破专用电桥、欧姆表和导通器的输出电流及绝缘性能。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        42、起爆电源及仪表的检验主要包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic128():
+            topic128.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：常用起爆网路有电起爆网路、导爆管起爆网路、混合起爆网路。
+        （1）电起爆网路特点是：起爆顺序和时差能准确控制；爆破效果较好；
+        可用仪器对网路进行检测，可靠性高；但一次分段数量受到限制。
+        （2）导爆管网路特点是：起爆顺序和时差能较准确控制，爆破效果好；
+        一次分段数量不受限制；但是，目前尚无仪器能对网路实施检查。
+        （3）混合网路具有电爆网路和导爆管网路的共同特点，使用上更具灵
+        活性；但是在网路中，除电爆网路部分可检查外，导爆索和导爆管网路尚无仪器能进行检查。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        43、常用起爆网路有哪几种？各有哪些特点？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic129():
+            topic129.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药在预定的起爆时间之前起爆称为早爆。引起早爆的原因有：
+           （1）爆破器材不合格；
+           （2）炸药自燃导致的自爆；
+           （3）由感度高的炸药或起爆器材的机械能作用（冲击、摩擦等）引起的早爆；
+           （4）外来电流，如闪电、静电、杂散电流、射频电流和感应电流引起的早爆。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        44、 什么是早爆？引起早爆的原因是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic130():
+            topic130.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）施工现场严禁烟火；
+        （2）采用电力起爆法时，在加工起爆药包、装药、填塞、网路敷设等爆破作业现场，均不得使用手机、对讲机等无线电通讯设备；
+        （3）搞好安全警戒，防止爆破器材丢失、被盗；
+        （4）如遇雷雨，应立即停止爆破作业，迅速撤离危险区，并在危险区边界设置岗哨，防止他人误入危险区。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        45、在爆破施工现场应注意哪些事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        topic0 = Button(root, text='10分第1题', padx=10, pady=5, command=topic0)
+        topic0.pack()
+        topic0.place(x=0, y=10)
+        topic0.config(state=NORMAL)
+        topic1 = Button(root, text='10分第2题', padx=10, pady=5, command=topic1)
+        topic1.pack()
+        topic1.place(x=100, y=10)
+        topic1.config(state=NORMAL)
+        topic2 = Button(root, text='10分第3题', padx=10, pady=5, command=topic2)
+        topic2.pack()
+        topic2.place(x=200, y=10)
+        topic2.config(state=NORMAL)
+        topic3 = Button(root, text='10分第4题', padx=10, pady=5, command=topic3)
+        topic3.pack()
+        topic3.place(x=300, y=10)
+        topic3.config(state=NORMAL)
+        topic4 = Button(root, text='10分第5题', padx=10, pady=5, command=topic4)
+        topic4.pack()
+        topic4.place(x=400, y=10)
+        topic4.config(state=NORMAL)
+        topic5 = Button(root, text='10分第6题', padx=10, pady=5, command=topic5)
+        topic5.pack()
+        topic5.place(x=500, y=10)
+        topic5.config(state=NORMAL)
+        topic6 = Button(root, text='10分第7题', padx=10, pady=5, command=topic6)
+        topic6.pack()
+        topic6.place(x=600, y=10)
+        topic6.config(state=NORMAL)
+        topic7 = Button(root, text='10分第8题', padx=10, pady=5, command=topic7)
+        topic7.pack()
+        topic7.place(x=700, y=10)
+        topic7.config(state=NORMAL)
+        topic8 = Button(root, text='10分第9题', padx=10, pady=5, command=topic8)
+        topic8.pack()
+        topic8.place(x=0, y=40)
+        topic8.config(state=NORMAL)
+        topic9 = Button(root, text='10分第10题', padx=10, pady=5, command=topic9)
+        topic9.pack()
+        topic9.place(x=100, y=40)
+        topic9.config(state=NORMAL)
+        topic10 = Button(root, text='10分第11题', padx=10, pady=5, command=topic10)
+        topic10.pack()
+        topic10.place(x=200, y=40)
+        topic10.config(state=NORMAL)
+        topic11 = Button(root, text='10分第12题', padx=10, pady=5, command=topic11)
+        topic11.pack()
+        topic11.place(x=300, y=40)
+        topic11.config(state=NORMAL)
+        topic12 = Button(root, text='10分第13题', padx=10, pady=5, command=topic12)
+        topic12.pack()
+        topic12.place(x=400, y=40)
+        topic12.config(state=NORMAL)
+        topic13 = Button(root, text='10分第14题', padx=10, pady=5, command=topic13)
+        topic13.pack()
+        topic13.place(x=500, y=40)
+        topic13.config(state=NORMAL)
+        topic14 = Button(root, text='10分第15题', padx=10, pady=5, command=topic14)
+        topic14.pack()
+        topic14.place(x=600, y=40)
+        topic14.config(state=NORMAL)
+        topic15 = Button(root, text='10分第16题', padx=10, pady=5, command=topic15)
+        topic15.pack()
+        topic15.place(x=700, y=40)
+        topic15.config(state=NORMAL)
+        topic16 = Button(root, text='10分第17题', padx=10, pady=5, command=topic16)
+        topic16.pack()
+        topic16.place(x=0, y=70)
+        topic16.config(state=NORMAL)
+        topic17 = Button(root, text='10分第18题', padx=10, pady=5, command=topic17)
+        topic17.pack()
+        topic17.place(x=100, y=70)
+        topic17.config(state=NORMAL)
+        topic18 = Button(root, text='10分第19题', padx=10, pady=5, command=topic18)
+        topic18.pack()
+        topic18.place(x=200, y=70)
+        topic18.config(state=NORMAL)
+        topic19 = Button(root, text='10分第20题', padx=10, pady=5, command=topic19)
+        topic19.pack()
+        topic19.place(x=300, y=70)
+        topic19.config(state=NORMAL)
+        topic20 = Button(root, text='10分第21题', padx=10, pady=5, command=topic20)
+        topic20.pack()
+        topic20.place(x=400, y=70)
+        topic20.config(state=NORMAL)
+        topic21 = Button(root, text='10分第22题', padx=10, pady=5, command=topic21)
+        topic21.pack()
+        topic21.place(x=500, y=70)
+        topic21.config(state=NORMAL)
+        topic22 = Button(root, text='10分第23题', padx=10, pady=5, command=topic22)
+        topic22.pack()
+        topic22.place(x=600, y=70)
+        topic22.config(state=NORMAL)
+        topic23 = Button(root, text='10分第24题', padx=10, pady=5, command=topic23)
+        topic23.pack()
+        topic23.place(x=700, y=70)
+        topic23.config(state=NORMAL)
+        topic24 = Button(root, text='10分第25题', padx=10, pady=5, command=topic24)
+        topic24.pack()
+        topic24.place(x=0, y=100)
+        topic24.config(state=NORMAL)
+        topic25 = Button(root, text='10分第26题', padx=10, pady=5, command=topic25)
+        topic25.pack()
+        topic25.place(x=100, y=100)
+        topic25.config(state=NORMAL)
+        topic26 = Button(root, text='10分第27题', padx=10, pady=5, command=topic26)
+        topic26.pack()
+        topic26.place(x=200, y=100)
+        topic26.config(state=NORMAL)
+        topic27 = Button(root, text='10分第28题', padx=10, pady=5, command=topic27)
+        topic27.pack()
+        topic27.place(x=300, y=100)
+        topic27.config(state=NORMAL)
+        topic28 = Button(root, text='10分第29题', padx=10, pady=5, command=topic28)
+        topic28.pack()
+        topic28.place(x=400, y=100)
+        topic28.config(state=NORMAL)
+        topic29 = Button(root, text='10分第30题', padx=10, pady=5, command=topic29)
+        topic29.pack()
+        topic29.place(x=500, y=100)
+        topic29.config(state=NORMAL)
+        topic30 = Button(root, text='10分第31题', padx=10, pady=5, command=topic30)
+        topic30.pack()
+        topic30.place(x=600, y=100)
+        topic30.config(state=NORMAL)
+        topic31 = Button(root, text='10分第32题', padx=10, pady=5, command=topic31)
+        topic31.pack()
+        topic31.place(x=700, y=100)
+        topic31.config(state=NORMAL)
+        topic32 = Button(root, text='10分第33题', padx=10, pady=5, command=topic32)
+        topic32.pack()
+        topic32.place(x=0, y=130)
+        topic32.config(state=NORMAL)
+        topic33 = Button(root, text='10分第34题', padx=10, pady=5, command=topic33)
+        topic33.pack()
+        topic33.place(x=100, y=130)
+        topic33.config(state=NORMAL)
+        topic34 = Button(root, text='10分第35题', padx=10, pady=5, command=topic34)
+        topic34.pack()
+        topic34.place(x=200, y=130)
+        topic34.config(state=NORMAL)
+        topic35 = Button(root, text='10分第36题', padx=10, pady=5, command=topic35)
+        topic35.pack()
+        topic35.place(x=300, y=130)
+        topic35.config(state=NORMAL)
+        topic36 = Button(root, text='10分第37题', padx=10, pady=5, command=topic36)
+        topic36.pack()
+        topic36.place(x=400, y=130)
+        topic36.config(state=NORMAL)
+        topic37 = Button(root, text='10分第38题', padx=10, pady=5, command=topic37)
+        topic37.pack()
+        topic37.place(x=500, y=130)
+        topic37.config(state=NORMAL)
+        topic38 = Button(root, text='10分第39题', padx=10, pady=5, command=topic38)
+        topic38.pack()
+        topic38.place(x=600, y=130)
+        topic38.config(state=NORMAL)
+        topic39 = Button(root, text='10分第40题', padx=10, pady=5, command=topic39)
+        topic39.pack()
+        topic39.place(x=700, y=130)
+        topic39.config(state=NORMAL)
+        topic40 = Button(root, text='20分第1题', padx=10, pady=5, command=topic40)
+        topic40.pack()
+        topic40.place(x=0, y=190)
+        topic40.config(state=NORMAL)
+        topic41 = Button(root, text='20分第2题', padx=10, pady=5, command=topic41)
+        topic41.pack()
+        topic41.place(x=100, y=190)
+        topic41.config(state=NORMAL)
+        topic42 = Button(root, text='20分第3题', padx=10, pady=5, command=topic42)
+        topic42.pack()
+        topic42.place(x=200, y=190)
+        topic42.config(state=NORMAL)
+        topic43 = Button(root, text='20分第4题', padx=10, pady=5, command=topic43)
+        topic43.pack()
+        topic43.place(x=300, y=190)
+        topic43.config(state=NORMAL)
+        topic44 = Button(root, text='20分第5题', padx=10, pady=5, command=topic44)
+        topic44.pack()
+        topic44.place(x=400, y=190)
+        topic44.config(state=NORMAL)
+        topic45 = Button(root, text='20分第6题', padx=10, pady=5, command=topic45)
+        topic45.pack()
+        topic45.place(x=500, y=190)
+        topic45.config(state=NORMAL)
+        topic46 = Button(root, text='20分第7题', padx=10, pady=5, command=topic46)
+        topic46.pack()
+        topic46.place(x=600, y=190)
+        topic46.config(state=NORMAL)
+        topic47 = Button(root, text='20分第8题', padx=10, pady=5, command=topic47)
+        topic47.pack()
+        topic47.place(x=700, y=190)
+        topic47.config(state=NORMAL)
+        topic48 = Button(root, text='20分第9题', padx=10, pady=5, command=topic48)
+        topic48.pack()
+        topic48.place(x=0, y=220)
+        topic48.config(state=NORMAL)
+        topic49 = Button(root, text='20分第10题', padx=10, pady=5, command=topic49)
+        topic49.pack()
+        topic49.place(x=100, y=220)
+        topic49.config(state=NORMAL)
+        topic50 = Button(root, text='20分第11题', padx=10, pady=5, command=topic50)
+        topic50.pack()
+        topic50.place(x=200, y=220)
+        topic50.config(state=NORMAL)
+        topic51 = Button(root, text='20分第12题', padx=10, pady=5, command=topic51)
+        topic51.pack()
+        topic51.place(x=300, y=220)
+        topic51.config(state=NORMAL)
+        topic52 = Button(root, text='20分第13题', padx=10, pady=5, command=topic52)
+        topic52.pack()
+        topic52.place(x=400, y=220)
+        topic52.config(state=NORMAL)
+        topic53 = Button(root, text='20分第14题', padx=10, pady=5, command=topic53)
+        topic53.pack()
+        topic53.place(x=500, y=220)
+        topic53.config(state=NORMAL)
+        topic54 = Button(root, text='20分第15题', padx=10, pady=5, command=topic54)
+        topic54.pack()
+        topic54.place(x=600, y=220)
+        topic54.config(state=NORMAL)
+        topic55 = Button(root, text='20分第16题', padx=10, pady=5, command=topic55)
+        topic55.pack()
+        topic55.place(x=700, y=220)
+        topic55.config(state=NORMAL)
+        topic56 = Button(root, text='20分第17题', padx=10, pady=5, command=topic56)
+        topic56.pack()
+        topic56.place(x=0, y=250)
+        topic56.config(state=NORMAL)
+        topic57 = Button(root, text='20分第18题', padx=10, pady=5, command=topic57)
+        topic57.pack()
+        topic57.place(x=100, y=250)
+        topic57.config(state=NORMAL)
+        topic58 = Button(root, text='20分第19题', padx=10, pady=5, command=topic58)
+        topic58.pack()
+        topic58.place(x=200, y=250)
+        topic58.config(state=NORMAL)
+        topic59 = Button(root, text='20分第20题', padx=10, pady=5, command=topic59)
+        topic59.pack()
+        topic59.place(x=300, y=250)
+        topic59.config(state=NORMAL)
+        topic60 = Button(root, text='20分第21题', padx=10, pady=5, command=topic60)
+        topic60.pack()
+        topic60.place(x=400, y=250)
+        topic60.config(state=NORMAL)
+        topic61 = Button(root, text='20分第22题', padx=10, pady=5, command=topic61)
+        topic61.pack()
+        topic61.place(x=500, y=250)
+        topic61.config(state=NORMAL)
+        topic62 = Button(root, text='20分第23题', padx=10, pady=5, command=topic62)
+        topic62.pack()
+        topic62.place(x=600, y=250)
+        topic62.config(state=NORMAL)
+        topic63 = Button(root, text='20分第24题', padx=10, pady=5, command=topic63)
+        topic63.pack()
+        topic63.place(x=700, y=250)
+        topic63.config(state=NORMAL)
+        topic64 = Button(root, text='20分第25题', padx=10, pady=5, command=topic64)
+        topic64.pack()
+        topic64.place(x=0, y=280)
+        topic64.config(state=NORMAL)
+        topic65 = Button(root, text='20分第26题', padx=10, pady=5, command=topic65)
+        topic65.pack()
+        topic65.place(x=100, y=280)
+        topic65.config(state=NORMAL)
+        topic66 = Button(root, text='20分第27题', padx=10, pady=5, command=topic66)
+        topic66.pack()
+        topic66.place(x=200, y=280)
+        topic66.config(state=NORMAL)
+        topic67 = Button(root, text='20分第28题', padx=10, pady=5, command=topic67)
+        topic67.pack()
+        topic67.place(x=300, y=280)
+        topic67.config(state=NORMAL)
+        topic68 = Button(root, text='20分第29题', padx=10, pady=5, command=topic68)
+        topic68.pack()
+        topic68.place(x=400, y=280)
+        topic68.config(state=NORMAL)
+        topic69 = Button(root, text='20分第30题', padx=10, pady=5, command=topic69)
+        topic69.pack()
+        topic69.place(x=500, y=280)
+        topic69.config(state=NORMAL)
+        topic70 = Button(root, text='20分第31题', padx=10, pady=5, command=topic70)
+        topic70.pack()
+        topic70.place(x=600, y=280)
+        topic70.config(state=NORMAL)
+        topic71 = Button(root, text='20分第32题', padx=10, pady=5, command=topic71)
+        topic71.pack()
+        topic71.place(x=700, y=280)
+        topic71.config(state=NORMAL)
+        topic72 = Button(root, text='20分第33题', padx=10, pady=5, command=topic72)
+        topic72.pack()
+        topic72.place(x=0, y=310)
+        topic72.config(state=NORMAL)
+        topic73 = Button(root, text='20分第34题', padx=10, pady=5, command=topic73)
+        topic73.pack()
+        topic73.place(x=100, y=310)
+        topic73.config(state=NORMAL)
+        topic74 = Button(root, text='20分第35题', padx=10, pady=5, command=topic74)
+        topic74.pack()
+        topic74.place(x=200, y=310)
+        topic74.config(state=NORMAL)
+        topic75 = Button(root, text='20分第36题', padx=10, pady=5, command=topic75)
+        topic75.pack()
+        topic75.place(x=300, y=310)
+        topic75.config(state=NORMAL)
+        topic76 = Button(root, text='20分第37题', padx=10, pady=5, command=topic76)
+        topic76.pack()
+        topic76.place(x=400, y=310)
+        topic76.config(state=NORMAL)
+        topic77 = Button(root, text='20分第38题', padx=10, pady=5, command=topic77)
+        topic77.pack()
+        topic77.place(x=500, y=310)
+        topic77.config(state=NORMAL)
+        topic78 = Button(root, text='20分第39题', padx=10, pady=5, command=topic78)
+        topic78.pack()
+        topic78.place(x=600, y=310)
+        topic78.config(state=NORMAL)
+        topic79 = Button(root, text='20分第40题', padx=10, pady=5, command=topic79)
+        topic79.pack()
+        topic79.place(x=700, y=310)
+        topic79.config(state=NORMAL)
+        topic80 = Button(root, text='20分第41题', padx=10, pady=5, command=topic80)
+        topic80.pack()
+        topic80.place(x=0, y=340)
+        topic80.config(state=NORMAL)
+        topic81 = Button(root, text='20分第42题', padx=10, pady=5, command=topic81)
+        topic81.pack()
+        topic81.place(x=100, y=340)
+        topic81.config(state=NORMAL)
+        topic82 = Button(root, text='20分第43题', padx=10, pady=5, command=topic82)
+        topic82.pack()
+        topic82.place(x=200, y=340)
+        topic82.config(state=NORMAL)
+        topic83 = Button(root, text='20分第44题', padx=10, pady=5, command=topic83)
+        topic83.pack()
+        topic83.place(x=300, y=340)
+        topic83.config(state=NORMAL)
+        topic84 = Button(root, text='20分第45题', padx=10, pady=5, command=topic84)
+        topic84.pack()
+        topic84.place(x=400, y=340)
+        topic84.config(state=NORMAL)
+        # topic85=Button(root,text='30分第1题',padx=10,pady=5,command=topic85)
+        # topic85.pack()
+        # topic85.place(x=0,y=400)
+        # topic85.config(state=NORMAL)
+        topic86 = Button(root, text='30分第1题', padx=10, pady=5, command=topic86)
+        topic86.pack()
+        topic86.place(x=100, y=400)
+        topic86.config(state=NORMAL)
+        topic87 = Button(root, text='30分第2题', padx=10, pady=5, command=topic87)
+        topic87.pack()
+        topic87.place(x=200, y=400)
+        topic87.config(state=NORMAL)
+        topic88 = Button(root, text='30分第3题', padx=10, pady=5, command=topic88)
+        topic88.pack()
+        topic88.place(x=300, y=400)
+        topic88.config(state=NORMAL)
+        topic89 = Button(root, text='30分第4题', padx=10, pady=5, command=topic89)
+        topic89.pack()
+        topic89.place(x=400, y=400)
+        topic89.config(state=NORMAL)
+        topic90 = Button(root, text='30分第5题', padx=10, pady=5, command=topic90)
+        topic90.pack()
+        topic90.place(x=500, y=400)
+        topic90.config(state=NORMAL)
+        topic91 = Button(root, text='30分第6题', padx=10, pady=5, command=topic91)
+        topic91.pack()
+        topic91.place(x=600, y=400)
+        topic91.config(state=NORMAL)
+        topic92 = Button(root, text='30分第7题', padx=10, pady=5, command=topic92)
+        topic92.pack()
+        topic92.place(x=700, y=400)
+        topic92.config(state=NORMAL)
+        topic93 = Button(root, text='30分第8题', padx=10, pady=5, command=topic93)
+        topic93.pack()
+        topic93.place(x=0, y=430)
+        topic93.config(state=NORMAL)
+        topic94 = Button(root, text='30分第9题', padx=10, pady=5, command=topic94)
+        topic94.pack()
+        topic94.place(x=100, y=430)
+        topic94.config(state=NORMAL)
+        topic95 = Button(root, text='30分第10题', padx=10, pady=5, command=topic95)
+        topic95.pack()
+        topic95.place(x=200, y=430)
+        topic95.config(state=NORMAL)
+        topic96 = Button(root, text='30分第11题', padx=10, pady=5, command=topic96)
+        topic96.pack()
+        topic96.place(x=300, y=430)
+        topic96.config(state=NORMAL)
+        topic97 = Button(root, text='30分第12题', padx=10, pady=5, command=topic97)
+        topic97.pack()
+        topic97.place(x=400, y=430)
+        topic97.config(state=NORMAL)
+        topic98 = Button(root, text='30分第13题', padx=10, pady=5, command=topic98)
+        topic98.pack()
+        topic98.place(x=500, y=430)
+        topic98.config(state=NORMAL)
+        topic99 = Button(root, text='30分第14题', padx=10, pady=5, command=topic99)
+        topic99.pack()
+        topic99.place(x=600, y=430)
+        topic99.config(state=NORMAL)
+        topic100 = Button(root, text='30分第15题', padx=10, pady=5, command=topic100)
+        topic100.pack()
+        topic100.place(x=700, y=430)
+        topic100.config(state=NORMAL)
+        topic101 = Button(root, text='30分第16题', padx=10, pady=5, command=topic101)
+        topic101.pack()
+        topic101.place(x=0, y=460)
+        topic101.config(state=NORMAL)
+        topic102 = Button(root, text='30分第17题', padx=10, pady=5, command=topic102)
+        topic102.pack()
+        topic102.place(x=100, y=460)
+        topic102.config(state=NORMAL)
+        topic103 = Button(root, text='30分第18题', padx=10, pady=5, command=topic103)
+        topic103.pack()
+        topic103.place(x=200, y=460)
+        topic103.config(state=NORMAL)
+        topic104 = Button(root, text='30分第19', padx=10, pady=5, command=topic104)
+        topic104.pack()
+        topic104.place(x=300, y=460)
+        topic104.config(state=NORMAL)
+        topic105 = Button(root, text='30分第20题', padx=10, pady=5, command=topic105)
+        topic105.pack()
+        topic105.place(x=400, y=460)
+        topic105.config(state=NORMAL)
+        topic106 = Button(root, text='30分第21题', padx=10, pady=5, command=topic106)
+        topic106.pack()
+        topic106.place(x=500, y=460)
+        topic106.config(state=NORMAL)
+        topic107 = Button(root, text='30分第22题', padx=10, pady=5, command=topic107)
+        topic107.pack()
+        topic107.place(x=600, y=460)
+        topic107.config(state=NORMAL)
+        topic108 = Button(root, text='30分第23题', padx=10, pady=5, command=topic108)
+        topic108.pack()
+        topic108.place(x=700, y=460)
+        topic108.config(state=NORMAL)
+        topic109 = Button(root, text='30分第24题', padx=10, pady=5, command=topic109)
+        topic109.pack()
+        topic109.place(x=0, y=490)
+        topic109.config(state=NORMAL)
+        topic110 = Button(root, text='30分第25题', padx=10, pady=5, command=topic110)
+        topic110.pack()
+        topic110.place(x=100, y=490)
+        topic110.config(state=NORMAL)
+        topic111 = Button(root, text='30分第26题', padx=10, pady=5, command=topic111)
+        topic111.pack()
+        topic111.place(x=200, y=490)
+        topic111.config(state=NORMAL)
+        topic112 = Button(root, text='30分第27题', padx=10, pady=5, command=topic112)
+        topic112.pack()
+        topic112.place(x=300, y=490)
+        topic112.config(state=NORMAL)
+        topic113 = Button(root, text='30分第28题', padx=10, pady=5, command=topic113)
+        topic113.pack()
+        topic113.place(x=400, y=490)
+        topic113.config(state=NORMAL)
+        topic114 = Button(root, text='30分第29题', padx=10, pady=5, command=topic114)
+        topic114.pack()
+        topic114.place(x=500, y=490)
+        topic114.config(state=NORMAL)
+        topic115 = Button(root, text='30分第30题', padx=10, pady=5, command=topic115)
+        topic115.pack()
+        topic115.place(x=600, y=490)
+        topic115.config(state=NORMAL)
+        topic116 = Button(root, text='30分第31题', padx=10, pady=5, command=topic116)
+        topic116.pack()
+        topic116.place(x=700, y=490)
+        topic116.config(state=NORMAL)
+        topic117 = Button(root, text='30分第32题', padx=10, pady=5, command=topic117)
+        topic117.pack()
+        topic117.place(x=0, y=520)
+        topic117.config(state=NORMAL)
+        topic118 = Button(root, text='30分第33题', padx=10, pady=5, command=topic118)
+        topic118.pack()
+        topic118.place(x=100, y=520)
+        topic118.config(state=NORMAL)
+        topic119 = Button(root, text='30分第34题', padx=10, pady=5, command=topic119)
+        topic119.pack()
+        topic119.place(x=200, y=520)
+        topic119.config(state=NORMAL)
+        topic120 = Button(root, text='30分第35题', padx=10, pady=5, command=topic120)
+        topic120.pack()
+        topic120.place(x=300, y=520)
+        topic120.config(state=NORMAL)
+        topic121 = Button(root, text='30分第36题', padx=10, pady=5, command=topic121)
+        topic121.pack()
+        topic121.place(x=400, y=520)
+        topic121.config(state=NORMAL)
+        topic122 = Button(root, text='30分第37题', padx=10, pady=5, command=topic122)
+        topic122.pack()
+        topic122.place(x=500, y=520)
+        topic122.config(state=NORMAL)
+        topic123 = Button(root, text='30分第38题', padx=10, pady=5, command=topic123)
+        topic123.pack()
+        topic123.place(x=600, y=520)
+        topic123.config(state=NORMAL)
+        topic124 = Button(root, text='30分第39题', padx=10, pady=5, command=topic124)
+        topic124.pack()
+        topic124.place(x=700, y=520)
+        topic124.config(state=NORMAL)
+        topic125 = Button(root, text='30分第40题', padx=10, pady=5, command=topic125)
+        topic125.pack()
+        topic125.place(x=0, y=550)
+        topic125.config(state=NORMAL)
+        topic126 = Button(root, text='30分第41题', padx=10, pady=5, command=topic126)
+        topic126.pack()
+        topic126.place(x=100, y=550)
+        topic126.config(state=NORMAL)
+        topic127 = Button(root, text='30分第42题', padx=10, pady=5, command=topic127)
+        topic127.pack()
+        topic127.place(x=200, y=550)
+        topic127.config(state=NORMAL)
+        topic128 = Button(root, text='30分第43题', padx=10, pady=5, command=topic128)
+        topic128.pack()
+        topic128.place(x=300, y=550)
+        topic128.config(state=NORMAL)
+        topic129 = Button(root, text='30分第44题', padx=10, pady=5, command=topic129)
+        topic129.pack()
+        topic129.place(x=400, y=550)
+        topic129.config(state=NORMAL)
+
+        def page_down():
+            """
+            add 1 to displayed number,
+            disable Btn2 button when currentpage reaches pagecount
+            """
+            global currentpage, pagecount
+
+            currentpage += 1
+            topic0.config(state=NORMAL, relief=RAISED)
+            topic1.config(state=NORMAL, relief=RAISED)
+            topic2.config(state=NORMAL, relief=RAISED)
+            topic3.config(state=NORMAL, relief=RAISED)
+            topic4.config(state=NORMAL, relief=RAISED)
+            topic5.config(state=NORMAL, relief=RAISED)
+            topic6.config(state=NORMAL, relief=RAISED)
+            topic7.config(state=NORMAL, relief=RAISED)
+            topic8.config(state=NORMAL, relief=RAISED)
+            topic9.config(state=NORMAL, relief=RAISED)
+            topic10.config(state=NORMAL, relief=RAISED)
+            topic11.config(state=NORMAL, relief=RAISED)
+            topic12.config(state=NORMAL, relief=RAISED)
+            topic13.config(state=NORMAL, relief=RAISED)
+            topic14.config(state=NORMAL, relief=RAISED)
+            topic15.config(state=NORMAL, relief=RAISED)
+            topic16.config(state=NORMAL, relief=RAISED)
+            topic17.config(state=NORMAL, relief=RAISED)
+            topic18.config(state=NORMAL, relief=RAISED)
+            topic19.config(state=NORMAL, relief=RAISED)
+            topic20.config(state=NORMAL, relief=RAISED)
+            topic21.config(state=NORMAL, relief=RAISED)
+            topic22.config(state=NORMAL, relief=RAISED)
+            topic23.config(state=NORMAL, relief=RAISED)
+            topic24.config(state=NORMAL, relief=RAISED)
+            topic25.config(state=NORMAL, relief=RAISED)
+            topic26.config(state=NORMAL, relief=RAISED)
+            topic27.config(state=NORMAL, relief=RAISED)
+            topic28.config(state=NORMAL, relief=RAISED)
+            topic29.config(state=NORMAL, relief=RAISED)
+            topic30.config(state=NORMAL, relief=RAISED)
+            topic31.config(state=NORMAL, relief=RAISED)
+            topic32.config(state=NORMAL, relief=RAISED)
+            topic33.config(state=NORMAL, relief=RAISED)
+            topic34.config(state=NORMAL, relief=RAISED)
+            topic35.config(state=NORMAL, relief=RAISED)
+            topic36.config(state=NORMAL, relief=RAISED)
+            topic37.config(state=NORMAL, relief=RAISED)
+            topic38.config(state=NORMAL, relief=RAISED)
+            topic39.config(state=NORMAL, relief=RAISED)
+            topic40.config(state=NORMAL, relief=RAISED)
+            topic41.config(state=NORMAL, relief=RAISED)
+            topic42.config(state=NORMAL, relief=RAISED)
+            topic43.config(state=NORMAL, relief=RAISED)
+            topic44.config(state=NORMAL, relief=RAISED)
+            topic45.config(state=NORMAL, relief=RAISED)
+            topic46.config(state=NORMAL, relief=RAISED)
+            topic47.config(state=NORMAL, relief=RAISED)
+            topic48.config(state=NORMAL, relief=RAISED)
+            topic49.config(state=NORMAL, relief=RAISED)
+            topic50.config(state=NORMAL, relief=RAISED)
+            topic51.config(state=NORMAL, relief=RAISED)
+            topic52.config(state=NORMAL, relief=RAISED)
+            topic53.config(state=NORMAL, relief=RAISED)
+            topic54.config(state=NORMAL, relief=RAISED)
+            topic55.config(state=NORMAL, relief=RAISED)
+            topic56.config(state=NORMAL, relief=RAISED)
+            topic57.config(state=NORMAL, relief=RAISED)
+            topic58.config(state=NORMAL, relief=RAISED)
+            topic59.config(state=NORMAL, relief=RAISED)
+            topic60.config(state=NORMAL, relief=RAISED)
+            topic61.config(state=NORMAL, relief=RAISED)
+            topic62.config(state=NORMAL, relief=RAISED)
+            topic63.config(state=NORMAL, relief=RAISED)
+            topic64.config(state=NORMAL, relief=RAISED)
+            topic65.config(state=NORMAL, relief=RAISED)
+            topic66.config(state=NORMAL, relief=RAISED)
+            topic67.config(state=NORMAL, relief=RAISED)
+            topic68.config(state=NORMAL, relief=RAISED)
+            topic69.config(state=NORMAL, relief=RAISED)
+            topic70.config(state=NORMAL, relief=RAISED)
+            topic71.config(state=NORMAL, relief=RAISED)
+            topic72.config(state=NORMAL, relief=RAISED)
+            topic73.config(state=NORMAL, relief=RAISED)
+            topic74.config(state=NORMAL, relief=RAISED)
+            topic75.config(state=NORMAL, relief=RAISED)
+            topic76.config(state=NORMAL, relief=RAISED)
+            topic77.config(state=NORMAL, relief=RAISED)
+            topic78.config(state=NORMAL, relief=RAISED)
+            topic79.config(state=NORMAL, relief=RAISED)
+            topic80.config(state=NORMAL, relief=RAISED)
+            topic81.config(state=NORMAL, relief=RAISED)
+            topic82.config(state=NORMAL, relief=RAISED)
+            topic83.config(state=NORMAL, relief=RAISED)
+            topic84.config(state=NORMAL, relief=RAISED)
+            topic85.config(state=NORMAL, relief=RAISED)
+            topic86.config(state=NORMAL, relief=RAISED)
+            topic87.config(state=NORMAL, relief=RAISED)
+            topic88.config(state=NORMAL, relief=RAISED)
+            topic89.config(state=NORMAL, relief=RAISED)
+            topic90.config(state=NORMAL, relief=RAISED)
+            topic91.config(state=NORMAL, relief=RAISED)
+            topic92.config(state=NORMAL, relief=RAISED)
+            topic93.config(state=NORMAL, relief=RAISED)
+            topic94.config(state=NORMAL, relief=RAISED)
+            topic95.config(state=NORMAL, relief=RAISED)
+            topic96.config(state=NORMAL, relief=RAISED)
+            topic97.config(state=NORMAL, relief=RAISED)
+            topic98.config(state=NORMAL, relief=RAISED)
+            topic99.config(state=NORMAL, relief=RAISED)
+            topic100.config(state=NORMAL, relief=RAISED)
+            topic101.config(state=NORMAL, relief=RAISED)
+            topic102.config(state=NORMAL, relief=RAISED)
+            topic103.config(state=NORMAL, relief=RAISED)
+            topic104.config(state=NORMAL, relief=RAISED)
+            topic105.config(state=NORMAL, relief=RAISED)
+            topic106.config(state=NORMAL, relief=RAISED)
+            topic107.config(state=NORMAL, relief=RAISED)
+            topic108.config(state=NORMAL, relief=RAISED)
+            topic109.config(state=NORMAL, relief=RAISED)
+            topic110.config(state=NORMAL, relief=RAISED)
+            topic111.config(state=NORMAL, relief=RAISED)
+            topic112.config(state=NORMAL, relief=RAISED)
+            topic113.config(state=NORMAL, relief=RAISED)
+            topic114.config(state=NORMAL, relief=RAISED)
+            topic115.config(state=NORMAL, relief=RAISED)
+            topic116.config(state=NORMAL, relief=RAISED)
+            topic117.config(state=NORMAL, relief=RAISED)
+            topic118.config(state=NORMAL, relief=RAISED)
+            topic119.config(state=NORMAL, relief=RAISED)
+            v.set(str(currentpage))
+
+        Btn0 = Button(text="恢复", padx=8, pady=6, command=page_down)
+        Btn0.pack()
+        Btn0.place(x=1000, y=500)
+
+        root.mainloop()
+    def qiangda():
+        pygame.mixer.init()
+        root = tk.Tk()
+        root.geometry('800x750')
+        root.title('挖掘机驾驶员安全知识竞赛抢答题')
+        global question
+        global answer
+        global currentpage
+        global pagecount
+        currentpage = 0
+        pagecount = 0
+        v = StringVar()
+        topic = '''1、劳动防护用品应根据接触危险能量的作业类别正确选配，按防护部位不同，劳动防护用品分为哪几类？&
+        答：九大类：安全帽、呼吸护具、眼防护具、听力护具、防护鞋、防护手套、防护服、防坠落护具和护肤用品。&
+        2、《安全生产法》的立法目的是什么？&
+        答：为了加强安全生产监督管理，防止和减少生产安全事故，保障人民群众生命和财产安全，
+        促进经济社会持续健康发展。&
+        3、什么是最低工资标准？&
+        答：是指劳动者在法定工作时间内提供了正常劳动的前提下，其所在单位应支付的最低劳动报酬。&
+        4、什么是社会保险？&
+        答：社会保险是社会保障体系中的一项重要制度，是国家和社会对暂时或永久丧失劳动能力的职工以
+        及失业者给予物质帮助或物质保障的制度。&
+        5、生产经营活动中不安全行为的定义是什么？&
+        答：从业人员在生产活动过程中，违反劳动纪律、违反操作程序和冒险、违禁的方法等具有危险性的行为。&
+        6、什么是劳动防护用品？&
+        答：是指保护劳动者在生产过程中的人身安全与健康所必备的一种防御性装备，对于减少职业危害起着相
+        当重要的作用。&
+        7、为什么保险丝不能用铜、铁丝代替？&
+        答：因为铜、铁丝的熔点比保险丝的熔点高，在电流突然增大时，不能即刻熔断，起不到切断电流的保
+        险作用，会使电气设备因短路或过载而起火&
+        8、请说出安全电压的5个电压等级？&
+        答：42v、36v、24v、12v、6v&
+        9、什么是跨步电压？&
+        答：当有电流在接地点流入地下时，电流在接地点周围土壤中产生电压降。人在接地点周围，两脚之间
+        出现的电压称为跨步电压。&
+        10、造成温室效应的气体有哪些？&
+        答：有二氧化碳，还有氯氟烃、甲烷、氮氧化合物、臭氧等气体。&
+        11、防护装置是指通过设置物体障碍方式专门用于提供防护的安全措施。常见的防护装置有哪些？&
+        答：有防护罩、网、屏障、栅栏等形式，可分为固定式防护装置和活动式防护装置两类。&
+        12、使用的电气设备按有关安全规程，其外壳应有什么防护措施? &
+        答：保护性接零或接地&
+        13、国际电工委员会规定，为防止直接触电事故的发生，应采取什么技术措施？&
+        答：绝缘、屏护、间距&
+        14、《安全生产法》中明确生产经营单位的安全生产由谁负责？&
+        答： 生产经营单位的主要负责人对本单位的安全生产工作全面负责。&
+        15、什么是危险？&
+        答：危险指系统中存在导致发生不期望后果的可能性超过了人们的承受程度。&
+        16、手工交流电弧焊机常见的空载电压是多少？&
+        答：60-90伏&
+        17、气体焊接作业时发生回火的原因有三个，分别是什么？&
+           答：焊嘴过分接近熔融的金属、喷嘴附近压力增大、混合气体流动不畅&
+        18、运转中的机械设备对人的伤害主要有哪些？&
+           答：撞伤、压伤、轧伤、卷缠等。&
+        19、何为毫秒延期爆破？ &
+        答：相邻炮孔或药包群之间的起爆时间间隔以毫秒计的爆破称之为毫秒延期爆破。& 
+        20、什么是安全生产“五要素”？&
+        答：安全生产“五要素”是：安全文化；安全法制；安全责任；安全科技；安全投入。&
+        21、什么叫自由面？它与爆破效果有什么关系？& 
+        答：自由面又称临空面，通常是指岩土介质与空气接触的交界面。 &
+        22、简述1号铵油炸药主要用途是什么？ &
+        答： 1号铵油炸药主要用于：露天矿或无瓦斯、无矿尘爆炸危险的矿井，以及中硬以上矿岩的爆破工程。&
+        23、请具体阐述安全生产领域“三超”指什么？&
+        答：三超是指工矿企业超能力、超强度、超定员生产，交通运输单位超载、超限、超负荷运行。&
+        24、职工在上班期间必须坚持的“五个互相”的原则指的是什么？&
+        答：互相监督、互相检查、互相帮助、互相保护、互相提醒。&
+        25、安全帽有哪六种基本性能？ &
+        答：（1）抗冲击性能；（2）耐穿透性能；（3）耐低温性能；
+        （4）耐燃烧性能；（5）电绝缘性能；（6）侧向钢性。&
+        26、露天矿山矿用汽车运输一般的安全问题包括哪些？&
+        答：作业时的制动转向失灵、夜间照明不良、路况不好，作业环境差等等。&
+        27、我国安全生产标准规定，安全色有哪几种？分别表示什么？ &
+        答：我国安全色标准规定红、黄、蓝、绿四种颜色为安全色。红色表示禁止、停止；
+        蓝色表示指令及必须遵守的规定；黄色表示警告、注意；绿色表示安全、提示。&
+        28、企业安全生产检查的形式主要有？&
+        答：(1)经常性的安全检查;(2)定期性的安全检查;(3)专业性的安全检查;(4)季节性的安全检查;
+        (5)普遍性安全大检查;(6)临时性的安全检查。&
+        29、安全监督检查包括？&
+        答：综合性安全检查和专业性安全检查两大类。不定期安全检查包括日常巡检、临时性监督检查工作。&
+        30、导爆管拒爆的原因有哪几点？& 
+        答：（1）管内断药超过20cm；（2）破裂口大于1cm，或有水渗入管内；（3）管内有异物或涂药结节。
+        '''
+        question = []
+        answer = []
+        topic = topic.split('&')
+        for index in range(len(topic)):
+            if (index % 2) == 0:
+                question.append(topic[index])
+            else:
+                answer.append(topic[index])
+        # Label(root, textvariable=v).place(x=20, y=10)
+        v.set(str(currentpage))
+
+        def topic0():
+            # topic0.config(state=DISABLED,relief = 'sunken')
+            # 替换1
+            global currentpage, pagecount, question, answer, rand
+            rand = random.randint(0, len(question))
+            print(len(question))
+
+            # 替换1
+            def answer_0():
+                global answer, question, rand
+                tk.Label(window, text=answer[rand], ).place(x=50, y=350)
+                del question[rand]
+                del answer[rand]
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+
+            tk.Label(window, text=question[rand], ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer_0)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+
+        # 替换3
+        topic0 = Button(root, text='开始抽题', padx=100, pady=50, command=topic0)
+        topic0.pack()
+        topic0.place(x=150, y=300)
+        topic0.config(state=NORMAL)
+
+        def page_down():
+            """
+            add 1 to displayed number,
+            disable Btn2 button when currentpage reaches pagecount
+            """
+            global currentpage, pagecount
+
+            currentpage += 1
+            topic0.config(state=NORMAL, relief=RAISED)
+
+            v.set(str(currentpage))
+
+        Btn0 = Button(text="恢复", padx=8, pady=6, command=page_down)
+        Btn0.pack()
+        Btn0.place(x=1000, y=500)
+
+        root.mainloop()
     topic0_window2 = Button(window2,text='必答题', padx=200, pady=20, command=bida)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=10)
@@ -4389,9 +12038,13 @@ def anquan():
     topic0_window2.pack()
     topic0_window2.place(x=0, y=80)
     topic0_window2.config(state=NORMAL)
-    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=bida)
+    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=fengxian)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=150)
+    topic0_window2.config(state=NORMAL)
+    topic0_window2 = Button(window2,text='抢答题', padx=200, pady=20, command=qiangda)
+    topic0_window2.pack()
+    topic0_window2.place(x=0, y=220)
     topic0_window2.config(state=NORMAL)
 def baopo():
     window2 = tk.Tk()
@@ -4445,7 +12098,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4493,7 +12146,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4541,7 +12194,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4589,7 +12242,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4637,7 +12290,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4685,7 +12338,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4733,7 +12386,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4781,7 +12434,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4829,7 +12482,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4877,7 +12530,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4925,7 +12578,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -4973,7 +12626,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5021,7 +12674,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5069,7 +12722,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5117,7 +12770,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5165,7 +12818,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5213,7 +12866,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5261,7 +12914,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5309,7 +12962,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5357,7 +13010,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5405,7 +13058,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5582,7 +13235,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5630,7 +13283,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5678,7 +13331,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5726,7 +13379,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5774,7 +13427,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5822,7 +13475,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5870,7 +13523,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5918,7 +13571,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -5966,7 +13619,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6014,7 +13667,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6062,7 +13715,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6110,7 +13763,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6158,7 +13811,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6206,7 +13859,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6254,7 +13907,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6302,7 +13955,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6350,7 +14003,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6398,7 +14051,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6446,7 +14099,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6494,7 +14147,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6542,7 +14195,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6590,7 +14243,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6638,7 +14291,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6686,7 +14339,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6734,7 +14387,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6782,7 +14435,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6830,7 +14483,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6878,7 +14531,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6926,7 +14579,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -6974,7 +14627,7 @@ def baopo():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7151,6 +14804,2887 @@ def baopo():
         Btn0.place(x=650, y=500)
 
         root.mainloop()
+    def fengxian():
+        pygame.mixer.init()
+        root = tk.Tk()
+        root.geometry('800x750')
+        root.title('挖掘机驾驶员安全知识竞赛风险题')
+        global currentpage
+        global pagecount
+        currentpage = 0
+        pagecount = 0
+        v = StringVar()
+        # Label(root, textvariable=v).place(x=20, y=10)
+        v.set(str(currentpage))
+
+        def topic0():
+            topic0.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：相邻炮孔或药包群之间的起爆时间间隔以毫秒计的爆破称之为毫秒延期爆破。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''1、何为毫秒延期爆破？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic1():
+            topic1.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药的做功能力是表示爆炸产物做绝热膨胀直到温度降至炸药爆炸前的温度时，
+        对周围介质所做的功。它的大小取决于炸药的爆热、爆温和爆炸生产的气体体积。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        2、什么是炸药的做功能力？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic2():
+            topic2.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆力是表示炸药爆炸做功的一个指标，其测量方法有两种：（1）铅铸扩孔法；（2）爆破漏斗法。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        3、爆力的测量方法是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic3():
+            topic3.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆炸是某一物质系统在有限空间和极短时间内，大量能量迅速释放或急骤转化的物理、
+        化学过程。在这种变化过程中通常伴随有强烈放热、发光和声响等效应。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        4、什么是爆炸？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic4():
+            topic4.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药在外界能量作用下，发生爆炸反应的难易程度称为炸药感度。；
+        炸药感度与所需的起爆能成反比，就是说炸药爆炸所需的起爆能愈小，该炸药的感度愈高。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        5、何为炸药感度？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic5():
+            topic5.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）炸药爆炸时形成的空气冲击波的绝热压缩；
+        （2）炸药爆炸时生成炽热的或燃着的固体颗粒的点火作用；
+        （3）炸药爆炸时生成的气态爆炸产物及二次火焰的直接加热。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        6、爆炸作业引起瓦斯、煤尘爆炸的原因是什么？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic6():
+            topic6.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：它们的主要区别在于：非电毫秒雷管不用毫秒电雷管中的电点火装置，
+        而通过一个与塑料导爆管相连接的塑料连接套，由塑料导爆管的爆轰波来点燃延期药。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        7、非电毫秒雷管和毫秒延期电雷管的主要区别？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic7():
+            topic7.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：自由面又称临空面，通常是指岩土介质与空气接触的交界面。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        8、什么叫自由面？它与爆破效果有什么关系？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic8():
+            topic8.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：（1）符合对民用爆炸物品销售企业规划的要求；
+        （2）销售场所和专用仓库符合国家有关标准和规范；
+        （3）有具备相应资格的安全管理人员，仓库管理人员；
+        （4）有健全的安全管理制度、岗位安全责任制度；
+        （5）法律、行政法规规定的其他条件。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        9、根据《民用爆炸物品安全管理条例》，申请从事民用爆炸物品销售的企业，应当具备什么条件？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic9():
+            topic9.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：（1）输出电流必须小于30mA；（2）外壳对地绝缘良好，不会将外来电引入爆破网路；
+        （3）防潮性能好，不会因内部受潮漏电而引爆电雷管。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        10、对测量电雷管和电爆网路电阻的电表应有哪些要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic10():
+            topic10.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答： 1号铵油炸药主要用于：露天矿或无瓦斯、无矿尘爆炸危险的矿井，以及中硬以上矿岩的爆破工程。 
+        2号铵油炸药主要用于露天矿中硬以下矿岩和硐室爆破工程。 
+        3号铵油炸药主要用于露天硐室爆破工程和地下中深孔爆破工程。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        11、简述1、2、3号铵油炸药主要用途是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic11():
+            topic11.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：用爆破电桥检测电爆网路时，电阻值不稳定，原因主要在于线路的接头有
+        虚接或者是接头胶布没包好接了地，也有可能是有的接头受潮了。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        12、检测电力起爆网路时，发现电阻值时大时小、不稳定，原因是什么？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic12():
+            topic12.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：一般情况下可以采用动力电、照明电和经鉴定合格的起爆器作为电爆网路的起爆电源。
+        有煤尘（含矿尘）和气体爆炸危险的矿井采用电力起爆时，只准使用防爆型起爆器作为起爆电源。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        13、什么电源可以作为电爆网路起爆电源？对有煤尘（含矿尘）和气体
+        爆炸危险的矿井的起爆电源有什么特殊规定？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic13():
+            topic13.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：在大型电爆网路中常将导线按其位置和作用划分为端线、连接线、区域线和主线。
+        电爆网路中使用的导线一般采用绝缘良好的铜线和铝线。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        14、在大型电爆网路中，通常将导线按其位置和作用划分为几种？对导线有何要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic14():
+            topic14.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：除在起爆药包加工、装药、填 塞时要保护好电爆网路外，电力起爆法的主要工序为：
+        电爆网路的连接、导通、网路检查、电阻平衡、合闸起爆。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        15、电力起爆法施工工序有哪些环节？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic15():
+            topic15.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：（1）管内断药超过20cm；（2）破裂口大于1cm，或有水渗入管内；（3）管内有异物或涂药结节。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''  
+        16、导爆管拒爆的原因有哪几点？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic16():
+            topic16.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：应用较多的是多排多孔毫秒延期起爆网路。它又分为孔内毫秒延期起爆网路和孔内、外毫秒延期起爆网路。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        17、导爆管起爆网路中，简单串联或并联或单一的并串联网路的运用并不多，
+        应用较多的是哪种起爆网路？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic17():
+            topic17.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：布孔方式有单排布孔和多排布孔两种。多排布孔又分为方形、矩形及三角（梅花）形三种。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        18、深孔爆破平面的布孔方式有几种？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic18():
+            topic18.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：露天深孔爆破的孔径主要取决于钻机类型、台阶高度和岩石性质，
+        以及工程要求与配套装载的能力。孔径的选择还要考虑对保留岩体的破坏范围与破坏程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        19、露天深孔爆破的孔径是由哪些因素决定的？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic19():
+            topic19.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text=''' 
+        答：控制爆破是指对爆破介质的破坏方向、范围、程度和爆破有害效应进行严格控制的爆破技术。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        20、何为控制爆破？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic20():
+            topic20.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：是指生产经营单位分管安全生产的负责人、安全生产管理机构负责人及其管理人员，
+        以及未设安全生产管理机构的生产经营单位专、兼职安全生产管理人员等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        21、《安全生产法》中明确了哪些人是生产经营单位安全生产管理人员？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic21():
+            topic21.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位的从业人员不服从管理，违反安全生产规章制度或者操作规程的，
+        由生产经营单位给予批评教育，依照有关规章制度给予处分；造成重大事故，构成
+        犯罪的，依照刑法有关规定追究刑事责任。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        22、从业人员违反安全生产规章制度或者操作规程要承担哪些责任？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic22():
+            topic22.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：本质安全是指设备、设施或技术工艺含有内在的能够从根本上防止发生事故的功能。
+        本质安全是安全生产管理预防为主的根本体现，也是安全生产管理的最高境界。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        23、什么是本质安全？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic23():
+            topic23.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位必须遵守《安全生产法》和其他有关安全生产的法律、法规，
+        加强安全生产管理，建立、健全安全生产责任制度，完善安全生产条件，确保安全生产。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        24、生产经营单位确保安全生产的要求是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic24():
+            topic24.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：因为烟头虽小，但其表面温度一般都在200至300摄氏度，中心温度可以高达700至800摄氏度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25、烟头为什么容易引起火灾？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic25():
+            topic25.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆破员、安全员、保管员应具备以下基本条件：
+        （1）18周岁以上、60周岁以下；
+        （2）初中以上文化程度；
+        （3）无妨碍爆破作业的疾病和生理缺陷；
+        （4）具有完全民事行为能力；
+        （5）无犯罪记录；
+        （6）具有履行符合《爆破作业单位资质条件和管理要求》（GA990-2012）规定岗位职责的能力。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''1. 爆破员、安全员和保管员应符合什么条件？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic26():
+            topic26.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆破员的岗位职责是：
+        （1）保管所领取的民用爆炸物品；
+        （2）按照爆破作业设计施工方案进行装药、联网、起爆等爆破作业；
+        （3）爆破后检查工作面，发现盲炮或其他安全隐患及时报告；
+        （4）在项目技术负责人的指导下，配合爆破工程技术人员处理盲炮或其他安全隐患；
+        （5）爆破作业结束后，将剩余的民用爆炸物品清退回库。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        2． 爆破员的岗位职责是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic27():
+            topic27.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）爆破安全规程中与所从事作业有关的条款和安全操作细则；
+        （2）起爆药包的加工和起爆方法；
+        （3）装药、填塞、网路敷设、警戒、信号、起爆等爆破工艺和操作技术；
+        （4）爆破器材的领取、搬运、外观检查、现场保管与退库的规定；
+        （5）常用爆破器材的性能、使用条件和安全要求；
+        （6）爆破事故的预防和抢救；
+        （7）爆破后的安全检查和盲炮处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        3. 爆破员必须熟练掌握哪些规定和相关知识？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic28():
+            topic28.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+         答：（1）爆破器材库的通讯、照明、温度、湿度、通风、防火、防电和防雷要求；
+             （2）爆破器材的外观检查、储存、保管、统计和发放；
+             （3）爆破器材的报废与销毁方法；
+             （4）意外爆炸事故的抢救技术。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        4．保管员必须熟练掌握哪些规定和相关知识？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic29():
+            topic29.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）非法爆破；
+        （2）丢失、被盗民爆物品不报告；
+        （3）不按照设计说明书的要求装药；
+        （4）使用无证人员进行爆破作业或者保管爆破器材；
+        （5）不按规定将没有用完的民爆物品退回仓库保管，私自在现场存放；
+        （6）不按规定进行爆破安全警戒；
+        （7）不按设计方案进行安全防护。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        5.在爆破安全管理中，爆破作业人员容易违反爆破作业安全管理规定的行为有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic30():
+            topic30.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）物理爆炸。其特点是爆炸前后，物质的性质及化学成分没有改变，如轮胎、
+        锅炉、高压气瓶等爆炸均属物理爆炸。
+        （2）化学爆炸。其特点是爆炸前后物质的性质及化学成分发生改变，如炸药、瓦斯、
+        煤尘、鞭炮等的爆炸。
+        （3）核爆炸。其特征是物质的原子核发生裂变或聚变的连锁反应，瞬间释放出巨大
+        能量，如原子弹、氢弹的爆炸。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        6．根据爆炸产生的原因及特征，爆炸现象可分为哪几类？每类爆炸有什么特征？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic31():
+            topic31.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药在常温尤其是受热作用时，会发生缓慢的分解并放出热量。一般情况下，
+        热分解不会形成爆炸，但温度升高分解速度会加快；当温度持续升高时，热分解
+        可能转化为爆炸。所以，库房在储存炸药时，不宜堆得过密、过高和过多，要留
+        有通道，保证良好的通风环境，保持常温。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        7．简述炸药的热分解性能对炸药储存过程的影响。''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic32():
+            topic32.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：组成：非电导爆管雷管由导爆管、封口塞、延期体和基础雷管组成。
+        起爆原理：当导爆管用电火花等起爆后，在导爆管中产生爆轰波，从而引爆基础雷管。
+        优点：导爆管雷管具有抗静电、抗杂散电流的能力，使用安全可靠，简单易行。
+        适用场所：适用于无沼气、无矿尘爆炸危险的爆破环境。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        8．非电导爆管延期雷管的组成、起爆原理、优点、适用场所是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic33():
+            topic33.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：非电毫秒雷管是用塑料导爆管引爆，延期时间以毫秒数量级计量的雷管。毫秒延
+        期电雷管是用电力起爆，延期时间也是以毫秒数量级来计量的。它们的主要区别在于：
+        非电毫秒雷管没有毫秒电雷管中的电点火装置，而通过在塑料导爆管中传播的爆轰波来点燃延期药。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        9. 非电毫秒雷管和毫秒电雷管的主要区别？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic34():
+            topic34.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：导爆索网路的优点是安全性好、操作简单、使用方便、传爆稳定、快捷，一般不受外
+        来电的影响。可用于深孔爆破、预裂和光面爆破、硐室爆破。
+        缺点：导爆索网路不能用仪表检查。露天爆破时噪声大，在人口稠密地区不宜采用。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        10． 导爆索网路的优缺点及其适用范围是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic35():
+            topic35.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：硝铵类炸药是以硝酸铵为其主要成分，加上适量的可燃剂、敏化剂及其附加剂的混
+        合炸药。它是目前国内外工程爆破中用量最大、品种最多的混合炸药。
+        工程上常用的硝铵类炸药有铵油炸药和含水炸药（浆状炸药、水胶炸药和乳化炸药）。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        11．什么是硝铵类炸药？工程上常用的硝铵类炸药有哪几种？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic36():
+            topic36.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）起爆器的充电电压、外壳绝缘性能；
+        （2）采用交流电起爆时，应测定交流电电压，并检查开关、电源及输电线路是否符合要求；
+        （3）各种连接线、区域线、主线的材质、规格、电阻值和绝缘性能；
+        （4）爆破专用电桥、欧姆表和导通器的输出电流及绝缘性能。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        12．起爆电源及仪表的检验主要包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic37():
+            topic37.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：常用起爆网路有电起爆网路、导爆管起爆网路、混合起爆网路。
+        （1）电起爆网路特点是：起爆顺序和时差能准确控制；爆破效果较好；可用仪器对
+        网路进行检测，可靠性高；但一次分段数量受到限制。
+        （2）导爆管网路特点是：起爆顺序和时差能较准确控制，爆破效果好；一次分段数
+        量不受限制；但是，目前尚无仪器能对网路实施检查。
+        （3）混合网路具有电爆网路和导爆管网路的共同特点，使用上更具灵活性；但是在
+        网路中，除电爆网路部分可检查外，导爆索和导爆管网路尚无仪器能进行检查。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        13．常用起爆网路有哪几种？各有哪些特点？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic38():
+            topic38.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：炸药在预定的起爆时间之前起爆称为早爆。引起早爆的原因有：
+           （1）爆破器材不合格；
+           （2）炸药自燃导致的自爆；
+           （3）由感度高的炸药或起爆器材的机械能作用（冲击、摩擦等）引起的早爆；
+           （4）外来电流，如闪电、静电、杂散电流、射频电流和感应电流引起的早爆。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        14． 什么是早爆？引起早爆的原因是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic39():
+            topic39.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）施工现场严禁烟火；
+        （2）采用电力起爆法时，在加工起爆药包、装药、填塞、网路敷设等爆破作业现场，
+        均不得使用手机、对讲机等无线电通讯设备；
+        （3）搞好安全警戒，防止爆破器材丢失、被盗；
+        （4）如遇雷雨，应立即停止爆破作业，迅速撤离危险区，并在危险区边界设置岗哨，
+        防止他人误入危险区。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        15．在爆破施工现场应注意哪些事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic40():
+            topic40.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：应采取的安全措施是：
+         （1）检测作业场所粉尘浓度不超过危险标准值，确保作业面有新鲜风流；
+         （2）使用符合爆破安全要求的爆破器材，禁用裸露药包、导爆索和导爆管；
+         （3）加强爆前、爆后通风洒水。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        16．在有可燃（爆）物、粉尘爆炸危险的场所实施爆破时，应采取哪些安全措施? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic41():
+            topic41.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：未爆的导爆管可见内壁上银白色金属光泽，传爆后金属光泽消失，变成暗灰色；
+        有的厂家生产的导爆管为“变色”导爆管，如未爆时内壁呈淡红色，传爆后导爆管
+        内壁淡红色消失，变成暗灰色或黑色。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        17．如何检查导爆管是否传爆？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic42():
+            topic42.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）要向所在地设区的市以上（含市）公安机关申请，经同意并领取《爆破作业单位许可证》；
+        （2）有专门的爆破作业组织和管理制度；
+            （3）有经过安全评价的民爆物品仓库，并有专人看管；
+        （4）使用地点安全，用途合法。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        18．企业单位使用爆破器材必须具备哪些条件？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic43():
+            topic43.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）存放场所应选择在安全地方，悬挂醒目标志（白天插红旗，晚上挂红灯）；
+        （2）应有专人昼夜巡逻警卫；
+        （3）存放场地不应堆放任何杂物；
+        （4）炸药堆与雷管不应混放，其间隔距离应不小于25m；
+        （5）爆破器材应堆放在垫木上，不应直接堆放在地上；
+        （6）在爆破器材堆上，应覆盖帆布或搭简易的帐棚；
+        （7）距存放场周边50m范围内严禁烟火；
+        （8）要有足够的消防器材。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''    
+        19. 露天临时堆放爆破器材，除了要经当地公安机关批准外，还必须遵守哪些规定？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic44():
+            topic44.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+              答：（1）在夜间或井下，应随身携带完好的矿用灯具；
+            （2）不应一人同时携带雷管和炸药；雷管和炸药应分别放在专用背包（木箱）内，不应放在衣袋里；
+            （3）领到爆破器材后，应直接送到爆破地点，不应乱丢乱放；
+            （4）不应提前班次领取爆破器材，不应携带爆破器材在人群聚集的地方停留；
+            （5）一人一次运送的爆破器材数量不超过：雷管1000发；拆箱（袋）运搬炸药20kg；
+            背运原包装炸药1箱（袋）；挑运原包装炸药2箱（袋）。
+            （6）用手推车运输爆破器材时，载重量不应超过300kg，运输过程中应防止碰撞并采
+            取防滑、防摩擦产生火花等安全措施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        20．用人工搬运爆破器材必须遵守哪些规定？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic45():
+            topic45.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答:个体防护用品既不能降低作业场所中有害化学品的浓度,也不能消除作业场
+            所的有害化学品,而只是一道阻止有害物进入人体的屏障。防护用品本身的失
+            效就意味着保护屏障的消失,因此个体防护不能被视为控制危害的主要手段,
+            而只能作为一种辅助性措施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        21、为什么个人防护用品不能作为控制危险化学品危害的主要手段? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic46():
+            topic46.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：（1）从业人员在作业过程中，应当严格遵守本单位的安全生产规章制度和操作规程，
+            服从管理，正确佩戴和使用劳动防护用品。
+        （2）从业人员应当接受安全教育和培训，掌握本职工作所需的安全生产知识，提高安全生产技
+        能，增强事故预防和应急处理能力。
+        （3）从业人员发现事故隐患或者其他不安全因素，应当立即向现场安全生产管理人员或者本
+        单位负责人报告；接到报告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        22、《安全生产法》规定的从业人员必须履行的义务？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic47():
+            topic47.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        　　答：职业病诊断应当按照《职业病防治法》、本办法有关规定和国家职业病诊断标准，
+        依据劳动者的职业史、职业病危害接触史和工作场所职业病危害因素情况、临床表现以及
+        辅助检查结果等，进行综合分析，由三名以上单数诊断医师进行集体诊断，作出诊断结论。
+        诊断机构独立行使诊断权，并对诊断结论负责。 ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        23、职业病诊断与鉴定有哪些？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic48():
+            topic48.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：安全目标管理的作用主要体现在以下5个方面：
+            (1)能充分发挥企业职工个人的力量，促进企业的安全工作。
+            (2)能增强企业管理组织的应变能力。
+            (3)能提高企业各级管理人员的领导能力。
+            (4)促进职工素质的提高。
+            (5)有利于企业的长远发展。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        24、安全目标管理的作用有哪些? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic49():
+            topic49.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+            答：对于重大事故隐患，生产经营单位应当及时向安全监管监察部门和有关部门报告。
+            重大事故隐患报告内容应当包括：
+        （1）隐患的现状及其产生原因；
+        （2）隐患的危害程度和整改难易程度分析；
+        （3）隐患的治理方案。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25、重大事故隐患报告内容有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        topic0 = Button(root, text='20分第1题', padx=10, pady=5, command=topic0)
+        topic0.pack()
+        topic0.place(x=0, y=10)
+        topic0.config(state=NORMAL)
+        topic1 = Button(root, text='20分第2题', padx=10, pady=5, command=topic1)
+        topic1.pack()
+        topic1.place(x=100, y=10)
+        topic1.config(state=NORMAL)
+        topic2 = Button(root, text='20分第3题', padx=10, pady=5, command=topic2)
+        topic2.pack()
+        topic2.place(x=200, y=10)
+        topic2.config(state=NORMAL)
+        topic3 = Button(root, text='20分第4题', padx=10, pady=5, command=topic3)
+        topic3.pack()
+        topic3.place(x=300, y=10)
+        topic3.config(state=NORMAL)
+        topic4 = Button(root, text='20分第5题', padx=10, pady=5, command=topic4)
+        topic4.pack()
+        topic4.place(x=400, y=10)
+        topic4.config(state=NORMAL)
+        topic5 = Button(root, text='20分第6题', padx=10, pady=5, command=topic5)
+        topic5.pack()
+        topic5.place(x=500, y=10)
+        topic5.config(state=NORMAL)
+        topic6 = Button(root, text='20分第7题', padx=10, pady=5, command=topic6)
+        topic6.pack()
+        topic6.place(x=600, y=10)
+        topic6.config(state=NORMAL)
+        topic7 = Button(root, text='20分第8题', padx=10, pady=5, command=topic7)
+        topic7.pack()
+        topic7.place(x=700, y=10)
+        topic7.config(state=NORMAL)
+        topic8 = Button(root, text='20分第9题', padx=10, pady=5, command=topic8)
+        topic8.pack()
+        topic8.place(x=0, y=40)
+        topic8.config(state=NORMAL)
+        topic9 = Button(root, text='20分第10题', padx=10, pady=5, command=topic9)
+        topic9.pack()
+        topic9.place(x=100, y=40)
+        topic9.config(state=NORMAL)
+        topic10 = Button(root, text='20分第11题', padx=10, pady=5, command=topic10)
+        topic10.pack()
+        topic10.place(x=200, y=40)
+        topic10.config(state=NORMAL)
+        topic11 = Button(root, text='20分第12题', padx=10, pady=5, command=topic11)
+        topic11.pack()
+        topic11.place(x=300, y=40)
+        topic11.config(state=NORMAL)
+        topic12 = Button(root, text='20分第13题', padx=10, pady=5, command=topic12)
+        topic12.pack()
+        topic12.place(x=400, y=40)
+        topic12.config(state=NORMAL)
+        topic13 = Button(root, text='20分第14题', padx=10, pady=5, command=topic13)
+        topic13.pack()
+        topic13.place(x=500, y=40)
+        topic13.config(state=NORMAL)
+        topic14 = Button(root, text='20分第15题', padx=10, pady=5, command=topic14)
+        topic14.pack()
+        topic14.place(x=600, y=40)
+        topic14.config(state=NORMAL)
+        topic15 = Button(root, text='20分第16题', padx=10, pady=5, command=topic15)
+        topic15.pack()
+        topic15.place(x=700, y=40)
+        topic15.config(state=NORMAL)
+        topic16 = Button(root, text='20分第17题', padx=10, pady=5, command=topic16)
+        topic16.pack()
+        topic16.place(x=0, y=70)
+        topic16.config(state=NORMAL)
+        topic17 = Button(root, text='20分第18题', padx=10, pady=5, command=topic17)
+        topic17.pack()
+        topic17.place(x=100, y=70)
+        topic17.config(state=NORMAL)
+        topic18 = Button(root, text='20分第19题', padx=10, pady=5, command=topic18)
+        topic18.pack()
+        topic18.place(x=200, y=70)
+        topic18.config(state=NORMAL)
+        topic19 = Button(root, text='20分第20题', padx=10, pady=5, command=topic19)
+        topic19.pack()
+        topic19.place(x=300, y=70)
+        topic19.config(state=NORMAL)
+        topic20 = Button(root, text='20分第21题', padx=10, pady=5, command=topic20)
+        topic20.pack()
+        topic20.place(x=400, y=70)
+        topic20.config(state=NORMAL)
+        topic21 = Button(root, text='20分第22题', padx=10, pady=5, command=topic21)
+        topic21.pack()
+        topic21.place(x=500, y=70)
+        topic21.config(state=NORMAL)
+        topic22 = Button(root, text='20分第23题', padx=10, pady=5, command=topic22)
+        topic22.pack()
+        topic22.place(x=600, y=70)
+        topic22.config(state=NORMAL)
+        topic23 = Button(root, text='20分第24题', padx=10, pady=5, command=topic23)
+        topic23.pack()
+        topic23.place(x=700, y=70)
+        topic23.config(state=NORMAL)
+        topic24 = Button(root, text='20分第25题', padx=10, pady=5, command=topic24)
+        topic24.pack()
+        topic24.place(x=0, y=100)
+        topic24.config(state=NORMAL)
+        topic25 = Button(root, text='30分第1题', padx=10, pady=5, command=topic25)
+        topic25.pack()
+        topic25.place(x=0, y=150)
+        topic25.config(state=NORMAL)
+        topic26 = Button(root, text='30分第2题', padx=10, pady=5, command=topic26)
+        topic26.pack()
+        topic26.place(x=100, y=150)
+        topic26.config(state=NORMAL)
+        topic27 = Button(root, text='30分第3题', padx=10, pady=5, command=topic27)
+        topic27.pack()
+        topic27.place(x=200, y=150)
+        topic27.config(state=NORMAL)
+        topic28 = Button(root, text='30分第4题', padx=10, pady=5, command=topic28)
+        topic28.pack()
+        topic28.place(x=300, y=150)
+        topic28.config(state=NORMAL)
+        topic29 = Button(root, text='30分第5题', padx=10, pady=5, command=topic29)
+        topic29.pack()
+        topic29.place(x=400, y=150)
+        topic29.config(state=NORMAL)
+        topic30 = Button(root, text='30分第6题', padx=10, pady=5, command=topic30)
+        topic30.pack()
+        topic30.place(x=500, y=150)
+        topic30.config(state=NORMAL)
+        topic31 = Button(root, text='30分第7题', padx=10, pady=5, command=topic31)
+        topic31.pack()
+        topic31.place(x=600, y=150)
+        topic31.config(state=NORMAL)
+        topic32 = Button(root, text='30分第8题', padx=10, pady=5, command=topic32)
+        topic32.pack()
+        topic32.place(x=700, y=150)
+        topic32.config(state=NORMAL)
+        topic33 = Button(root, text='30分第9题', padx=10, pady=5, command=topic33)
+        topic33.pack()
+        topic33.place(x=0, y=180)
+        topic33.config(state=NORMAL)
+        topic34 = Button(root, text='30分第10题', padx=10, pady=5, command=topic34)
+        topic34.pack()
+        topic34.place(x=100, y=180)
+        topic34.config(state=NORMAL)
+        topic35 = Button(root, text='30分第11题', padx=10, pady=5, command=topic35)
+        topic35.pack()
+        topic35.place(x=200, y=180)
+        topic35.config(state=NORMAL)
+        topic36 = Button(root, text='30分第12题', padx=10, pady=5, command=topic36)
+        topic36.pack()
+        topic36.place(x=300, y=180)
+        topic36.config(state=NORMAL)
+        topic37 = Button(root, text='30分第13题', padx=10, pady=5, command=topic37)
+        topic37.pack()
+        topic37.place(x=400, y=180)
+        topic37.config(state=NORMAL)
+        topic38 = Button(root, text='30分第14题', padx=10, pady=5, command=topic38)
+        topic38.pack()
+        topic38.place(x=500, y=180)
+        topic38.config(state=NORMAL)
+        topic39 = Button(root, text='30分第15题', padx=10, pady=5, command=topic39)
+        topic39.pack()
+        topic39.place(x=600, y=180)
+        topic39.config(state=NORMAL)
+        topic40 = Button(root, text='30分第16题', padx=10, pady=5, command=topic40)
+        topic40.pack()
+        topic40.place(x=700, y=180)
+        topic40.config(state=NORMAL)
+        topic41 = Button(root, text='30分第17题', padx=10, pady=5, command=topic41)
+        topic41.pack()
+        topic41.place(x=0, y=210)
+        topic41.config(state=NORMAL)
+        topic42 = Button(root, text='30分第18题', padx=10, pady=5, command=topic42)
+        topic42.pack()
+        topic42.place(x=100, y=210)
+        topic42.config(state=NORMAL)
+        topic43 = Button(root, text='30分第19题', padx=10, pady=5, command=topic43)
+        topic43.pack()
+        topic43.place(x=200, y=210)
+        topic43.config(state=NORMAL)
+        topic44 = Button(root, text='30分第20题', padx=10, pady=5, command=topic44)
+        topic44.pack()
+        topic44.place(x=300, y=210)
+        topic44.config(state=NORMAL)
+        topic45 = Button(root, text='30分第21题', padx=10, pady=5, command=topic45)
+        topic45.pack()
+        topic45.place(x=400, y=210)
+        topic45.config(state=NORMAL)
+        topic46 = Button(root, text='30分第22题', padx=10, pady=5, command=topic46)
+        topic46.pack()
+        topic46.place(x=500, y=210)
+        topic46.config(state=NORMAL)
+        topic47 = Button(root, text='30分第23题', padx=10, pady=5, command=topic47)
+        topic47.pack()
+        topic47.place(x=600, y=210)
+        topic47.config(state=NORMAL)
+        topic48 = Button(root, text='30分第24题', padx=10, pady=5, command=topic48)
+        topic48.pack()
+        topic48.place(x=700, y=210)
+        topic48.config(state=NORMAL)
+        topic49 = Button(root, text='30分第25题', padx=10, pady=5, command=topic49)
+        topic49.pack()
+        topic49.place(x=0, y=240)
+        topic49.config(state=NORMAL)
+
+        def page_down():
+            """
+            add 1 to displayed number,
+            disable Btn2 button when currentpage reaches pagecount
+            """
+            global currentpage, pagecount
+
+            currentpage += 1
+            topic0.config(state=NORMAL, relief=RAISED)
+            topic1.config(state=NORMAL, relief=RAISED)
+            topic2.config(state=NORMAL, relief=RAISED)
+            topic3.config(state=NORMAL, relief=RAISED)
+            topic4.config(state=NORMAL, relief=RAISED)
+            topic5.config(state=NORMAL, relief=RAISED)
+            topic6.config(state=NORMAL, relief=RAISED)
+            topic7.config(state=NORMAL, relief=RAISED)
+            topic8.config(state=NORMAL, relief=RAISED)
+            topic9.config(state=NORMAL, relief=RAISED)
+            topic10.config(state=NORMAL, relief=RAISED)
+            topic11.config(state=NORMAL, relief=RAISED)
+            topic12.config(state=NORMAL, relief=RAISED)
+            topic13.config(state=NORMAL, relief=RAISED)
+            topic14.config(state=NORMAL, relief=RAISED)
+            topic15.config(state=NORMAL, relief=RAISED)
+            topic16.config(state=NORMAL, relief=RAISED)
+            topic17.config(state=NORMAL, relief=RAISED)
+            topic18.config(state=NORMAL, relief=RAISED)
+            topic19.config(state=NORMAL, relief=RAISED)
+            topic20.config(state=NORMAL, relief=RAISED)
+            topic21.config(state=NORMAL, relief=RAISED)
+            topic22.config(state=NORMAL, relief=RAISED)
+            topic23.config(state=NORMAL, relief=RAISED)
+            topic24.config(state=NORMAL, relief=RAISED)
+
+            v.set(str(currentpage))
+
+        Btn0 = Button(text="恢复", padx=8, pady=6, command=page_down)
+        Btn0.pack()
+        Btn0.place(x=1000, y=500)
+
+        root.mainloop()
     topic0_window2 = Button(window2,text='必答题', padx=200, pady=20, command=bida)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=10)
@@ -7159,7 +17693,7 @@ def baopo():
     topic0_window2.pack()
     topic0_window2.place(x=0, y=80)
     topic0_window2.config(state=NORMAL)
-    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=bida)
+    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=fengxian)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=150)
     topic0_window2.config(state=NORMAL)
@@ -7215,7 +17749,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7263,7 +17797,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7311,7 +17845,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7359,7 +17893,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7407,7 +17941,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7455,7 +17989,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7503,7 +18037,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7551,7 +18085,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7599,7 +18133,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7647,7 +18181,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7695,7 +18229,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7743,7 +18277,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7791,7 +18325,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7839,7 +18373,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7887,7 +18421,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7935,7 +18469,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -7983,7 +18517,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8031,7 +18565,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8079,7 +18613,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8127,7 +18661,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8304,7 +18838,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8352,7 +18886,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8400,7 +18934,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8448,7 +18982,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8496,7 +19030,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8544,7 +19078,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8592,7 +19126,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8640,7 +19174,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8688,7 +19222,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8736,7 +19270,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8784,7 +19318,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8832,7 +19366,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8880,7 +19414,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8928,7 +19462,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -8976,7 +19510,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9024,7 +19558,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9072,7 +19606,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9120,7 +19654,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9168,7 +19702,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9216,7 +19750,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9264,7 +19798,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9312,7 +19846,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9360,7 +19894,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9408,7 +19942,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9456,7 +19990,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9504,7 +20038,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9552,7 +20086,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9600,7 +20134,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9648,7 +20182,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9696,7 +20230,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9744,7 +20278,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9792,7 +20326,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9840,7 +20374,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9888,7 +20422,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9936,7 +20470,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -9984,7 +20518,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10032,7 +20566,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10080,7 +20614,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10128,7 +20662,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10176,7 +20710,7 @@ def wajueji():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10405,6 +20939,4482 @@ def wajueji():
         Btn0.place(x=650, y=500)
 
         root.mainloop()
+    def fengxian():
+        pygame.mixer.init()
+        root = tk.Tk()
+        root.geometry('800x750')
+        root.title('挖掘机驾驶员安全知识竞赛风险题')
+        global currentpage
+        global pagecount
+        currentpage = 0
+        pagecount = 0
+        v = StringVar()
+        # Label(root, textvariable=v).place(x=20, y=10)
+        v.set(str(currentpage))
+
+        def topic0():
+            topic0.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：可能造成人员伤害、疾病、财产损失、作业环境破坏或其他损失的根源或状态。
+        危险源可以是物，也可以是人。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''1.危险源是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic1():
+            topic1.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：从业人员在生产活动过程中，违反劳动纪律、违反操作程序和冒险、违禁的方法等具有危险性的行为。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        2.生产经营活动中不安全行为的定义是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic2():
+            topic2.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：事故原因未查清不放过，责任人未受到处理不放过，整改措施未落实不放过，
+        有关人员未受到教育不放过。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        3.安全生产事故调查中的“四不放过”原则是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic3():
+            topic3.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：带电移动高压电缆，电缆被碾压、撞击、浸泡或过度受到弯曲可导致短路或触电事故。带负荷拉闸。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        4.铲装作业环节可能发生触电伤害主要原因包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic4():
+            topic4.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：安全文化；安全法制；安全责任；安全科技；安全投入。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        5.安全生产“五要素”包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic5():
+            topic5.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：(1)没有动火证不动火;(2)防火措施不落实不动火;(3)监火人不在现场不动火。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        6.禁火区动火作业的"三不动火"是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic6():
+            topic6.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：将安全销拉开；将皮管朝向火点；用力压下把手,从上风方向，将干粉射入火焰基部。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        7.干粉灭火器的使用方法主要有？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic7():
+            topic7.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：(1)经常性的安全检查;(2)定期性的安全检查;(3)专业性的安全检查;
+        (4)季节性的安全检查;(5)普遍性安全大检查;(6)临时性的安全检查。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        8．企业安全生产检查的形式主要有？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic8():
+            topic8.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：综合性安全检查和专业性安全检查两大类。不定期安全检查包括日常巡检、临时性监督检查工作。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        9.安全监督检查包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic9():
+            topic9.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：安全帽、呼吸护具、眼防护具、听力护具、防护鞋、防护手套、防护服、防坠落护具和护肤用品。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        10.按防护部位不同，劳动防护用品分为哪九大类？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic10():
+            topic10.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：对新工人和换岗工人的三级教育，对特种作业人员的上岗持证培训，企业全员的日常安全教育。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        11.企业的安全教育制度包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic11():
+            topic11.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：营救受害人员，撤离或保护其他人员；迅速控制事态，防止事态扩展；
+        消除危害后果，做好现场恢复；查清事故原因，评估危害程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        12.事故应急救援的基本任务是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic12():
+            topic12.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：坚持预防为主、防治结合的方针。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        13.我国的职业病防治工作方针是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic13():
+            topic13.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：表达安全信息含义的颜色，表示禁止、警告、指令、提示等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        14.安全色的表达的含义是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic14():
+            topic14.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：可靠的围栏或醒目的警示标志。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        15.露天矿边界应设立？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic15():
+            topic15.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：在工作时间和工作场所内，因工作原因受到事故伤害情况下受到事故伤害的属于工伤。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        16.工伤的范围？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic16():
+            topic16.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：防护装置和安全装置。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        17. 在机械设备的传动带、明齿轮，接近于地面的连轴节、皮带轮、转动轴、飞轮、
+        砂轮和电锯等危险部分，应装设? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic17():
+            topic17.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：职业病，是指企业、事业单位和个体经济组织等用人单位的劳动者在职业活动中，
+        因接触粉尘、放射性物质和其他有毒、有害因素而引起的疾病。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        18. 什么是职业病？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic18():
+            topic18.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：是指危害和整改难度较小，发现后能够立即整改排除的隐患。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        19. 一般事故隐患是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic19():
+            topic19.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：用人单位应当保障职业病防治所需的资金投入，不得挤占、挪用，
+        并对因资金投入不足导致的后果承担责任。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        20. 国家对用人单位职业病防治资金有什么要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic20():
+            topic20.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：当有电流在接地点流入地下时，电流在接地点周围土壤中产生电压降。
+        人在接地点周围，两脚之间出现的电压称为跨步电压。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        21. 什么是跨步电压？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic21():
+            topic21.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：火灾危险性大的部位；重要的场所；物资集中，发生火灾损失大的地方；
+        人员集中，发生火灾伤亡大的场所。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        22. ”严禁烟火”的标志通常出现在哪些地方? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic22():
+            topic22.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：因为铜、铁丝的熔点比保险丝的熔点高，在电流突然增大时，不能即刻熔断，
+        起不到切断电流的保险作用，会使电气设备因短路或过载而起火。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        23. 为什么保险丝不能用铜、铁丝代替？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic23():
+            topic23.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：对操作本人，尤其对他人和周围设施的安全有重大危害因素的作业，称特种作业。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        24．什么是特种作业? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic24():
+            topic24.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：夜间工作时，所有作业点及危险点均应有足够的照明。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25. 夜间作业时周边环境应该有什么标准？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic25():
+            topic25.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：照明使用电压为220V，行灯或移动式照明灯具的电压不高于36V。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        26. 各种照明设备使用时电压应该是多少？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic26():
+            topic26.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：作业前应首先检查作业场所和设备、设施的安全状况，发现异常及时处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        27. 作业前应首先检查什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic27():
+            topic27.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：运输危险货物的车辆应按装卸作业的有关安全规定驶入装卸作业区，
+        应停放在容易驶离作业现场的方位上。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        28. 装卸作业时，运输车辆应做好哪些工作？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic28():
+            topic28.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位主要负责人、安全生产管理人员、特种作业人员、生产经营单位其他从业人员。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        29. 按照《安全生产法》规定，对生产经营单位的哪些人员需进行安全生产教育、培训？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic29():
+            topic29.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答案：（一）检修中设置临时安全隔离和安全警示标志；
+              （二）检修结束后，及时恢复设置安全防护设施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        30. 因检修、改造等原因需拆除或变动安全防护设施时应该怎么做？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic30():
+            topic30.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：职业活动中存在的各种有害的化学、物理、生物因素以及在作业过程中产生的其他职业有害因素。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        31. 职业危害病因素包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic31():
+            topic31.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答案：红色传递禁止、停止、危险或提示消防设备、设施的信息；黄色传递注意、
+        警告的信息；蓝色传递必须遵守规定的指令性信息；绿色传递安全的提示性信息。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        32. 安全色有哪些？都代表什么含义？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic32():
+            topic32.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答案：造成职工肢体残缺或视觉、听觉等器官受到严重损伤，一般能引起人体长期存在功能障碍，
+        或者劳动能力有重大损失的伤害。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        33. 重伤是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic33():
+            topic33.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答案：生产经营单位新建、改建、扩建工程项目的安全设施，必须与主体工程同时设计、
+        同时施工、同时投入生产和使用。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        34. 请解释什么是安全生产“三同时”？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic34():
+            topic34.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：从业人员在生产活动过程中，违反劳动纪律、违反操作程序和冒险、违禁的方法等具有危险性的行为。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        35. 生产经营活动中不安全行为的定义是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic35():
+            topic35.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位的特种作业人员必须按照国家有关规定经专门的安全作业培训，
+        取得特种作业操作资格证书，方可上岗作业。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        36. 《安全生产法》对生产经营单位特种作业人员有什么要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic36():
+            topic36.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：基本任务：营救受害人员，撤离或保护其他人员；迅速控制事态，防止事态扩展；
+        消除危害后果，做好现场恢复；查清事故原因，评估危害程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        37. 事故应急救援的基本任务是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic37():
+            topic37.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：沿台阶走向错开一定的距离后再作业。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        38. 上、下台阶同时作业的挖掘机应当怎么样避免危险情况的发生？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic38():
+            topic38.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：悬臂和铲斗下面及工作面附近无人停留。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        39. 铲装作业时，哪些地方禁止人员停留？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic39():
+            topic39.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：应制定并实施有效的临时措施，以避免隐患被触发引起事故。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        40. 在检查发现的问题未彻底消除前应当怎么做？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic41():
+            topic41.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：本条例所称危险化学品包括爆炸品、压缩气体和液化气体、易燃液体、
+        易燃固体、自燃物品和遇湿易燃物品、氧化剂和有机过氧化物、有毒品和腐蚀品等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''1.《危险化学品安全管理条例》中所称危险化学品包括哪些物品？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic42():
+            topic42.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+         答：危险因素是指能对人造成伤亡或对物造成突发性损害的因素。
+         有害因素是指能够影响人的身体健康、导致疾病或对物造成慢性损害的因素。
+         通常情况下，两者并不加以区分而统称为危险有害因素。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        2. 什么是危险有害因素? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic43():
+            topic43.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：爆破之后产生的有毒有害气体如不尽快稀释、吹散或净化，工人进入工作面，
+        可能会导致炮烟中毒，中毒人员会出现呕吐、窒息、昏迷，甚至死亡。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        3. 炮烟的主要危害。''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic44():
+            topic44.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：一般隐患是指危害和整改难度较小，发现后能够立即整改排除的隐患。
+        这种隐患在企业生产和管理实际工作是经常存在的，为更好地有针对性的治理之，
+        通常还要对一般隐患进行进一步的细化分级。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        4. 一般隐患分级？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic45():
+            topic45.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：作业环境及作业设备检查——起动设备——作业面清理平整——
+        运输设备在安全距离外等待——鸣笛示意——运输设备进入——
+        装车作业——鸣笛示意——运输设备起动离开。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        5.铲装作业主要作业流程？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic46():
+            topic46.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+         答：安全目标管理是在生产过程中，根据具体情况，在分析、预测、
+         决策与规划的基础上，制定各项安全生产目标和安全指标，为实现
+         这一目标而进行的全员、全过程、全面、全方位的安全管理活动。
+         安全目标管理是安全管理的重要内容之一。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        6.什么是安全目标管理？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic47():
+            topic47.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+         答：施行安全目标管理的目的是动员全体职工树立安全思想，调动
+         全体职工参与安全管理活动的积极性，保证整个生产活动过程中的
+         安全生产，保障职员的健康，使安全生产达到预期的目的。安全目
+         标管理的实质是在一定条件下，把伤亡事故及损失控制到一个最低
+         限度之内。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        7.安全目标管理的目的是什么? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic48():
+            topic48.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：本质安全是指设备、设施或技术工艺含有内在的能够从根本上
+        防止发生事故的功能。本质安全是安全生产管理预防为主的根本体
+        现，也是安全生产管理的最高境界。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        8.什么是本质安全？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic49():
+            topic49.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：危险因素是指能对人造成伤亡或对物造成突发性损害的因素。有害
+        因素是指能够影响人的身体健康、导致疾病或对物造成慢性损害的因素
+        。通常情况下，两者并不加以区分而统称为危险有害因素。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        9.什么是危险有害因素？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic50():
+            topic50.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位的从业人员不服从管理，违反安全生产规章制度或者操
+        作规程的，由生产经营单位给予批评教育，依照有关规章制度给予处分；
+        造成重大事故，构成犯罪的，依照刑法有关规定追究刑事责任。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        10.从业人员违反安全生产规章制度或者操作规程要承担哪些责任？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic51():
+            topic51.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）3千伏以下，不得小于1.5米；
+        （2）3千伏～10千伏，不得小于2米；
+        （3）10千伏以上，不得小于3米。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        11.在高、低压架空线下方通过时，天轮距架空线的安全距离为？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic52():
+            topic52.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位必须遵守《安全生产法》和其他有关安全生产的法律、
+        法规，加强安全生产管理，建立、健全安全生产责任制度，完善安全生产
+        条件，确保安全生产。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        12.生产经营单位确保安全生产的要求是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic53():
+            topic53.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：采用特定的、专门的排查方法，由专业技术部门或专管部门组织实施，
+        对各类特殊设备、重点设施、要害部位、季节性隐患等实行周期性或必要
+        性的专业检查。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        13.专项排查是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic54():
+            topic54.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：一般隐患是指危害和整改难度较小，发现后能够立即整改排除的隐患。
+        这种隐患在企业生产和管理实际工作是经常存在的，为更好地有针对性的治
+        理之，通常还要对一般隐患进行进一步的细化分级。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        14.一般隐患分级？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic55():
+            topic55.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）现场急救应遵循保护人员安全优先的原则，防止事故蔓延，降低事故损失。
+        （2）参与救护伤员的现场人员，应掌握科学的救护知识，进行科学施救，切不可盲目施行救治。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        15.物体打击事故现场救护注意事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic56():
+            topic56.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）当发现伤员呼吸微弱时，应尽快进行人工呼吸。
+        （2）发现有伤员心搏和呼吸骤停时，立即进行心肺复苏术。
+        （3）对外伤出血的伤员，应该先进行止血包扎。
+        （4）对骨折伤员，应先进行固定。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        16.紧急施救。紧急施救过程中，应按照那些方法进行？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic57():
+            topic57.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：首先关闭气瓶阀门，并开窗通风，使可燃气体散开。严禁打开任何家用
+        电器以及一切火源，立即找液化石油气站工作人员及时维修。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        17.当你发现液化石油气瓶、灶具漏气时应当怎么办？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic58():
+            topic58.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：可能会造成作业人员冻伤，还会对中枢神经系统、心血管系统造成
+        伤害，如果较长时间处于低温环境中，人体免疫力和抵抗力会降低，易
+        患感冒、肺炎、肾炎等疾病，同时还引发肌痛、神经痛、腰痛、关节炎等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        18.高寒作业的危害？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic59():
+            topic59.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）增加御寒设备。在冬季，寒冷作业场所要有防寒取暖设备，露天作业要设防风棚、取暖棚。
+        （2）加强个体防护，应选用导数系数小、吸湿性小、透气性好的材料作防寒服装。
+        （3）增加体内代谢放热。为作业人员提供高热量食物，食用高热量的食物以增加耐寒能力。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        19.为了预防高寒对作业人员的伤害，应采取以下措施？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic60():
+            topic60.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答（1）检查钢丝绳和卷筒的固接处是否牢固可靠;
+          （2）检查靠滑轮槽那面钢丝绳的磨损与断丝情况;
+          （3）检查钢丝绳的润滑是否良好; ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        20.怎样检查吊车钢丝绳是否安全可靠? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic61():
+            topic61.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+         答:如果氧气瓶口沾有油脂,当氧气高速喷出时,高压气流与瓶口摩擦产
+         生的热量能加速油脂的氧化过程,极易引起燃烧,甚至引起气瓶爆炸。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        21.氧气瓶口为什么不能沾染油脂？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic62():
+            topic62.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1） 职工发生工伤，经治疗伤情相对稳定后存在残疾、影响劳动能力的，应当进行劳动能力鉴定。
+        （2） 劳动能力鉴定由用人单位、工伤职工或者其近亲属向设区的市级劳动能
+        力鉴定委员会提出申请，并提供工伤认定决定和职工工伤医疗的有关资料。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        22.劳动能力鉴定是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic63():
+            topic63.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1） 拟从事接触职业病危害作业的新录用劳动者，包括转岗到该作业岗位的劳动者；
+        （2）拟从事有特殊健康要求作业的劳动者。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        23.用人单位应当对劳动者进行那些上岗前的职业健康检查？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic64():
+            topic64.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：在机械设备的传动带、明齿轮，接近于地面的连轴节、皮带轮、转动轴、
+        飞轮、砂轮和电锯等危险部分，都要装设防护装置。对压力机、碾压机、压延机
+        、电刨机、剪板机等压力机械的旋压部分都要有安全装置。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        24.机械设备的哪些部位应装设防护装置和安全装置？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic65():
+            topic65.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）岗位安全操作规程；
+        （2）岗位之间工作衔接配合的安全与职业卫生事项；
+        （3）有关事故案例；
+        （4）其他需要培训的内容。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25.班组级岗前安全培训内容应当包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic66():
+            topic66.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：组织班内人员认真进行设备巡回检查、现场设施检查，积极做好消除设备、
+        人身隐患工作。要经常巡查工作现场，制止违章作业和违反工艺标准的行为。
+        有重大隐患、缺陷要及时汇报，积极排除。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        26.检查作业场所及责任区,落实的安全措施有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic67():
+            topic67.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：劳动者应当学习和掌握相关的职业卫生知识，增强职业病防范意识，
+        遵守职业病防治法律、法规、规章和操作规程，正确使用、维护职业病防护
+        设备和个人使用的职业病防护用品，发现职业病危害事故隐患应当及时报告。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        27.劳动者在职业病防治工作中的责任和义务是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic68():
+            topic68.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：机械伤害是矿山生产最常见的伤害之一，露天矿山生产中使用的运输机械、
+        掘进机械、装载机械、钻探机械、电机等各种机械设备分布在各个生产场所，
+        都可能造成机械伤害。作业人员在操作机械设备时要严格依照规程的要求操作，
+        避免发生机械伤害。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        28.什么是机械伤害？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic69():
+            topic69.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）事故发生过程中的应急响应和救援措施 （2）事故发生前的各种应急准备
+        （3）事故发生后的紧急恢复以及预案的管理与更新。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        29.应急预案是整个应急管理体系的反应，它的内容包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic70():
+            topic70.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+           答：（1）电动机过载，（2）通风不良，（3）风扇叶片坏，（4）轴承转动不灵或损坏，
+           （5）电动机缺相运转，（6）底脚螺丝松动。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        30.电动机过热或有噪音的主要原因？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic71():
+            topic71.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+           答：（1）无弹性滑动和打滑现象，传动比准确，效率高。
+           （2）链条无需太紧，轴上径向压力小。（3）可用于俩轴中心较大的传动''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        31.链条传动的优点？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic72():
+            topic72.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:在作业过程中，应当严格遵守本单位的安全生产规章制度和操作规程，服从管理，
+        正确佩戴和使用劳动防护用品。
+        应当接受安全生产教育和培训，掌握本职工作所需的安全生产知识，提高安全生产技
+        能，增强事故预防和应急处理能力。
+        从业人员发现事故隐患或者其他不安全因素，应当立即向现场安全生产管理人员或
+        者本单位负责人报告;接到报告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        32.从业人员要遵守的义务？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic73():
+            topic73.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:事故现场有关人员应当立即报告本单位负责人，单位负责人接到事故报告后，
+        应当迅速采取有效措施，组织抢救，防止事故扩大，减少人员伤亡和财产损失，
+        并按照国家有关规定立即如实报告当地负有安全生产监督管理职责的部门，不得
+        隐瞒不报、谎报或者迟报，不得故意破坏事故现场、毁灭有关证据。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        33.生产经营单位发生生产安全事故后上报顺序？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic74():
+            topic74.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:(一)建立、健全本单位安全生产责任制;
+           (二)组织制定本单位安全生产规章制度和操作规程;
+           (三)保证本单位安全生产投入的有效实施;
+           (四)督促、检查本单位的安全生产工作，及时消除生产安全事故隐患;
+           (五)组织制定并实施本单位的生产安全事故应急救援预案;
+           (六)及时、如实报告生产安全事故。
+           (七)组织制定并实施本单位安全生产教育和培训计划''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        34. 生产经营单位的主要负责人对本单位安全生产工作负有下列职责：''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic75():
+            topic75.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位使用的涉及生命安全、危险性较大的特种设备，以及危险物品的容器、
+        运输工具，必须按照国家有关规定，由专业生产单位生产，并经取得专业资质的检测、
+        检验机构检测、检验合格，取得安全使用证或者安全标志，方可投入使用。检测、
+        检验机构对检测、检验结果负责。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        35.《安全生产法》对特种设备、危险物品容器及运输工具管理中有什么特殊要求? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic76():
+            topic76.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）生产经营单位主要负责人的职责；（2）生产经营单位其他负责人的职责；
+        （3）生产经营单位职能管理机构负责人及其工作人员的职责；（4）班组长的安全生产职责；
+        （5）岗位工人（从业人员）的安全生产职责。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        36.生产经营单位安全生产责任制的主要内容有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic77():
+            topic77.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：安全生产责任制是企业的基本制度，是依据“管生产必须管安全”的原则，
+        对企业各级领导和各类人员明确规定在安全生产中应负的责任，是企业最基本
+        的一项安全制度，是安全管理制度的核心。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        37.什么是安全生产责任制？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic78():
+            topic78.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：我国《安全生产法》第五十一条规定，从业人员发现事故隐患或者其他不安全因素，
+        应当立即向现场安全生产管理人员或者本单位负责人报告；接到报告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        38.发现事故隐患应该怎么办？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic79():
+            topic79.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：熟悉本岗位安全技术操作规程或安全作业标准；熟悉本岗位和作业区域的
+        危险源以及控制措施；熟悉本岗位安全生产特点和设备技术性能，并能熟练操
+        作，发生意外或紧急情况时能够采取应急处置措施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        39.职工必须做到“三个熟悉”指的是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic80():
+            topic80.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：(1)切忌慌乱，判断火势来源，采取与火源相反方向逃生。
+        (2)切勿使用升降设备(电梯)逃生。
+        (3)切勿返入屋内取回贵重物品。
+        (4)夜间发生火灾时，应先叫醒熟睡的人，不要只顾自己逃生，并且尽量大声喊叫，以 提醒其他人逃生。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        40.发生火灾时你应注意的事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        topic0 = Button(root, text='20分第1题', padx=10, pady=5, command=topic0)
+        topic0.pack()
+        topic0.place(x=0, y=10)
+        topic0.config(state=NORMAL)
+        topic1 = Button(root, text='20分第2题', padx=10, pady=5, command=topic1)
+        topic1.pack()
+        topic1.place(x=100, y=10)
+        topic1.config(state=NORMAL)
+        topic2 = Button(root, text='20分第3题', padx=10, pady=5, command=topic2)
+        topic2.pack()
+        topic2.place(x=200, y=10)
+        topic2.config(state=NORMAL)
+        topic3 = Button(root, text='20分第4题', padx=10, pady=5, command=topic3)
+        topic3.pack()
+        topic3.place(x=300, y=10)
+        topic3.config(state=NORMAL)
+        topic4 = Button(root, text='20分第5题', padx=10, pady=5, command=topic4)
+        topic4.pack()
+        topic4.place(x=400, y=10)
+        topic4.config(state=NORMAL)
+        topic5 = Button(root, text='20分第6题', padx=10, pady=5, command=topic5)
+        topic5.pack()
+        topic5.place(x=500, y=10)
+        topic5.config(state=NORMAL)
+        topic6 = Button(root, text='20分第7题', padx=10, pady=5, command=topic6)
+        topic6.pack()
+        topic6.place(x=600, y=10)
+        topic6.config(state=NORMAL)
+        topic7 = Button(root, text='20分第8题', padx=10, pady=5, command=topic7)
+        topic7.pack()
+        topic7.place(x=700, y=10)
+        topic7.config(state=NORMAL)
+        topic8 = Button(root, text='20分第9题', padx=10, pady=5, command=topic8)
+        topic8.pack()
+        topic8.place(x=0, y=40)
+        topic8.config(state=NORMAL)
+        topic9 = Button(root, text='20分第10题', padx=10, pady=5, command=topic9)
+        topic9.pack()
+        topic9.place(x=100, y=40)
+        topic9.config(state=NORMAL)
+        topic10 = Button(root, text='20分第11题', padx=10, pady=5, command=topic10)
+        topic10.pack()
+        topic10.place(x=200, y=40)
+        topic10.config(state=NORMAL)
+        topic11 = Button(root, text='20分第12题', padx=10, pady=5, command=topic11)
+        topic11.pack()
+        topic11.place(x=300, y=40)
+        topic11.config(state=NORMAL)
+        topic12 = Button(root, text='20分第13题', padx=10, pady=5, command=topic12)
+        topic12.pack()
+        topic12.place(x=400, y=40)
+        topic12.config(state=NORMAL)
+        topic13 = Button(root, text='20分第14题', padx=10, pady=5, command=topic13)
+        topic13.pack()
+        topic13.place(x=500, y=40)
+        topic13.config(state=NORMAL)
+        topic14 = Button(root, text='20分第15题', padx=10, pady=5, command=topic14)
+        topic14.pack()
+        topic14.place(x=600, y=40)
+        topic14.config(state=NORMAL)
+        topic15 = Button(root, text='20分第16题', padx=10, pady=5, command=topic15)
+        topic15.pack()
+        topic15.place(x=700, y=40)
+        topic15.config(state=NORMAL)
+        topic16 = Button(root, text='20分第17题', padx=10, pady=5, command=topic16)
+        topic16.pack()
+        topic16.place(x=0, y=70)
+        topic16.config(state=NORMAL)
+        topic17 = Button(root, text='20分第18题', padx=10, pady=5, command=topic17)
+        topic17.pack()
+        topic17.place(x=100, y=70)
+        topic17.config(state=NORMAL)
+        topic18 = Button(root, text='20分第19题', padx=10, pady=5, command=topic18)
+        topic18.pack()
+        topic18.place(x=200, y=70)
+        topic18.config(state=NORMAL)
+        topic19 = Button(root, text='20分第20题', padx=10, pady=5, command=topic19)
+        topic19.pack()
+        topic19.place(x=300, y=70)
+        topic19.config(state=NORMAL)
+        topic20 = Button(root, text='20分第21题', padx=10, pady=5, command=topic20)
+        topic20.pack()
+        topic20.place(x=400, y=70)
+        topic20.config(state=NORMAL)
+        topic21 = Button(root, text='20分第22题', padx=10, pady=5, command=topic21)
+        topic21.pack()
+        topic21.place(x=500, y=70)
+        topic21.config(state=NORMAL)
+        topic22 = Button(root, text='20分第23题', padx=10, pady=5, command=topic22)
+        topic22.pack()
+        topic22.place(x=600, y=70)
+        topic22.config(state=NORMAL)
+        topic23 = Button(root, text='20分第24题', padx=10, pady=5, command=topic23)
+        topic23.pack()
+        topic23.place(x=700, y=70)
+        topic23.config(state=NORMAL)
+        topic24 = Button(root, text='20分第25题', padx=10, pady=5, command=topic24)
+        topic24.pack()
+        topic24.place(x=0, y=100)
+        topic24.config(state=NORMAL)
+        topic25 = Button(root, text='20分第26题', padx=10, pady=5, command=topic25)
+        topic25.pack()
+        topic25.place(x=100, y=100)
+        topic25.config(state=NORMAL)
+        topic26 = Button(root, text='20分第27题', padx=10, pady=5, command=topic26)
+        topic26.pack()
+        topic26.place(x=200, y=100)
+        topic26.config(state=NORMAL)
+        topic27 = Button(root, text='20分第28题', padx=10, pady=5, command=topic27)
+        topic27.pack()
+        topic27.place(x=300, y=100)
+        topic27.config(state=NORMAL)
+        topic28 = Button(root, text='20分第29题', padx=10, pady=5, command=topic28)
+        topic28.pack()
+        topic28.place(x=400, y=100)
+        topic28.config(state=NORMAL)
+        topic29 = Button(root, text='20分第30题', padx=10, pady=5, command=topic29)
+        topic29.pack()
+        topic29.place(x=500, y=100)
+        topic29.config(state=NORMAL)
+        topic30 = Button(root, text='20分第31题', padx=10, pady=5, command=topic30)
+        topic30.pack()
+        topic30.place(x=600, y=100)
+        topic30.config(state=NORMAL)
+        topic31 = Button(root, text='20分第32题', padx=10, pady=5, command=topic31)
+        topic31.pack()
+        topic31.place(x=700, y=100)
+        topic31.config(state=NORMAL)
+        topic32 = Button(root, text='20分第33题', padx=10, pady=5, command=topic32)
+        topic32.pack()
+        topic32.place(x=0, y=130)
+        topic32.config(state=NORMAL)
+        topic33 = Button(root, text='20分第34题', padx=10, pady=5, command=topic33)
+        topic33.pack()
+        topic33.place(x=100, y=130)
+        topic33.config(state=NORMAL)
+        topic34 = Button(root, text='20分第35题', padx=10, pady=5, command=topic34)
+        topic34.pack()
+        topic34.place(x=200, y=130)
+        topic34.config(state=NORMAL)
+        topic35 = Button(root, text='20分第36题', padx=10, pady=5, command=topic35)
+        topic35.pack()
+        topic35.place(x=300, y=130)
+        topic35.config(state=NORMAL)
+        topic36 = Button(root, text='20分第37题', padx=10, pady=5, command=topic36)
+        topic36.pack()
+        topic36.place(x=400, y=130)
+        topic36.config(state=NORMAL)
+        topic37 = Button(root, text='20分第38题', padx=10, pady=5, command=topic37)
+        topic37.pack()
+        topic37.place(x=500, y=130)
+        topic37.config(state=NORMAL)
+        topic38 = Button(root, text='20分第39题', padx=10, pady=5, command=topic38)
+        topic38.pack()
+        topic38.place(x=600, y=130)
+        topic38.config(state=NORMAL)
+        topic39 = Button(root, text='20分第40题', padx=10, pady=5, command=topic39)
+        topic39.pack()
+        topic39.place(x=700, y=130)
+        topic39.config(state=NORMAL)
+        topic41 = Button(root, text='30分第1题', padx=10, pady=5, command=topic41)
+        topic41.pack()
+        topic41.place(x=0, y=180)
+        topic41.config(state=NORMAL)
+        topic42 = Button(root, text='30分第2题', padx=10, pady=5, command=topic42)
+        topic42.pack()
+        topic42.place(x=100, y=180)
+        topic42.config(state=NORMAL)
+        topic43 = Button(root, text='30分第3题', padx=10, pady=5, command=topic43)
+        topic43.pack()
+        topic43.place(x=200, y=180)
+        topic43.config(state=NORMAL)
+        topic44 = Button(root, text='30分第4题', padx=10, pady=5, command=topic44)
+        topic44.pack()
+        topic44.place(x=300, y=180)
+        topic44.config(state=NORMAL)
+        topic45 = Button(root, text='30分第5题', padx=10, pady=5, command=topic45)
+        topic45.pack()
+        topic45.place(x=400, y=180)
+        topic45.config(state=NORMAL)
+        topic46 = Button(root, text='30分第6题', padx=10, pady=5, command=topic46)
+        topic46.pack()
+        topic46.place(x=500, y=180)
+        topic46.config(state=NORMAL)
+        topic47 = Button(root, text='30分第7题', padx=10, pady=5, command=topic47)
+        topic47.pack()
+        topic47.place(x=600, y=180)
+        topic47.config(state=NORMAL)
+        topic48 = Button(root, text='30分第8题', padx=10, pady=5, command=topic48)
+        topic48.pack()
+        topic48.place(x=700, y=180)
+        topic48.config(state=NORMAL)
+        topic49 = Button(root, text='30分第9题', padx=10, pady=5, command=topic49)
+        topic49.pack()
+        topic49.place(x=0, y=210)
+        topic49.config(state=NORMAL)
+        topic50 = Button(root, text='30分第10题', padx=10, pady=5, command=topic50)
+        topic50.pack()
+        topic50.place(x=100, y=210)
+        topic50.config(state=NORMAL)
+        topic51 = Button(root, text='30分第11题', padx=10, pady=5, command=topic51)
+        topic51.pack()
+        topic51.place(x=200, y=210)
+        topic51.config(state=NORMAL)
+        topic52 = Button(root, text='30分第12题', padx=10, pady=5, command=topic52)
+        topic52.pack()
+        topic52.place(x=300, y=210)
+        topic52.config(state=NORMAL)
+        topic53 = Button(root, text='30分第13题', padx=10, pady=5, command=topic53)
+        topic53.pack()
+        topic53.place(x=400, y=210)
+        topic53.config(state=NORMAL)
+        topic54 = Button(root, text='30分第14题', padx=10, pady=5, command=topic54)
+        topic54.pack()
+        topic54.place(x=500, y=210)
+        topic54.config(state=NORMAL)
+        topic55 = Button(root, text='30分第15题', padx=10, pady=5, command=topic55)
+        topic55.pack()
+        topic55.place(x=600, y=210)
+        topic55.config(state=NORMAL)
+        topic56 = Button(root, text='30分第16题', padx=10, pady=5, command=topic56)
+        topic56.pack()
+        topic56.place(x=700, y=210)
+        topic56.config(state=NORMAL)
+        topic57 = Button(root, text='30分第17题', padx=10, pady=5, command=topic57)
+        topic57.pack()
+        topic57.place(x=0, y=240)
+        topic57.config(state=NORMAL)
+        topic58 = Button(root, text='30分第18题', padx=10, pady=5, command=topic58)
+        topic58.pack()
+        topic58.place(x=100, y=240)
+        topic58.config(state=NORMAL)
+        topic59 = Button(root, text='30分第19题', padx=10, pady=5, command=topic59)
+        topic59.pack()
+        topic59.place(x=200, y=240)
+        topic59.config(state=NORMAL)
+        topic60 = Button(root, text='30分第20题', padx=10, pady=5, command=topic60)
+        topic60.pack()
+        topic60.place(x=300, y=240)
+        topic60.config(state=NORMAL)
+        topic61 = Button(root, text='30分第21题', padx=10, pady=5, command=topic61)
+        topic61.pack()
+        topic61.place(x=400, y=240)
+        topic61.config(state=NORMAL)
+        topic62 = Button(root, text='30分第22题', padx=10, pady=5, command=topic62)
+        topic62.pack()
+        topic62.place(x=500, y=240)
+        topic62.config(state=NORMAL)
+        topic63 = Button(root, text='30分第23题', padx=10, pady=5, command=topic63)
+        topic63.pack()
+        topic63.place(x=600, y=240)
+        topic63.config(state=NORMAL)
+        topic64 = Button(root, text='30分第24题', padx=10, pady=5, command=topic64)
+        topic64.pack()
+        topic64.place(x=700, y=240)
+        topic64.config(state=NORMAL)
+        topic65 = Button(root, text='30分第25题', padx=10, pady=5, command=topic65)
+        topic65.pack()
+        topic65.place(x=0, y=270)
+        topic65.config(state=NORMAL)
+        topic66 = Button(root, text='30分第26题', padx=10, pady=5, command=topic66)
+        topic66.pack()
+        topic66.place(x=100, y=270)
+        topic66.config(state=NORMAL)
+        topic67 = Button(root, text='30分第27题', padx=10, pady=5, command=topic67)
+        topic67.pack()
+        topic67.place(x=200, y=270)
+        topic67.config(state=NORMAL)
+        topic68 = Button(root, text='30分第28题', padx=10, pady=5, command=topic68)
+        topic68.pack()
+        topic68.place(x=300, y=270)
+        topic68.config(state=NORMAL)
+        topic69 = Button(root, text='30分第29题', padx=10, pady=5, command=topic69)
+        topic69.pack()
+        topic69.place(x=400, y=270)
+        topic69.config(state=NORMAL)
+        topic70 = Button(root, text='30分第30题', padx=10, pady=5, command=topic70)
+        topic70.pack()
+        topic70.place(x=500, y=270)
+        topic70.config(state=NORMAL)
+        topic71 = Button(root, text='30分第31题', padx=10, pady=5, command=topic71)
+        topic71.pack()
+        topic71.place(x=600, y=270)
+        topic71.config(state=NORMAL)
+        topic72 = Button(root, text='30分第32题', padx=10, pady=5, command=topic72)
+        topic72.pack()
+        topic72.place(x=700, y=270)
+        topic72.config(state=NORMAL)
+        topic73 = Button(root, text='30分第33题', padx=10, pady=5, command=topic73)
+        topic73.pack()
+        topic73.place(x=0, y=300)
+        topic73.config(state=NORMAL)
+        topic74 = Button(root, text='30分第34题', padx=10, pady=5, command=topic74)
+        topic74.pack()
+        topic74.place(x=100, y=300)
+        topic74.config(state=NORMAL)
+        topic75 = Button(root, text='30分第35题', padx=10, pady=5, command=topic75)
+        topic75.pack()
+        topic75.place(x=200, y=300)
+        topic75.config(state=NORMAL)
+        topic76 = Button(root, text='30分第36题', padx=10, pady=5, command=topic76)
+        topic76.pack()
+        topic76.place(x=300, y=300)
+        topic76.config(state=NORMAL)
+        topic77 = Button(root, text='30分第37题', padx=10, pady=5, command=topic77)
+        topic77.pack()
+        topic77.place(x=400, y=300)
+        topic77.config(state=NORMAL)
+        topic78 = Button(root, text='30分第38题', padx=10, pady=5, command=topic78)
+        topic78.pack()
+        topic78.place(x=500, y=300)
+        topic78.config(state=NORMAL)
+        topic79 = Button(root, text='30分第39题', padx=10, pady=5, command=topic79)
+        topic79.pack()
+        topic79.place(x=600, y=300)
+        topic79.config(state=NORMAL)
+        topic80 = Button(root, text='30分第40题', padx=10, pady=5, command=topic80)
+        topic80.pack()
+        topic80.place(x=700, y=300)
+        topic80.config(state=NORMAL)
+
+        def page_down():
+            """
+            add 1 to displayed number,
+            disable Btn2 button when currentpage reaches pagecount
+            """
+            global currentpage, pagecount
+
+            currentpage += 1
+            topic0.config(state=NORMAL, relief=RAISED)
+            topic1.config(state=NORMAL, relief=RAISED)
+            topic2.config(state=NORMAL, relief=RAISED)
+            topic3.config(state=NORMAL, relief=RAISED)
+            topic4.config(state=NORMAL, relief=RAISED)
+            topic5.config(state=NORMAL, relief=RAISED)
+            topic6.config(state=NORMAL, relief=RAISED)
+            topic7.config(state=NORMAL, relief=RAISED)
+            topic8.config(state=NORMAL, relief=RAISED)
+            topic9.config(state=NORMAL, relief=RAISED)
+            topic10.config(state=NORMAL, relief=RAISED)
+            topic11.config(state=NORMAL, relief=RAISED)
+            topic12.config(state=NORMAL, relief=RAISED)
+            topic13.config(state=NORMAL, relief=RAISED)
+            topic14.config(state=NORMAL, relief=RAISED)
+            topic15.config(state=NORMAL, relief=RAISED)
+            topic16.config(state=NORMAL, relief=RAISED)
+            topic17.config(state=NORMAL, relief=RAISED)
+            topic18.config(state=NORMAL, relief=RAISED)
+            topic19.config(state=NORMAL, relief=RAISED)
+            topic20.config(state=NORMAL, relief=RAISED)
+            topic21.config(state=NORMAL, relief=RAISED)
+            topic22.config(state=NORMAL, relief=RAISED)
+            topic23.config(state=NORMAL, relief=RAISED)
+            topic24.config(state=NORMAL, relief=RAISED)
+
+            v.set(str(currentpage))
+
+        Btn0 = Button(text="恢复", padx=8, pady=6, command=page_down)
+        Btn0.pack()
+        Btn0.place(x=1000, y=500)
+
+        root.mainloop()
     topic0_window2 = Button(window2,text='必答题', padx=200, pady=20, command=bida)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=10)
@@ -10413,7 +25423,7 @@ def wajueji():
     topic0_window2.pack()
     topic0_window2.place(x=0, y=80)
     topic0_window2.config(state=NORMAL)
-    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=bida)
+    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=fengxian)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=150)
     topic0_window2.config(state=NORMAL)
@@ -10469,7 +25479,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10517,7 +25527,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10565,7 +25575,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10613,7 +25623,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10661,7 +25671,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10709,7 +25719,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10757,7 +25767,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10805,7 +25815,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10853,7 +25863,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10901,7 +25911,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10949,7 +25959,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -10997,7 +26007,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11045,7 +26055,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11093,7 +26103,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11141,7 +26151,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11189,7 +26199,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11237,7 +26247,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11285,7 +26295,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11333,7 +26343,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11381,7 +26391,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11558,7 +26568,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11606,7 +26616,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11654,7 +26664,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11702,7 +26712,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11750,7 +26760,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11798,7 +26808,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11846,7 +26856,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11894,7 +26904,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11942,7 +26952,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -11990,7 +27000,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12038,7 +27048,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12086,7 +27096,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12134,7 +27144,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12182,7 +27192,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12230,7 +27240,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12278,7 +27288,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12326,7 +27336,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12374,7 +27384,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12422,7 +27432,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12470,7 +27480,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12518,7 +27528,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12566,7 +27576,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12614,7 +27624,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12662,7 +27672,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12710,7 +27720,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12758,7 +27768,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12806,7 +27816,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12854,7 +27864,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12902,7 +27912,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12950,7 +27960,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -12998,7 +28008,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13046,7 +28056,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13094,7 +28104,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13142,7 +28152,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13190,7 +28200,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13238,7 +28248,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13286,7 +28296,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13334,7 +28344,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13382,7 +28392,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13430,7 +28440,7 @@ def zixieche():
                     n = n + 465 / x
                     canvas.coords(fill_line, (0, 0, n, 60))
                     window.update()
-                    time.sleep(0.035)  # 控制进度条流动的速度
+                    time.sleep(0.1)  # 控制进度条流动的速度
                 else:
                     tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
 
@@ -13659,6 +28669,4471 @@ def zixieche():
         Btn0.place(x=650, y=500)
 
         root.mainloop()
+    def fengxian():
+        pygame.mixer.init()
+        root = tk.Tk()
+        root.geometry('800x750')
+        root.title('挖掘机驾驶员安全知识竞赛风险题')
+        global currentpage
+        global pagecount
+        currentpage = 0
+        pagecount = 0
+        v = StringVar()
+        # Label(root, textvariable=v).place(x=20, y=10)
+        v.set(str(currentpage))
+
+        def topic0():
+            topic0.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：三超是指工矿企业超能力、超强度、超定员生产，交通运输单位超载、超限、超负荷运行。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''1 请具体阐述安全生产领域“三超”指什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic1():
+            topic1.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：对新工人和换岗工人的三级教育，对特种作业人员的上岗持证培训，企业全员的日常安全教育。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        2 企业的安全教育制度包括什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic2():
+            topic2.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：互相监督、互相检查、互相帮助、互相保护、互相提醒。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        3 职工在上班期间必须坚持的“五个互相”的原则指的是什么？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic3():
+            topic3.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）抗冲击性能；（2）耐穿透性能；（3）耐低温性能；（4）耐燃烧性能；
+        （5）电绝缘性能；（6）侧向钢性。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        4 安全帽有哪六种基本性能？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic4():
+            topic4.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：用木棍或其他绝缘物挑开触电者身上的电线或电器，关闭总电源开关。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        5 电击伤如何切断电源？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic5():
+            topic5.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：工作场所，是指劳动者进行职业活动的所有地点，包括建设单位施工场所。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        6 什么是工作场所？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic6():
+            topic6.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：安全生产“五要素”是：安全文化；安全法制；安全责任；安全科技；安全投入。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        7 什么是安全生产“五要素”？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic7():
+            topic7.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：消防工作贯彻“预防为主、防消结合”的方针。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        8  消防工作的方针是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic8():
+            topic8.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：机动车上道行驶，应当悬挂机动车号牌，放置检验合格标志、保险标志、并随车携带机动车行驶证。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        9  机动车上道路行驶应具备哪些条件？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic9():
+            topic9.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：“五好一准确”是指完成任务好、安全质量好、现场管理好、成本控制好、
+        精神文明好、管理信息真实准确，查证有据。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        10 什么是“五好一准确”？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic10():
+            topic10.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：事故隐患分为一般事故隐患和重大事故隐患。一般事故隐患，是指危害和整改难度较小，
+        发现后能够立即整改排除的隐患。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        11 什么是一般事故隐患？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic11():
+            topic11.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:对高温昏迷者,治疗以迅速降温为主,对循环衰竭或患热痉挛者,以调节水、电解质平衡和防治休克为主。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        12 对重症中暑者,应如何急救? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic12():
+            topic12.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：作业时的制动转向失灵、夜间照明不良、路况不好，作业环境差等等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        13	露天矿山矿用汽车运输一般的安全问题包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic13():
+            topic13.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：靠近坡顶、弯道、陡坡、交叉路口或高压架空线下等危险地带。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        14 非紧急情况，自卸汽车车辆不得停放在什么位置？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic14():
+            topic14.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位新建、改建、扩建工程项目的安全设施，必须与主体工程同时设计、
+        同时施工、同时投入生产和使用。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        15  请解释什么是安全生产“三同时”？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic15():
+            topic15.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:个体防护用品既不能降低作业场所中有害化学品的浓度,也不能消除作业场
+        所的有害化学品,而只是一道阻止有害物进入人体的屏障。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        16 为什么个人防护用品不能作为控制危险化学品危害的主要手段? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic16():
+            topic16.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：事故原因未查清不放过，责任人未受到处理不放过，整改措施未落实不放过，
+        有关人员未受到教育不放过。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        17 安全生产事故调查中的“四不放过”原则，是哪“四不放过”？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic17():
+            topic17.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：我国安全色标准规定红、黄、蓝、绿四种颜色为安全色。红色表示禁止、停止；
+        蓝色表示指令及必须遵守的规定；黄色表示警告、注意；绿色表示安全、提示。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        18我国安全生产标准规定，安全色有哪几种？分别表示什么？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic18():
+            topic18.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：1将安全销拉开； 2将皮管朝向火点； 3用力压下把手,从上风方向，将干粉射入火焰基部。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        19 干粉灭火器的使用方法：''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic19():
+            topic19.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：劳动防护用品是指保护劳动者在生产过程中的人身安全与健康所必备的一种防御性装备，
+        对于减少职业危害起着相当重要的作用。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        20 什么是劳动防护用品？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic20():
+            topic20.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：(1)经常性的安全检查;(2)定期性的安全检查;(3)专业性的安全检查;
+        (4)季节性的安全检查;(5)普遍性安全大检查;(6)临时性的安全检查。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        21．企业安全生产检查的形式主要有？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic21():
+            topic21.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：综合性安全检查和专业性安全检查两大类。不定期安全检查包括日常巡检、临时性监督检查工作。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        22.安全监督检查包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic22():
+            topic22.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：安全帽、呼吸护具、眼防护具、听力护具、防护鞋、防护手套、防护服、防坠落护具和护肤用品。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        23.按防护部位不同，劳动防护用品分为哪九大类？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic23():
+            topic23.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：对新工人和换岗工人的三级教育，对特种作业人员的上岗持证培训，企业全员的日常安全教育。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        24.企业的安全教育制度包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic24():
+            topic24.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：营救受害人员，撤离或保护其他人员；迅速控制事态，防止事态扩展；
+        消除危害后果，做好现场恢复；查清事故原因，评估危害程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25.事故应急救援的基本任务是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic25():
+            topic25.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答；表达安全信息含义的颜色，表示禁止、警告、指令、提示等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        26.安全色的表达的含义是？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic26():
+            topic26.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：可靠的围栏或醒目的警示标志。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        27.露天矿边界应设立？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic27():
+            topic27.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：在工作时间和工作场所内，因工作原因受到事故伤害情况下受到事故伤害的属于工伤。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        28.工伤的范围？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic28():
+            topic28.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：职业病，是指企业、事业单位和个体经济组织等用人单位的劳动者在职业活动中，
+        因接触粉尘、放射性物质和其他有毒、有害因素而引起的疾病。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        29. 什么是职业病？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic29():
+            topic29.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：用人单位应当保障职业病防治所需的资金投入，不得挤占、挪用，
+        并对因资金投入不足导致的后果承担责任。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        30.国家对用人单位职业病防治资金有什么要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic30():
+            topic30.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：因为铜、铁丝的熔点比保险丝的熔点高，在电流突然增大时，不能即刻熔断，
+        起不到切断电流的保险作用，会使电气设备因短路或过载而起火。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        31. 为什么保险丝不能用铜、铁丝代替？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic31():
+            topic31.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：夜间工作时，所有作业点及危险点均应有足够的照明。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        32. 夜间作业时周边环境应该有什么标准？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic32():
+            topic32.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：照明使用电压为220V，行灯或移动式照明灯具的电压不高于36V。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        33. 各种照明设备使用时电压应该是多少？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic33():
+            topic33.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：作业前应首先检查作业场所和设备、设施的安全状况，发现异常及时处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        34. 作业前应首先检查什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic34():
+            topic34.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：职业活动中存在的各种有害的化学、物理、生物因素以及在作业过程中产生的其他职业有害因素。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        35. 职业危害病因素包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic35():
+            topic35.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答案：红色传递禁止、停止、危险或提示消防设备、设施的信息；黄色传递注意、
+        警告的信息；蓝色传递必须遵守规定的指令性信息；绿色传递安全的提示性信息。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        36. 安全色有哪些？都代表什么含义？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic36():
+            topic36.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答案：造成职工肢体残缺或视觉、听觉等器官受到严重损伤，一般能引起人体长期存在功能障碍，
+        或者劳动能力有重大损失的伤害。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        37. 重伤是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic37():
+            topic37.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：应制定并实施有效的临时措施，以避免隐患被触发引起事故。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        38. 在检查发现的问题未彻底消除前应当怎么做？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic38():
+            topic38.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：可能造成人员伤害、疾病、财产损失、作业环境破坏或其他损失的根源或状态。
+        危险源可以是物，也可以是人。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        39.危险源是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic39():
+            topic39.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：(1)没有动火证不动火;(2)防火措施不落实不动火;(3)监火人不在现场不动火。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        40.禁火区动火作业的"三不动火"是指？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic41():
+            topic41.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：熟悉有关的安全生产规章制度和安全操作规程，掌握本岗位的安全操作技能，
+        了解事故应急处理措施，知悉自身在安全生产方面的权利和义务。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''1、生产经营单位应当对从业人员进行在哪些方面进行安全生产教育和培训？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic42():
+            topic42.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：事故调查处理应当按照实事求是、尊重科学的原则，及时、准确地查清事故原因，
+        查明事故性质和责任，总结事故教训，提出整改措施，并对事故责任者提出处理意见。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        2、《安全生产法》对事故调查处理提出了哪些要求？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic43():
+            topic43.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：① 拟从事接触职业病危害作业的新录用劳动者，包括转岗到该作业岗位的劳动者；
+        ②拟从事有特殊健康要求作业的劳动者。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        3、用人单位应当对下列劳动者进行上岗前的职业健康检查：''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic44():
+            topic44.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：我国《安全生产法》第五十一条规定，从业人员发现事故隐患或者其他不安全因素，
+        应当立即向现场安全生产管理人员或者本单位负责人报告；接到报告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        4、发现事故隐患应该怎么办？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic45():
+            topic45.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：熟悉本岗位安全技术操作规程或安全作业标准；熟悉本岗位和作业区域的危险源
+        以及控制措施；熟悉本岗位安全生产特点和设备技术性能，并能熟练操作，发生意外
+        或紧急情况时能够采取应急处置措施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        5、职工必须做到“三个熟悉”指的是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic46():
+            topic46.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：正确有效的方法是：首先要沉着冷静，不能惊慌，尽量迅速把车辆停靠在路
+        边较为宽阔的地段，然后取出携带的灭火器材进行扑救。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        6、行驶中的车辆发生火灾怎么办？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic47():
+            topic47.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：职业危害是指从业人员在劳动过程中因接触有毒有害物品和遇到各种不安全因素而有损于健康的危害。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        7、什么叫职业危害？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic48():
+            topic48.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：劳动者应当学习和掌握相关的职业卫生知识，增强职业病防范意识，
+        遵守职业病防治法律、法规、规章和操作规程，正确使用、维护职业病
+        防护设备和个人使用的职业病防护用品，发现职业病危害事故隐患应当及时报告。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text=''' 
+        8、劳动者应遵守的与职业健康相关的从业义务？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic49():
+            topic49.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：危险指系统中存在导致发生不期望后果的可能性超过了人们的承受程度。
+        危险是人们对事物的具体认识，如危险环境、危险条件、危险状态、危险物
+        质、危险场所、危险人员、危险因素等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        9、什么是危险？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic50():
+            topic50.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：从业人员在生产活动过程中，违反劳动纪律、违反操作程序和冒险、
+        违禁的方法等具有危险性的行为。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        10、生产经营活动中不安全行为的定义是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic51():
+            topic51.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：当有电流在接地点流入地下时，电流在接地点周围土壤中产生电压降。
+        人在接地点周围，两脚之间出现的电压称为跨步电压。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        11、什么是跨步电压？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic52():
+            topic52.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：社会保险是社会保障体系中的一项重要制度，是国家和社会对暂时或永久
+        丧失劳动能力的职工以及失业者给予物质帮助或物质保障的制度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        12、什么是社会保险？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic53():
+            topic53.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：重大事故隐患是指危害和整改难度较大，应当全部或者局部停产停业，
+        并经过一定时间整改治理方能排除的隐患，或者因外部因素影响致使生产经营
+        单位自身难以排除的隐患。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        13、什么是重大事故隐患？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic54():
+            topic54.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：应急救援就是在应急响应过程中，为消除、减少事故危害，防止事故
+        扩大或恶化，最大限度地降低事故造成的损失或危害而采取的救援措施或行动。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        14、什么是应急救援？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic55():
+            topic55.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：是指生产经营单位分管安全生产的负责人、安全生产管理机构负责人
+        及其管理人员，以及未设安全生产管理机构的生产经营单位专、兼职安全
+        生产管理人员等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        15、《安全生产法》中明确了哪些人是生产经营单位安全生产管理人员？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic56():
+            topic56.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位的从业人员不服从管理，违反安全生产规章制度或者
+        操作规程的，由生产经营单位给予批评教育，依照有关规章制度给予处
+        分；造成重大事故，构成犯罪的，依照刑法有关规定追究刑事责任。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        16、从业人员违反安全生产规章制度或者操作规程要承担哪些责任？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic57():
+            topic57.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：危险因素是指能对人造成伤亡或对物造成突发性损害的因素。有害因素
+        是指能够影响人的身体健康、导致疾病或对物造成慢性损害的因素。通常情
+        况下，两者并不加以区分而统称为危险有害因素。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        17、什么是危险有害因素? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic58():
+            topic58.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：基本任务：营救受害人员，撤离或保护其他人员；迅速控制事态，防止
+        事态扩展；消除危害后果，做好现场恢复；查清事故原因，评估危害程度。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        18、事故应急救援的基本任务是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic59():
+            topic59.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）事故发生过程中的应急响应和救援措施 （2）事故发生前的各种应急准备 
+        （3）事故发生后的紧急恢复以及预案的管理与更新. ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        19、应急预案是整个应急管理体系的反应，它的内容包括？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic60():
+            topic60.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）工器具设计不合理。（2）作业环境不适。（3）生产管理不善。
+        （4）职工素质偏低。（5）生产条件较差。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        20、习惯性违章的客观因素包括哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic61():
+            topic61.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        （1） 职工发生工伤，经治疗伤情相对稳定后存在残疾、影响劳动能力的，应当进行劳动能力鉴定。
+        （2） 劳动能力鉴定由用人单位、工伤职工或者其近亲属向设区的市级劳动能力鉴定委员会提出申
+        请，并提供工伤认定决定和职工工伤医疗的有关资料。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        21.劳动能力鉴定是指? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic62():
+            topic62.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）岗位安全操作规程；
+        （2）岗位之间工作衔接配合的安全与职业卫生事项；
+        （3）有关事故案例；
+        （4）其他需要培训的内容。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        22.班组级岗前安全培训内容应当包括：''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic63():
+            topic63.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：组织班内人员认真进行设备巡回检查、现场设施检查，积极做好消除设备、
+        人身隐患工作。要经常巡查工作现场，制止违章作业和违反工艺标准的行为。
+        有重大隐患、缺陷要及时汇报，积极排除。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        23.检查作业场所及责任区,落实的安全措施有哪些? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic64():
+            topic64.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：劳动者应当学习和掌握相关的职业卫生知识，增强职业病防范意识，
+        遵守职业病防治法律、法规、规章和操作规程，正确使用、维护职业病防
+        护设备和个人使用的职业病防护用品，发现职业病危害事故隐患应当及时报告。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        24.劳动者在职业病防治工作中的责任和义务是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic65():
+            topic65.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：职业病是指企业、事业单位和个体经济组织等用人单位的劳动者在职
+        业活动中，因接触粉尘、放射性物质和其他有毒、有害因素而引起的疾病。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        25.什么是职业病？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic66():
+            topic66.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+           答：（1）无弹性滑动和打滑现象，传动比准确，效率高。
+           （2）链条无需太紧，轴上径向压力小。（3）可用于俩轴中心较大的传动''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        26.链条传动的优点？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic67():
+            topic67.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:在作业过程中，应当严格遵守本单位的安全生产规章制度和操作规程，
+        服从管理，正确佩戴和使用劳动防护用品。
+        应当接受安全生产教育和培训，掌握本职工作所需的安全生产知识，提高
+        安全生产技能，增强事故预防和应急处理能力。
+        从业人员发现事故隐患或者其他不安全因素，应当立即向现场安全生产管
+        理人员或者本单位负责人报告;接到报告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        27.从业人员要遵守的义务？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic68():
+            topic68.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:事故现场有关人员应当立即报告本单位负责人，单位负责人接到事故
+        报告后，应当迅速采取有效措施，组织抢救，防止事故扩大，减少人员
+        伤亡和财产损失，并按照国家有关规定立即如实报告当地负有安全生产
+        监督管理职责的部门，不得隐瞒不报、谎报或者迟报，不得故意破坏事
+        故现场、毁灭有关证据。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        28.生产经营单位发生生产安全事故后上报顺序？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic69():
+            topic69.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答:(一)建立、健全本单位安全生产责任制;
+           (二)组织制定本单位安全生产规章制度和操作规程;
+           (三)保证本单位安全生产投入的有效实施;
+           (四)督促、检查本单位的安全生产工作，及时消除生产安全事故隐患;
+           (五)组织制定并实施本单位的生产安全事故应急救援预案;
+           (六)及时、如实报告生产安全事故。
+           (七)组织制定并实施本单位安全生产教育和培训计划. ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        29. 生产经营单位的主要负责人对本单位安全生产工作负有下列职责：''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic70():
+            topic70.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：生产经营单位使用的涉及生命安全、危险性较大的特种设备，以及危险
+        物品的容器、运输工具，必须按照国家有关规定，由专业生产单位生产，并
+        经取得专业资质的检测、检验机构检测、检验合格，取得安全使用证或者安
+        全标志，方可投入使用。检测、检验机构对检测、检验结果负责。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        30.《安全生产法》对特种设备、危险物品容器及运输工具管理中有什么特殊要求? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic71():
+            topic71.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）生产经营单位主要负责人的职责；（2）生产经营单位其他负责人的职责；
+        （3）生产经营单位职能管理机构负责人及其工作人员的职责；（4）班组长的安全生产职责；
+        （5）岗位工人（从业人员）的安全生产职责。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        31.生产经营单位安全生产责任制的主要内容有哪些？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic72():
+            topic72.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：安全生产责任制是企业的基本制度，是依据“管生产必须管安全”的原则，
+        对企业各级领导和各类人员明确规定在安全生产中应负的责任，是企业最基本
+        的一项安全制度，是安全管理制度的核心。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        32.什么是安全生产责任制？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic73():
+            topic73.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：我国《安全生产法》第五十一条规定，从业人员发现事故隐患或者其他不
+        安全因素，应当立即向现场安全生产管理人员或者本单位负责人报告；接到报
+        告的人员应当及时予以处理。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        33.发现事故隐患应该怎么办？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic74():
+            topic74.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：熟悉本岗位安全技术操作规程或安全作业标准；熟悉本岗位和作业区域的危险源以及控制措施；
+        熟悉本岗位安全生产特点和设备技术性能，并能熟练操作，发生意外或紧急情况时能够采取应急处置措施。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        34.职工必须做到“三个熟悉”指的是什么？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic75():
+            topic75.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：(1)切忌慌乱，判断火势来源，采取与火源相反方向逃生。
+        (2)切勿使用升降设备(电梯)逃生。
+        (3)切勿返入屋内取回贵重物品。
+        (4)夜间发生火灾时，应先叫醒熟睡的人，不要只顾自己逃生，并且尽量大声喊叫，以 提醒其他人逃生。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        35.发生火灾时你应注意的事项？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic76():
+            topic76.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：本条例所称危险化学品包括爆炸品、压缩气体和液化气体、易燃液体、易燃固体、
+        自燃物品和遇湿易燃物品、氧化剂和有机过氧化物、有毒品和腐蚀品等。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        36.《危险化学品安全管理条例》中所称危险化学品包括哪些物品？ ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic77():
+            topic77.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        　答:电线老化后，绝缘性能下降，容易发生短路。尤其遇到潮湿的天气，外表虽然完整，
+        绝缘能力已大大降低，水分浸入到金属导体，使其短路而引起电气线路火灾。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        37.电线老化为什么容易引起火灾? ''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic78():
+            topic78.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：一般事故，处20万元以上50万元以下的罚款；较大事故，处50万元以上100万元以下的罚款；
+        重大事故，处100万元以上500万元以下的罚款；特别重大事故，处500万元以上1000万元以下的罚款；
+        情节特别严重的，处1000万元以上2000万元以下的罚款。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        38.针对生产安全事故，新修改的安全生产法大幅增加了事故处罚力度，请阐述各事故等级的处罚额度。''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic79():
+            topic79.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：用人单位应当对劳动者进行上岗前的职业卫生培训和在岗期间的定期职业卫生培训，
+        普及职业卫生知识，督促劳动者遵守职业病防治法律、法规、规章和操作规程，指导劳
+        动者正确使用职业病防护设备和个人使用的职业病防护用品。''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        39.用人单位按照《职业病防治法》应对从业人员履行哪些责任？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        def topic80():
+            topic80.config(state=DISABLED, relief='sunken')
+            # 替换1
+            global currentpage, pagecount
+
+            # 替换1
+            def answer():
+                tk.Label(window, text='''
+        答：（1）治理的目标和任务；
+        （2）采取的方法和措施；
+        （3）经费和物资的落实；
+        （4）负责治理的机构和人员；
+        （5）治理的时限和要求；
+        （6）安全措施和应急预案. ''', ).place(x=50, y=350)
+                # 替换2
+                pygame.mixer.music.stop()
+
+            window = tk.Tk()
+            window.title('题目')
+            window.geometry('700x700')
+            if Btn0["state"] != "normal":
+                Btn0.config(state=NORMAL)  # button to page down is enabled
+            v.set(str(currentpage))
+            track = pygame.mixer.music.load('countdown_first.wav')
+            pygame.mixer.music.play()
+            # 替换2
+            tk.Label(window, text='''
+        40.重大事故隐患治理方案应当包括哪些内容？''', ).place(x=50, y=50)
+            # 替换3
+            tk.Label(window, text='答题时间:', ).place(x=50, y=500)
+            canvas = tk.Canvas(window, width=465, height=22, bg="white")
+            canvas.place(x=110, y=500)
+            fill_line = canvas.create_rectangle(1.5, 1.5, 0, 23, width=0, fill="green")
+            x = 465  # 未知变量，可更改
+            n = 465 / x  # 465是矩形填充满的次数
+            topic_window = Button(window, text='显示答案', padx=25, pady=15, command=answer)
+            topic_window.pack()
+            topic_window.place(x=300, y=550)
+            for i in range(x):
+                if i < 460:
+                    n = n + 465 / x
+                    canvas.coords(fill_line, (0, 0, n, 60))
+                    window.update()
+                    time.sleep(0.1)  # 控制进度条流动的速度
+                else:
+                    tk.Label(window, text='答题时间到！', ).place(x=300, y=450)
+
+            for t in range(x):
+                n = n + 465 / x
+                # 以矩形的长度作为变量值更新
+                canvas.coords(fill_line, (0, 0, n, 60))
+                window.update()
+                time.sleep(0)
+
+        # 替换3
+        topic0 = Button(root, text='20分第1题', padx=10, pady=5, command=topic0)
+        topic0.pack()
+        topic0.place(x=0, y=10)
+        topic0.config(state=NORMAL)
+        topic1 = Button(root, text='20分第2题', padx=10, pady=5, command=topic1)
+        topic1.pack()
+        topic1.place(x=100, y=10)
+        topic1.config(state=NORMAL)
+        topic2 = Button(root, text='20分第3题', padx=10, pady=5, command=topic2)
+        topic2.pack()
+        topic2.place(x=200, y=10)
+        topic2.config(state=NORMAL)
+        topic3 = Button(root, text='20分第4题', padx=10, pady=5, command=topic3)
+        topic3.pack()
+        topic3.place(x=300, y=10)
+        topic3.config(state=NORMAL)
+        topic4 = Button(root, text='20分第5题', padx=10, pady=5, command=topic4)
+        topic4.pack()
+        topic4.place(x=400, y=10)
+        topic4.config(state=NORMAL)
+        topic5 = Button(root, text='20分第6题', padx=10, pady=5, command=topic5)
+        topic5.pack()
+        topic5.place(x=500, y=10)
+        topic5.config(state=NORMAL)
+        topic6 = Button(root, text='20分第7题', padx=10, pady=5, command=topic6)
+        topic6.pack()
+        topic6.place(x=600, y=10)
+        topic6.config(state=NORMAL)
+        topic7 = Button(root, text='20分第8题', padx=10, pady=5, command=topic7)
+        topic7.pack()
+        topic7.place(x=700, y=10)
+        topic7.config(state=NORMAL)
+        topic8 = Button(root, text='20分第9题', padx=10, pady=5, command=topic8)
+        topic8.pack()
+        topic8.place(x=0, y=40)
+        topic8.config(state=NORMAL)
+        topic9 = Button(root, text='20分第10题', padx=10, pady=5, command=topic9)
+        topic9.pack()
+        topic9.place(x=100, y=40)
+        topic9.config(state=NORMAL)
+        topic10 = Button(root, text='20分第11题', padx=10, pady=5, command=topic10)
+        topic10.pack()
+        topic10.place(x=200, y=40)
+        topic10.config(state=NORMAL)
+        topic11 = Button(root, text='20分第12题', padx=10, pady=5, command=topic11)
+        topic11.pack()
+        topic11.place(x=300, y=40)
+        topic11.config(state=NORMAL)
+        topic12 = Button(root, text='20分第13题', padx=10, pady=5, command=topic12)
+        topic12.pack()
+        topic12.place(x=400, y=40)
+        topic12.config(state=NORMAL)
+        topic13 = Button(root, text='20分第14题', padx=10, pady=5, command=topic13)
+        topic13.pack()
+        topic13.place(x=500, y=40)
+        topic13.config(state=NORMAL)
+        topic14 = Button(root, text='20分第15题', padx=10, pady=5, command=topic14)
+        topic14.pack()
+        topic14.place(x=600, y=40)
+        topic14.config(state=NORMAL)
+        topic15 = Button(root, text='20分第16题', padx=10, pady=5, command=topic15)
+        topic15.pack()
+        topic15.place(x=700, y=40)
+        topic15.config(state=NORMAL)
+        topic16 = Button(root, text='20分第17题', padx=10, pady=5, command=topic16)
+        topic16.pack()
+        topic16.place(x=0, y=70)
+        topic16.config(state=NORMAL)
+        topic17 = Button(root, text='20分第18题', padx=10, pady=5, command=topic17)
+        topic17.pack()
+        topic17.place(x=100, y=70)
+        topic17.config(state=NORMAL)
+        topic18 = Button(root, text='20分第19题', padx=10, pady=5, command=topic18)
+        topic18.pack()
+        topic18.place(x=200, y=70)
+        topic18.config(state=NORMAL)
+        topic19 = Button(root, text='20分第20题', padx=10, pady=5, command=topic19)
+        topic19.pack()
+        topic19.place(x=300, y=70)
+        topic19.config(state=NORMAL)
+        topic20 = Button(root, text='20分第21题', padx=10, pady=5, command=topic20)
+        topic20.pack()
+        topic20.place(x=400, y=70)
+        topic20.config(state=NORMAL)
+        topic21 = Button(root, text='20分第22题', padx=10, pady=5, command=topic21)
+        topic21.pack()
+        topic21.place(x=500, y=70)
+        topic21.config(state=NORMAL)
+        topic22 = Button(root, text='20分第23题', padx=10, pady=5, command=topic22)
+        topic22.pack()
+        topic22.place(x=600, y=70)
+        topic22.config(state=NORMAL)
+        topic23 = Button(root, text='20分第24题', padx=10, pady=5, command=topic23)
+        topic23.pack()
+        topic23.place(x=700, y=70)
+        topic23.config(state=NORMAL)
+        topic24 = Button(root, text='20分第25题', padx=10, pady=5, command=topic24)
+        topic24.pack()
+        topic24.place(x=0, y=100)
+        topic24.config(state=NORMAL)
+        topic25 = Button(root, text='20分第26题', padx=10, pady=5, command=topic25)
+        topic25.pack()
+        topic25.place(x=100, y=100)
+        topic25.config(state=NORMAL)
+        topic26 = Button(root, text='20分第27题', padx=10, pady=5, command=topic26)
+        topic26.pack()
+        topic26.place(x=200, y=100)
+        topic26.config(state=NORMAL)
+        topic27 = Button(root, text='20分第28题', padx=10, pady=5, command=topic27)
+        topic27.pack()
+        topic27.place(x=300, y=100)
+        topic27.config(state=NORMAL)
+        topic28 = Button(root, text='20分第29题', padx=10, pady=5, command=topic28)
+        topic28.pack()
+        topic28.place(x=400, y=100)
+        topic28.config(state=NORMAL)
+        topic29 = Button(root, text='20分第30题', padx=10, pady=5, command=topic29)
+        topic29.pack()
+        topic29.place(x=500, y=100)
+        topic29.config(state=NORMAL)
+        topic30 = Button(root, text='20分第31题', padx=10, pady=5, command=topic30)
+        topic30.pack()
+        topic30.place(x=600, y=100)
+        topic30.config(state=NORMAL)
+        topic31 = Button(root, text='20分第32题', padx=10, pady=5, command=topic31)
+        topic31.pack()
+        topic31.place(x=700, y=100)
+        topic31.config(state=NORMAL)
+        topic32 = Button(root, text='20分第33题', padx=10, pady=5, command=topic32)
+        topic32.pack()
+        topic32.place(x=0, y=130)
+        topic32.config(state=NORMAL)
+        topic33 = Button(root, text='20分第34题', padx=10, pady=5, command=topic33)
+        topic33.pack()
+        topic33.place(x=100, y=130)
+        topic33.config(state=NORMAL)
+        topic34 = Button(root, text='20分第35题', padx=10, pady=5, command=topic34)
+        topic34.pack()
+        topic34.place(x=200, y=130)
+        topic34.config(state=NORMAL)
+        topic35 = Button(root, text='20分第36题', padx=10, pady=5, command=topic35)
+        topic35.pack()
+        topic35.place(x=300, y=130)
+        topic35.config(state=NORMAL)
+        topic36 = Button(root, text='20分第37题', padx=10, pady=5, command=topic36)
+        topic36.pack()
+        topic36.place(x=400, y=130)
+        topic36.config(state=NORMAL)
+        topic37 = Button(root, text='20分第38题', padx=10, pady=5, command=topic37)
+        topic37.pack()
+        topic37.place(x=500, y=130)
+        topic37.config(state=NORMAL)
+        topic38 = Button(root, text='20分第39题', padx=10, pady=5, command=topic38)
+        topic38.pack()
+        topic38.place(x=600, y=130)
+        topic38.config(state=NORMAL)
+        topic39 = Button(root, text='20分第40题', padx=10, pady=5, command=topic39)
+        topic39.pack()
+        topic39.place(x=700, y=130)
+        topic39.config(state=NORMAL)
+        topic41 = Button(root, text='30分第1题', padx=10, pady=5, command=topic41)
+        topic41.pack()
+        topic41.place(x=0, y=180)
+        topic41.config(state=NORMAL)
+        topic42 = Button(root, text='30分第2题', padx=10, pady=5, command=topic42)
+        topic42.pack()
+        topic42.place(x=100, y=180)
+        topic42.config(state=NORMAL)
+        topic43 = Button(root, text='30分第3题', padx=10, pady=5, command=topic43)
+        topic43.pack()
+        topic43.place(x=200, y=180)
+        topic43.config(state=NORMAL)
+        topic44 = Button(root, text='30分第4题', padx=10, pady=5, command=topic44)
+        topic44.pack()
+        topic44.place(x=300, y=180)
+        topic44.config(state=NORMAL)
+        topic45 = Button(root, text='30分第5题', padx=10, pady=5, command=topic45)
+        topic45.pack()
+        topic45.place(x=400, y=180)
+        topic45.config(state=NORMAL)
+        topic46 = Button(root, text='30分第6题', padx=10, pady=5, command=topic46)
+        topic46.pack()
+        topic46.place(x=500, y=180)
+        topic46.config(state=NORMAL)
+        topic47 = Button(root, text='30分第7题', padx=10, pady=5, command=topic47)
+        topic47.pack()
+        topic47.place(x=600, y=180)
+        topic47.config(state=NORMAL)
+        topic48 = Button(root, text='30分第8题', padx=10, pady=5, command=topic48)
+        topic48.pack()
+        topic48.place(x=700, y=180)
+        topic48.config(state=NORMAL)
+        topic49 = Button(root, text='30分第9题', padx=10, pady=5, command=topic49)
+        topic49.pack()
+        topic49.place(x=0, y=210)
+        topic49.config(state=NORMAL)
+        topic50 = Button(root, text='30分第10题', padx=10, pady=5, command=topic50)
+        topic50.pack()
+        topic50.place(x=100, y=210)
+        topic50.config(state=NORMAL)
+        topic51 = Button(root, text='30分第11题', padx=10, pady=5, command=topic51)
+        topic51.pack()
+        topic51.place(x=200, y=210)
+        topic51.config(state=NORMAL)
+        topic52 = Button(root, text='30分第12题', padx=10, pady=5, command=topic52)
+        topic52.pack()
+        topic52.place(x=300, y=210)
+        topic52.config(state=NORMAL)
+        topic53 = Button(root, text='30分第13题', padx=10, pady=5, command=topic53)
+        topic53.pack()
+        topic53.place(x=400, y=210)
+        topic53.config(state=NORMAL)
+        topic54 = Button(root, text='30分第14题', padx=10, pady=5, command=topic54)
+        topic54.pack()
+        topic54.place(x=500, y=210)
+        topic54.config(state=NORMAL)
+        topic55 = Button(root, text='30分第15题', padx=10, pady=5, command=topic55)
+        topic55.pack()
+        topic55.place(x=600, y=210)
+        topic55.config(state=NORMAL)
+        topic56 = Button(root, text='30分第16题', padx=10, pady=5, command=topic56)
+        topic56.pack()
+        topic56.place(x=700, y=210)
+        topic56.config(state=NORMAL)
+        topic57 = Button(root, text='30分第17题', padx=10, pady=5, command=topic57)
+        topic57.pack()
+        topic57.place(x=0, y=240)
+        topic57.config(state=NORMAL)
+        topic58 = Button(root, text='30分第18题', padx=10, pady=5, command=topic58)
+        topic58.pack()
+        topic58.place(x=100, y=240)
+        topic58.config(state=NORMAL)
+        topic59 = Button(root, text='30分第19题', padx=10, pady=5, command=topic59)
+        topic59.pack()
+        topic59.place(x=200, y=240)
+        topic59.config(state=NORMAL)
+        topic60 = Button(root, text='30分第20题', padx=10, pady=5, command=topic60)
+        topic60.pack()
+        topic60.place(x=300, y=240)
+        topic60.config(state=NORMAL)
+        topic61 = Button(root, text='30分第21题', padx=10, pady=5, command=topic61)
+        topic61.pack()
+        topic61.place(x=400, y=240)
+        topic61.config(state=NORMAL)
+        topic62 = Button(root, text='30分第22题', padx=10, pady=5, command=topic62)
+        topic62.pack()
+        topic62.place(x=500, y=240)
+        topic62.config(state=NORMAL)
+        topic63 = Button(root, text='30分第23题', padx=10, pady=5, command=topic63)
+        topic63.pack()
+        topic63.place(x=600, y=240)
+        topic63.config(state=NORMAL)
+        topic64 = Button(root, text='30分第24题', padx=10, pady=5, command=topic64)
+        topic64.pack()
+        topic64.place(x=700, y=240)
+        topic64.config(state=NORMAL)
+        topic65 = Button(root, text='30分第25题', padx=10, pady=5, command=topic65)
+        topic65.pack()
+        topic65.place(x=0, y=270)
+        topic65.config(state=NORMAL)
+        topic66 = Button(root, text='30分第26题', padx=10, pady=5, command=topic66)
+        topic66.pack()
+        topic66.place(x=100, y=270)
+        topic66.config(state=NORMAL)
+        topic67 = Button(root, text='30分第27题', padx=10, pady=5, command=topic67)
+        topic67.pack()
+        topic67.place(x=200, y=270)
+        topic67.config(state=NORMAL)
+        topic68 = Button(root, text='30分第28题', padx=10, pady=5, command=topic68)
+        topic68.pack()
+        topic68.place(x=300, y=270)
+        topic68.config(state=NORMAL)
+        topic69 = Button(root, text='30分第29题', padx=10, pady=5, command=topic69)
+        topic69.pack()
+        topic69.place(x=400, y=270)
+        topic69.config(state=NORMAL)
+        topic70 = Button(root, text='30分第30题', padx=10, pady=5, command=topic70)
+        topic70.pack()
+        topic70.place(x=500, y=270)
+        topic70.config(state=NORMAL)
+        topic71 = Button(root, text='30分第31题', padx=10, pady=5, command=topic71)
+        topic71.pack()
+        topic71.place(x=600, y=270)
+        topic71.config(state=NORMAL)
+        topic72 = Button(root, text='30分第32题', padx=10, pady=5, command=topic72)
+        topic72.pack()
+        topic72.place(x=700, y=270)
+        topic72.config(state=NORMAL)
+        topic73 = Button(root, text='30分第33题', padx=10, pady=5, command=topic73)
+        topic73.pack()
+        topic73.place(x=0, y=300)
+        topic73.config(state=NORMAL)
+        topic74 = Button(root, text='30分第34题', padx=10, pady=5, command=topic74)
+        topic74.pack()
+        topic74.place(x=100, y=300)
+        topic74.config(state=NORMAL)
+        topic75 = Button(root, text='30分第35题', padx=10, pady=5, command=topic75)
+        topic75.pack()
+        topic75.place(x=200, y=300)
+        topic75.config(state=NORMAL)
+        topic76 = Button(root, text='30分第36题', padx=10, pady=5, command=topic76)
+        topic76.pack()
+        topic76.place(x=300, y=300)
+        topic76.config(state=NORMAL)
+        topic77 = Button(root, text='30分第37题', padx=10, pady=5, command=topic77)
+        topic77.pack()
+        topic77.place(x=400, y=300)
+        topic77.config(state=NORMAL)
+        topic78 = Button(root, text='30分第38题', padx=10, pady=5, command=topic78)
+        topic78.pack()
+        topic78.place(x=500, y=300)
+        topic78.config(state=NORMAL)
+        topic79 = Button(root, text='30分第39题', padx=10, pady=5, command=topic79)
+        topic79.pack()
+        topic79.place(x=600, y=300)
+        topic79.config(state=NORMAL)
+        topic80 = Button(root, text='30分第40题', padx=10, pady=5, command=topic80)
+        topic80.pack()
+        topic80.place(x=700, y=300)
+        topic80.config(state=NORMAL)
+
+        def page_down():
+            """
+            add 1 to displayed number,
+            disable Btn2 button when currentpage reaches pagecount
+            """
+            global currentpage, pagecount
+
+            currentpage += 1
+            topic0.config(state=NORMAL, relief=RAISED)
+            topic1.config(state=NORMAL, relief=RAISED)
+            topic2.config(state=NORMAL, relief=RAISED)
+            topic3.config(state=NORMAL, relief=RAISED)
+            topic4.config(state=NORMAL, relief=RAISED)
+            topic5.config(state=NORMAL, relief=RAISED)
+            topic6.config(state=NORMAL, relief=RAISED)
+            topic7.config(state=NORMAL, relief=RAISED)
+            topic8.config(state=NORMAL, relief=RAISED)
+            topic9.config(state=NORMAL, relief=RAISED)
+            topic10.config(state=NORMAL, relief=RAISED)
+            topic11.config(state=NORMAL, relief=RAISED)
+            topic12.config(state=NORMAL, relief=RAISED)
+            topic13.config(state=NORMAL, relief=RAISED)
+            topic14.config(state=NORMAL, relief=RAISED)
+            topic15.config(state=NORMAL, relief=RAISED)
+            topic16.config(state=NORMAL, relief=RAISED)
+            topic17.config(state=NORMAL, relief=RAISED)
+            topic18.config(state=NORMAL, relief=RAISED)
+            topic19.config(state=NORMAL, relief=RAISED)
+            topic20.config(state=NORMAL, relief=RAISED)
+            topic21.config(state=NORMAL, relief=RAISED)
+            topic22.config(state=NORMAL, relief=RAISED)
+            topic23.config(state=NORMAL, relief=RAISED)
+            topic24.config(state=NORMAL, relief=RAISED)
+
+            v.set(str(currentpage))
+
+        Btn0 = Button(text="恢复", padx=8, pady=6, command=page_down)
+        Btn0.pack()
+        Btn0.place(x=1000, y=500)
+
+        root.mainloop()
     topic0_window2 = Button(window2,text='必答题', padx=200, pady=20, command=bida)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=10)
@@ -13667,7 +33142,7 @@ def zixieche():
     topic0_window2.pack()
     topic0_window2.place(x=0, y=80)
     topic0_window2.config(state=NORMAL)
-    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=bida)
+    topic0_window2 = Button(window2,text='风险题', padx=200, pady=20, command=fengxian)
     topic0_window2.pack()
     topic0_window2.place(x=0, y=150)
     topic0_window2.config(state=NORMAL)
